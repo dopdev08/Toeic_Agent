@@ -1,0 +1,706 @@
+{
+  "dataset_name": "TOEIC Part 5 Enrichment Gold Set Candidate — Calibrated Review",
+  "created_date": "2026-10-12",
+  "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+  "purpose": "Traceable, human-reviewable candidate reference set for evaluating TOEIC Part 5 enrichment. Every item remains explicitly unapproved pending human review by English teacher/project owner.",
+  "provenance": {
+    "source_database": "toeic_agent.db (read-only snapshot)",
+    "draft_reference": "reports/part5_gold_set_draft_12_2026-10-12.json",
+    "benchmarks_inspected": [
+      "reports/part5_batch_qwen2.5_3b_20261012_123315.json",
+      "reports/part5_batch_gemini-3.5-flash-lite_20261012_122158.json"
+    ]
+  },
+  "review_policy": "All items are marked DRAFT_NEEDS_HUMAN_REVIEW. Do not persist to production database tables or promote to CI gold benchmark fixtures without independent manual review.",
+  "items": [
+    {
+      "question_no": 101,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",
+      "options": {
+        "A": "across",
+        "B": "after",
+        "C": "inside",
+        "D": "among"
+      },
+      "correct_answer": "B",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "PASS",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Sentence structure in draft omitted object (questions) and clause boundaries; candidate provides full clause hierarchy. Vocabulary expanded to include high-utility phrase \"take place\" (grounded in sentence).",
+      "enrichment": {
+        "grammar_topic": "Preposition + relative pronoun",
+        "sentence_structure": "Main clause [The lecture will take place at 6:00 P.M.], + relative clause [after which + S (attendees) + modal verb (may) + V (ask) + O (questions)]",
+        "pattern": "after which + clause",
+        "vocabulary": [
+          {
+            "word": "attendees",
+            "meaning": "người tham dự",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "take place",
+            "meaning": "diễn ra",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn B (after). Cụm 'after which' có nghĩa là ‘sau thời điểm/sự việc đó’, trong đó đại từ quan hệ 'which' quy chiếu về mốc thời gian '6:00 P.M.' (hoặc toàn bộ sự việc bài giảng). Sau 'which' là mệnh đề độc lập 'attendees may ask questions'. Các giới từ khác (across, inside, among) không tạo thành cấu trúc thời gian phù hợp trong ngữ cảnh này.",
+        "distractor_analysis": {
+          "A": "Across thường chỉ sự di chuyển hoặc vị trí trải dài ngang qua một bề mặt/khu vực; không kết hợp với 'which' để chỉ mốc thời gian kế tiếp.",
+          "B": "After kết hợp với đại từ quan hệ which tạo thành 'after which' (sau thời điểm đó), kết nối mệnh đề thời gian kế tiếp một cách chính xác.",
+          "C": "Inside chỉ vị trí không gian bên trong; không dùng để diễn đạt quan hệ thời gian nối tiếp sau một sự kiện.",
+          "D": "Among chỉ quan hệ giữa các đối tượng trong một nhóm (từ 3 đối tượng trở lên); không dùng cho mốc thời gian đơn lẻ."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 102,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "The _____ antique shop in Pepper Valley will close down next month.",
+      "options": {
+        "A": "last",
+        "B": "lasts",
+        "C": "lasted",
+        "D": "lasting"
+      },
+      "correct_answer": "A",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "PASS",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Draft sentence structure omitted the prepositional phrase \"in Pepper Valley\". Candidate articulates full Subject NP and Predicate VP. Grounded \"close down\" added to vocabulary.",
+      "enrichment": {
+        "grammar_topic": "Word form / modifier before a noun",
+        "sentence_structure": "Subject NP [The + modifier (last) + NP (antique shop) + PrepP (in Pepper Valley)] + Predicate VP [will close down + Time Adv (next month)]",
+        "pattern": "the last + singular count noun",
+        "vocabulary": [
+          {
+            "word": "last",
+            "meaning": "cuối cùng; còn lại cuối cùng",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "antique shop",
+            "meaning": "cửa hàng đồ cổ",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "close down",
+            "meaning": "đóng cửa/ngừng hoạt động vĩnh viễn",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn A (last). Chỗ trống nằm giữa mạo từ xác định 'The' và cụm danh từ 'antique shop', cần một từ hạn định/tính từ bổ nghĩa mang nghĩa 'cuối cùng/còn lại cuối cùng'. 'Last' đóng vai trò tính từ bổ nghĩa cho 'antique shop'. Các lựa chọn khác là dạng động từ và không phù hợp ngữ pháp hoặc ngữ nghĩa.",
+        "distractor_analysis": {
+          "A": "Last đóng vai trò tính từ đứng trước danh từ, tạo thành cụm 'the last antique shop' (cửa hàng đồ cổ cuối cùng).",
+          "B": "Lasts là động từ chia ngôi thứ ba số ít thì hiện tại đơn, không thể đứng làm từ bổ nghĩa trực tiếp trước danh từ.",
+          "C": "Lasted là động từ quá khứ/quá khứ phân từ của động từ last (kéo dài), không phù hợp nghĩa trong cụm danh từ này.",
+          "D": "Lasting là tính từ/hiện tại phân từ mang nghĩa 'kéo dài, bền lâu' (ví dụ: a lasting impression); không mang nghĩa 'cuối cùng' như ngữ cảnh cần."
+        },
+        "difficulty": "easy"
+      }
+    },
+    {
+      "question_no": 104,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "As a result of _____ many years leading media organizations, Ms. Ayo was selected for the Dowel Journalism Prize.",
+      "options": {
+        "A": "she",
+        "B": "her",
+        "C": "hers",
+        "D": "herself"
+      },
+      "correct_answer": "B",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "NEEDS_EDIT",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Draft pattern \"her + noun phrase\" was overly lexicalized; updated to rule-based \"possessive determiner + many + plural count noun\". Sentence structure expanded to include full main clause passive predicate.",
+      "enrichment": {
+        "grammar_topic": "Possessive determiner before a noun phrase",
+        "sentence_structure": "PrepP [As a result of + NP (possessive determiner [her] + many years + participial modifier [leading media organizations])], + Main clause [S (Ms. Ayo) + passive VP (was selected) + PrepP (for the Dowel Journalism Prize)]",
+        "pattern": "possessive determiner + many + plural count noun",
+        "vocabulary": [
+          {
+            "word": "her",
+            "meaning": "của cô ấy (tính từ sở hữu/từ hạn định sở hữu)",
+            "part_of_speech": "determiner"
+          },
+          {
+            "word": "lead",
+            "meaning": "lãnh đạo/điều hành",
+            "part_of_speech": "verb"
+          },
+          {
+            "word": "media organization",
+            "meaning": "tổ chức truyền thông",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn B (her). Sau cụm giới từ 'As a result of' là cụm danh từ làm tân ngữ cho giới từ: '[her] many years leading media organizations'. Chỗ trống đứng trước cụm danh từ 'many years' nên cần một từ hạn định sở hữu (possessive determiner) là 'her'. 'She' là đại từ chủ ngữ; 'hers' là đại từ sở hữu dùng độc lập; 'herself' là đại từ phản thân.",
+        "distractor_analysis": {
+          "A": "She là đại từ nhân xưng làm chủ ngữ, không đứng trước danh từ để biểu thị quan hệ sở hữu.",
+          "B": "Her là từ hạn định sở hữu (tính từ sở hữu), bổ nghĩa chính xác cho cụm danh từ 'many years leading media organizations'.",
+          "C": "Hers là đại từ sở hữu dùng độc lập thay thế cho cụm danh từ đã biết, không đứng trực tiếp trước danh từ khác.",
+          "D": "Herself là đại từ phản thân hoặc nhấn mạnh, không thể đóng vai trò từ hạn định sở hữu trong cấu trúc này."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 105,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "To stop the _____ of computer viruses, do not open suspicious e-mails.",
+      "options": {
+        "A": "break",
+        "B": "spread",
+        "C": "balance",
+        "D": "surface"
+      },
+      "correct_answer": "B",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "NEEDS_EDIT",
+        "sentence_structure": "PASS",
+        "pattern": "PASS",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "NEEDS_EDIT"
+      },
+      "review_notes": "Draft grammar topic \"Noun collocation / purpose infinitive\" blended surrounding sentence structure into topic; calibrated to \"Noun vocabulary / collocation\". Difficulty adjusted from easy to medium due to semantic nuance of cybersecurity collocations.",
+      "enrichment": {
+        "grammar_topic": "Noun vocabulary / collocation",
+        "sentence_structure": "Purpose infinitive phrase [To stop the spread of computer viruses], + Imperative clause [do not open suspicious e-mails]",
+        "pattern": "the spread of + noun",
+        "vocabulary": [
+          {
+            "word": "spread",
+            "meaning": "sự lan truyền/sự lây lan",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "computer virus",
+            "meaning": "vi-rút máy tính",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "suspicious",
+            "meaning": "đáng ngờ",
+            "part_of_speech": "adjective"
+          }
+        ],
+        "explanation": "Chọn B (spread). Cụm 'the _____ of computer viruses' đòi hỏi một danh từ mang nghĩa phù hợp với ngữ cảnh an ninh mạng. 'Spread' (danh từ) kết hợp thành cụm cố định 'the spread of computer viruses' mang nghĩa 'sự lây lan của vi-rút máy tính'. Câu mang ý nghĩa phòng ngừa: 'Để ngăn chặn sự lây lan của vi-rút máy tính, không mở các email đáng ngờ'.",
+        "distractor_analysis": {
+          "A": "Break là danh từ mang nghĩa sự gãy vỡ, giờ nghỉ; không kết hợp tự nhiên với 'of computer viruses'.",
+          "B": "Spread là danh từ mang nghĩa sự lan truyền/lây lan, tạo thành collocation chuẩn 'the spread of computer viruses'.",
+          "C": "Balance là danh từ mang nghĩa sự cân bằng hoặc số dư; không phù hợp về mặt ngữ nghĩa trong ngữ cảnh này.",
+          "D": "Surface là danh từ mang nghĩa bề mặt; không diễn đạt được ý niệm ngăn chặn sự phát tán vi-rút."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 108,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "Tarateer Pharmaceuticals is varying its product _____ to include over-the-counter medications.",
+      "options": {
+        "A": "to line",
+        "B": "lining",
+        "C": "lined",
+        "D": "line"
+      },
+      "correct_answer": "D",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "NEEDS_EDIT",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Draft pattern \"product line\" was simply a vocabulary string; updated to pedagogical pattern \"compound noun: noun + noun (product line)\". Sentence structure made fully explicit.",
+      "enrichment": {
+        "grammar_topic": "Compound noun / collocation",
+        "sentence_structure": "Subject (Tarateer Pharmaceuticals) + present-continuous VP (is varying) + Object NP [its + compound noun (product line)] + Infinitive phrase of purpose [to include over-the-counter medications]",
+        "pattern": "compound noun: noun + noun (product line)",
+        "vocabulary": [
+          {
+            "word": "product line",
+            "meaning": "dòng sản phẩm",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "over-the-counter",
+            "meaning": "không cần kê đơn (thuốc bán tự do)",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "vary",
+            "meaning": "đa dạng hóa/thay đổi",
+            "part_of_speech": "verb"
+          }
+        ],
+        "explanation": "Chọn D (line). Chỗ trống đứng sau danh từ 'product' và tính từ sở hữu 'its' để tạo thành cụm danh từ ghép phổ biến trong kinh doanh: 'product line' (dòng sản phẩm). Động từ 'vary' nhận cụm 'its product line' làm tân ngữ trực tiếp ('Tarateer Pharmaceuticals đang đa dạng hóa dòng sản phẩm của mình...'). Các dạng động từ khác (to line, lining, lined) không thể tạo thành cụm danh từ ghép này.",
+        "distractor_analysis": {
+          "A": "To line là dạng động từ nguyên mẫu có 'to', không thể kết hợp với danh từ 'product' để làm tân ngữ sau tính từ sở hữu 'its'.",
+          "B": "Lining là danh từ mang nghĩa lớp lót hoặc dạng V-ing; không tạo thành thuật ngữ kinh doanh 'dòng sản phẩm'.",
+          "C": "Lined là dạng quá khứ/quá khứ phân từ của động từ line, không tạo thành cụm danh từ tân ngữ phù hợp.",
+          "D": "Line là danh từ kết hợp với product tạo thành danh từ ghép 'product line' (dòng sản phẩm)."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 110,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "The cash registers at Pirkle Books automatically _____ the remaining inventory of books available.",
+      "options": {
+        "A": "calculate",
+        "B": "calculator",
+        "C": "calculating",
+        "D": "calculation"
+      },
+      "correct_answer": "A",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "PASS",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "NEEDS_EDIT",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Draft labeled multi-word \"cash register\" as \"noun\", conflicting with the project taxonomy standard established in Q102, Q108, Q114, Q119, Q127 where multi-word compounds are \"phrase\". Updated to \"phrase\". Sentence structure expanded.",
+      "enrichment": {
+        "grammar_topic": "Word form / Main verb (subject-verb agreement)",
+        "sentence_structure": "Subject NP [The cash registers + PrepP (at Pirkle Books)] + Adverb (automatically) + Main verb (calculate) + Object NP [the remaining inventory + PrepP (of books) + post-modifier Adj (available)]",
+        "pattern": "plural subject + adverb + base verb + object",
+        "vocabulary": [
+          {
+            "word": "cash register",
+            "meaning": "máy tính tiền",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "inventory",
+            "meaning": "hàng tồn kho; lượng hàng sẵn có",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "automatically",
+            "meaning": "tự động",
+            "part_of_speech": "adverb"
+          }
+        ],
+        "explanation": "Chọn A (calculate). Câu có chủ ngữ là cụm danh từ số nhiều 'The cash registers at Pirkle Books', theo sau bởi trạng từ 'automatically'. Mệnh đề chính đang thiếu động từ chia thì để nhận tân ngữ 'the remaining inventory...'. Vì chủ ngữ ở số nhiều và diễn đạt chức năng thường trực, động từ chính ở thì hiện tại đơn chia ở dạng nguyên mẫu 'calculate'.",
+        "distractor_analysis": {
+          "A": "Calculate là động từ nguyên mẫu, hòa hợp với chủ ngữ số nhiều 'The cash registers' ở thì hiện tại đơn.",
+          "B": "Calculator là danh từ chỉ vật (máy tính bỏ túi), không thể đóng vai trò vị ngữ chia thì trong câu.",
+          "C": "Calculating là dạng hiện tại phân từ/danh động từ; không thể đứng một mình làm động từ chính của câu khi không có trợ động từ 'be'.",
+          "D": "Calculation là danh từ trừu tượng chỉ phép tính/sự tính toán, không thể làm động từ vị ngữ."
+        },
+        "difficulty": "easy"
+      }
+    },
+    {
+      "question_no": 112,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "According to CEO Mayu Yamada, it would not be _____ responsible to expand the warehouse at this time.",
+      "options": {
+        "A": "finance",
+        "B": "financials",
+        "C": "financially",
+        "D": "financing"
+      },
+      "correct_answer": "C",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "NEEDS_EDIT",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Sentence structure in draft omitted fronted attribution \"According to CEO Mayu Yamada\". Pattern streamlined to \"be + adverb + adjective (financially responsible)\". Grounding strictly verified for expand (verb) without ungrounded noun expansion.",
+      "enrichment": {
+        "grammar_topic": "Adverb modifying an adjective / word form",
+        "sentence_structure": "Attributive PrepP [According to CEO Mayu Yamada], + Dummy Subject (it) + Predicate VP [would not be + Adverb (financially) + Predicate Adjective (responsible)] + Real Subject to-infinitive clause [to expand the warehouse + AdvP (at this time)]",
+        "pattern": "be + adverb + adjective (financially responsible)",
+        "vocabulary": [
+          {
+            "word": "financially",
+            "meaning": "về mặt tài chính",
+            "part_of_speech": "adverb"
+          },
+          {
+            "word": "responsible",
+            "meaning": "có trách nhiệm; hợp lý",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "expand",
+            "meaning": "mở rộng",
+            "part_of_speech": "verb"
+          },
+          {
+            "word": "warehouse",
+            "meaning": "nhà kho",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn C (financially). Cấu trúc vị ngữ gồm động từ to-be 'be' kết hợp với tính từ vị ngữ 'responsible'. Chỗ trống đứng trước tính từ 'responsible' nên cần một trạng từ chỉ phương diện/mức độ để bổ nghĩa cho tính từ đó: 'financially responsible' (hợp lý/khả thi về mặt tài chính). Các phương án còn lại là danh từ hoặc động từ, không thể bổ nghĩa cho tính từ.",
+        "distractor_analysis": {
+          "A": "Finance là danh từ (tài chính) hoặc động từ (cấp vốn); không thể đứng trước tính từ 'responsible' để bổ nghĩa.",
+          "B": "Financials là danh từ số nhiều chỉ báo cáo/số liệu tài chính; không thể bổ nghĩa cho tính từ.",
+          "C": "Financially là trạng từ được hình thành từ tính từ 'financial', bổ nghĩa chuẩn xác cho tính từ 'responsible'.",
+          "D": "Financing là danh từ (việc tài trợ) hoặc phân từ của finance; không phù hợp về ngữ pháp ở vị trí bổ nghĩa cho tính từ."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 114,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "As part of its marketing campaign, Elegancia Dishware is _____ soliciting feedback from customers.",
+      "options": {
+        "A": "lightly",
+        "B": "loyally",
+        "C": "actively",
+        "D": "cleanly"
+      },
+      "correct_answer": "C",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "NEEDS_EDIT",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "PASS",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Grammar topic in draft described the positional environment but obscured that all 4 choices are adverbs, making it an adverb semantic/collocation question. Clarified to \"Adverb vocabulary / collocation with verb phrase\".",
+      "enrichment": {
+        "grammar_topic": "Adverb vocabulary / collocation with verb phrase",
+        "sentence_structure": "PrepP [As part of its marketing campaign], + Subject (Elegancia Dishware) + Verb phrase [is + Adverb (actively) + V-ing (soliciting) + Object (feedback) + PrepP (from customers)]",
+        "pattern": "be + actively + V-ing",
+        "vocabulary": [
+          {
+            "word": "actively",
+            "meaning": "tích cực/chủ động",
+            "part_of_speech": "adverb"
+          },
+          {
+            "word": "solicit feedback",
+            "meaning": "thu thập/thu hút ý kiến phản hồi",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "marketing campaign",
+            "meaning": "chiến dịch tiếp thị",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn C (actively). Tất cả bốn lựa chọn đều là trạng từ đuôi -ly, do đó câu hỏi kiểm tra ngữ nghĩa và sự kết hợp từ (collocation). Động từ 'is soliciting feedback' (đang thu thập ý kiến phản hồi) kết hợp tự nhiên với trạng từ 'actively' (một cách tích cực/chủ động) trong bối cảnh một chiến dịch tiếp thị ('As part of its marketing campaign'). Các trạng từ khác không mang nét nghĩa phù hợp với hành động thu thập phản hồi.",
+        "distractor_analysis": {
+          "A": "Lightly có nghĩa là nhẹ nhàng, hời hợt; không phù hợp với mục tiêu thúc đẩy chiến dịch tiếp thị nhằm thu thập phản hồi.",
+          "B": "Loyally có nghĩa là một cách trung thành; thường bổ nghĩa cho việc phục vụ hoặc ủng hộ, không kết hợp với 'soliciting feedback'.",
+          "C": "Actively mang nghĩa tích cực, chủ động; tạo thành collocation tự nhiên 'actively soliciting feedback' (tích cực thu thập phản hồi).",
+          "D": "Cleanly có nghĩa là sạch sẽ, gọn gàng; không phù hợp về ngữ nghĩa khi bổ nghĩa cho hành động thu thập phản hồi khách hàng."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 119,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "The newspaper article describes ways job seekers can _____ for having little workplace experience.",
+      "options": {
+        "A": "reply",
+        "B": "capture",
+        "C": "compensate",
+        "D": "accumulate"
+      },
+      "correct_answer": "C",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "PASS",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "NEEDS_EDIT",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Removed trailing space in draft sentence structure and articulated relative clause structure. Strengthened distractor analysis with specific transitivity and prepositional rules (reply to, capture sth, accumulate sth).",
+      "enrichment": {
+        "grammar_topic": "Verb + preposition collocation",
+        "sentence_structure": "Subject (The newspaper article) + Verb (describes) + Object NP [ways + relative clause: (that/in which) S (job seekers) + modal verb (can) + base verb (compensate) + PrepP (for having little workplace experience)]",
+        "pattern": "compensate for + noun / V-ing",
+        "vocabulary": [
+          {
+            "word": "compensate for",
+            "meaning": "bù đắp cho/bồi hoàn cho",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "workplace experience",
+            "meaning": "kinh nghiệm làm việc",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "job seeker",
+            "meaning": "người tìm việc",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn C (compensate). Câu kiểm tra sự kết hợp giữa động từ và giới từ 'for'. Cụm 'compensate for' có nghĩa là 'bù đắp cho' một điểm yếu hoặc thiếu sót (ở đây là 'having little workplace experience' - việc có ít kinh nghiệm làm việc). Sau 'for' là danh động từ 'having'. Các động từ còn lại không đi với giới từ 'for' để tạo nên ý nghĩa phù hợp.",
+        "distractor_analysis": {
+          "A": "Reply thường kết hợp với giới từ 'to' (reply to something: phản hồi lại cái gì); không đi với 'for' trong cấu trúc này.",
+          "B": "Capture là ngoại động từ trực tiếp (capture something: chiếm lấy, thu hút); không kết hợp với giới từ 'for' để mang nghĩa bù đắp.",
+          "C": "Compensate kết hợp với giới từ 'for' tạo thành phrasal verb/collocation 'compensate for' mang nghĩa bù đắp cho điều gì.",
+          "D": "Accumulate là ngoại động từ trực tiếp mang nghĩa tích lũy (accumulate experience); không đi với giới từ 'for' và không mang nghĩa bù đắp."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 124,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "The City of Doyle's new downtown parking _____ have been met with opposition by residents and visitors.",
+      "options": {
+        "A": "restricts",
+        "B": "restricted",
+        "C": "restrictions",
+        "D": "restricting"
+      },
+      "correct_answer": "C",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "NEEDS_EDIT",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Sentence structure in draft omitted agent PrepP [by residents and visitors]. Pattern made cleaner by clarifying compound noun and subject-verb agreement.",
+      "enrichment": {
+        "grammar_topic": "Word form / plural noun subject",
+        "sentence_structure": "Subject NP [The City of Doyle's new downtown parking restrictions] + Predicate VP [present-perfect passive: have been met with + N (opposition)] + Agent PrepP [by residents and visitors]",
+        "pattern": "parking restrictions; plural subject + have + past participle",
+        "vocabulary": [
+          {
+            "word": "restriction",
+            "meaning": "quy định hạn chế/sự giới hạn",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "opposition",
+            "meaning": "sự phản đối",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "resident",
+            "meaning": "cư dân",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn C (restrictions). Vị trí chỗ trống là danh từ trung tâm (head noun) của cụm danh từ làm chủ ngữ: 'The City of Doyle's new downtown parking _____'. Động từ chính phía sau là 'have been met' (chia ở thì hiện tại hoàn thành số nhiều), do đó danh từ làm chủ ngữ bắt buộc phải ở dạng số nhiều. 'Restrictions' là danh từ số nhiều, tạo thành cụm 'parking restrictions' (các quy định hạn chế đỗ xe).",
+        "distractor_analysis": {
+          "A": "Restricts là động từ chia ngôi thứ ba số ít ở thì hiện tại đơn; không thể làm danh từ chủ ngữ cho cụm vị ngữ 'have been met'.",
+          "B": "Restricted là tính từ hoặc dạng quá khứ/quá khứ phân từ của động từ restrict; không thể làm danh từ trung tâm số nhiều trong cụm chủ ngữ.",
+          "C": "Restrictions là danh từ số nhiều, hoàn thiện cụm danh từ chủ ngữ và hòa hợp chính xác với trợ động từ số nhiều 'have'.",
+          "D": "Restricting là hiện tại phân từ/danh động từ; không phù hợp để tạo cụm danh từ đếm được số nhiều đi với động từ 'have'."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 127,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "As chief analytics officer, Mr. Ko has worked at Lochstan Ltd. with great _____ for more than twenty years.",
+      "options": {
+        "A": "deduction",
+        "B": "duplication",
+        "C": "declaration",
+        "D": "dedication"
+      },
+      "correct_answer": "D",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "NEEDS_EDIT",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "NEEDS_EDIT",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "PASS"
+      },
+      "review_notes": "Draft mislabeled grammar topic as \"Noun form / collocation\". Because all 4 options are nouns in -tion, it is a noun vocabulary/collocation question. Sentence structure expanded to cover appositive role and all prepositional adjuncts.",
+      "enrichment": {
+        "grammar_topic": "Noun vocabulary / collocation (with great + noun)",
+        "sentence_structure": "Role PrepP [As chief analytics officer], + S (Mr. Ko) + present-perfect VP (has worked) + Place PrepP (at Lochstan Ltd.) + Manner PrepP [with + Adj (great) + N (dedication)] + Duration PrepP (for more than twenty years)",
+        "pattern": "with great + abstract noun (with great dedication)",
+        "vocabulary": [
+          {
+            "word": "dedication",
+            "meaning": "sự tận tụy/sự cống hiến",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "chief analytics officer",
+            "meaning": "giám đốc phụ trách phân tích dữ liệu",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "analytics",
+            "meaning": "phân tích dữ liệu",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn D (dedication). Cả bốn lựa chọn đều là danh từ tận cùng bằng -tion, do đó câu hỏi kiểm tra vốn từ vựng ngữ nghĩa và collocation. Cụm 'with great dedication' là một thành ngữ/collocation quen thuộc mang nghĩa 'với sự tận tâm/cống hiến to lớn', miêu tả thái độ làm việc suốt hơn 20 năm của ông Ko. Các danh từ còn lại không mang ý nghĩa phẩm chất làm việc phù hợp.",
+        "distractor_analysis": {
+          "A": "Deduction mang nghĩa sự khấu trừ (thuế/tiền) hoặc sự suy luận lô-gíc; không dùng để diễn đạt thái độ/phẩm chất làm việc.",
+          "B": "Duplication mang nghĩa sự sao chép, sự trùng lặp; không phù hợp về ý nghĩa khi miêu tả quá trình công tác.",
+          "C": "Declaration mang nghĩa lời tuyên bố hoặc bản kê khai (hải quan); không kết hợp với 'with great' để chỉ sự tận tụy trong công việc.",
+          "D": "Dedication là danh từ chỉ sự tận tâm, cống hiến; kết hợp tạo thành collocation chuẩn 'with great dedication' (với sự tận tâm to lớn)."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_no": 130,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_text": "For a $95 _____ fee, our mechanics will determine what repairs are needed.",
+      "options": {
+        "A": "diagnosed",
+        "B": "diagnostic",
+        "C": "diagnosable",
+        "D": "diagnose"
+      },
+      "correct_answer": "B",
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW",
+      "dimension_statuses": {
+        "answer_key_and_completed_sentence": "PASS",
+        "grammar_topic": "PASS",
+        "sentence_structure": "NEEDS_EDIT",
+        "pattern": "NEEDS_EDIT",
+        "vocabulary_grounding": "PASS",
+        "part_of_speech": "PASS",
+        "vietnamese_meaning": "PASS",
+        "main_explanation": "PASS",
+        "distractor_analysis": "PASS",
+        "difficulty": "NEEDS_EDIT"
+      },
+      "review_notes": "Sentence structure in draft abbreviated main clause. Pattern streamlined to \"adjective + fee (diagnostic fee)\". Calibrated difficulty from easy to medium because distinguishing two valid adjectives (diagnostic vs diagnosable) requires semantic knowledge of the commercial term.",
+      "enrichment": {
+        "grammar_topic": "Adjective modifying a noun / word form",
+        "sentence_structure": "PrepP [For a $95 + Adj (diagnostic) + N (fee)], + Main clause [S (our mechanics) + future VP (will determine) + Object noun clause (what repairs are needed)]",
+        "pattern": "adjective + fee (diagnostic fee)",
+        "vocabulary": [
+          {
+            "word": "diagnostic",
+            "meaning": "thuộc chẩn đoán/kiểm tra xác định lỗi",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "fee",
+            "meaning": "khoản phí dịch vụ",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "mechanic",
+            "meaning": "thợ cơ khí/thợ máy sửa chữa",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "repair",
+            "meaning": "việc sửa chữa",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn B (diagnostic). Chỗ trống đứng trước danh từ 'fee' và sau số tiền '$95' trong cụm giới từ 'For a $95 _____ fee', cần một tính từ bổ nghĩa cho danh từ 'fee'. 'Diagnostic fee' là một cụm cố định trong ngành dịch vụ kỹ thuật có nghĩa là 'phí chẩn đoán/kiểm tra lỗi'. 'Diagnose' là động từ nguyên mẫu; 'diagnosed' là dạng quá khứ/phân từ; 'diagnosable' là tính từ mang nghĩa 'có thể chẩn đoán được' (không phù hợp để định danh loại phí dịch vụ).",
+        "distractor_analysis": {
+          "A": "Diagnosed là dạng quá khứ hoặc quá khứ phân từ của động từ diagnose; không dùng làm tính từ định danh cho khoản phí dịch vụ.",
+          "B": "Diagnostic là tính từ mang nghĩa liên quan đến việc chẩn đoán, tạo thành thuật ngữ dịch vụ 'diagnostic fee' (phí chẩn đoán lỗi).",
+          "C": "Diagnosable là tính từ mang nghĩa 'có thể chẩn đoán được' (thường dùng miêu tả căn bệnh/triệu chứng); không dùng để gọi tên loại phí kiểm tra.",
+          "D": "Diagnose là động từ nguyên mẫu mang nghĩa chẩn đoán; không thể đứng trước danh từ fee như một tính từ bổ nghĩa."
+        },
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

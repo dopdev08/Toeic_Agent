@@ -1,0 +1,26 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,prompt_tokens,candidates_tokens,total_tokens,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+20,ETS2026,5,120,PASS_QUALITY_VALIDATED,True,True,VALID,,,,2.43,945,454,1399,"Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",myself,neither,anybody,whoever,B,"{""grammar_topic"": ""Pronouns"", ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) V (were) Comp (qualified), but S (_____), V (got) O (the job)."", ""pattern"": ""neither + got (singular verb for a negative pronoun referring to two entities)"", ""vocabulary"": [{""word"": ""qualified"", ""meaning"": ""có đủ năng lực, đủ điều kiện"", ""part_of_speech"": ""adjective""}, {""word"": ""neither"", ""meaning"": ""cả hai ... đều không"", ""part_of_speech"": ""pronoun""}], ""explanation"": ""Câu này nói về hai ứng viên (Mr. Ellis và Ms. Barnes) đều có năng lực cao, nhưng xét theo nghĩa đối lập sau liên từ 'but', không ai trong số hai người nhận được công việc. Đại từ 'neither' (không ai trong số hai) dùng để chỉ hai đối tượng đã được nhắc đến trước đó và đóng vai trò làm chủ ngữ cho động từ 'got'."", ""distractor_analysis"": {""A"": ""myself là đại từ phản thân (chính tôi), không phù hợp về mặt ngữ nghĩa và không khớp với chủ ngữ số nhiều ở mệnh đề trước."", ""B"": ""neither là đại từ chính xác, dùng để chỉ hai người (Mr. Ellis và Ms. Barnes) và tạo ra ý nghĩa logic đối lập sau 'but' (cả hai đều có năng lực nhưng không ai nhận được việc)."", ""C"": ""anybody (bất kỳ ai) dùng trong câu khẳng định mang nghĩa chung chung, không phù hợp với ngữ cảnh cụ thể giới hạn trong hai người."", ""D"": ""whoever (bất kỳ ai) tạo ra mệnh đề danh từ hoặc trạng ngữ phức tạp không phù hợp với cấu trúc làm chủ ngữ chính của mệnh đề thứ hai đứng trước động từ 'got'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Pronouns"",
+  ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) V (were) Comp (qualified), but S (_____), V (got) O (the job)."",
+  ""pattern"": ""neither + got (singular verb for a negative pronoun referring to two entities)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""qualified"",
+      ""meaning"": ""có đủ năng lực, đủ điều kiện"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""neither"",
+      ""meaning"": ""cả hai ... đều không"",
+      ""part_of_speech"": ""pronoun""
+    }
+  ],
+  ""explanation"": ""Câu này nói về hai ứng viên (Mr. Ellis và Ms. Barnes) đều có năng lực cao, nhưng xét theo nghĩa đối lập sau liên từ 'but', không ai trong số hai người nhận được công việc. Đại từ 'neither' (không ai trong số hai) dùng để chỉ hai đối tượng đã được nhắc đến trước đó và đóng vai trò làm chủ ngữ cho động từ 'got'."",
+  ""distractor_analysis"": {
+    ""A"": ""myself là đại từ phản thân (chính tôi), không phù hợp về mặt ngữ nghĩa và không khớp với chủ ngữ số nhiều ở mệnh đề trước."",
+    ""B"": ""neither là đại từ chính xác, dùng để chỉ hai người (Mr. Ellis và Ms. Barnes) và tạo ra ý nghĩa logic đối lập sau 'but' (cả hai đều có năng lực nhưng không ai nhận được việc)."",
+    ""C"": ""anybody (bất kỳ ai) dùng trong câu khẳng định mang nghĩa chung chung, không phù hợp với ngữ cảnh cụ thể giới hạn trong hai người."",
+    ""D"": ""whoever (bất kỳ ai) tạo ra mệnh đề danh từ hoặc trạng ngữ phức tạp không phù hợp với cấu trúc làm chủ ngữ chính của mệnh đề thứ hai đứng trước động từ 'got'.""
+  },
+  ""difficulty"": ""medium""
+}"

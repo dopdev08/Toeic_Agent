@@ -1,0 +1,470 @@
+{
+  "dataset_name": "TOEIC Part 5 Enrichment Gold Set — Draft 1",
+  "created_date": "2026-10-12",
+  "purpose": "Seed reference set to calibrate manual review; not an official answer key and not production-approved until human-reviewed.",
+  "source": "User-provided Qwen2.5:3b enrichment report for ETS2026 Part 5, questions 101–130.",
+  "review_policy": "Review every field against the complete sentence and all four options. Resolve terminology/POS taxonomy with the project owner before using as an automated test fixture.",
+  "items": [
+    {
+      "question_no": 101,
+      "correct_answer": "B",
+      "question_text": "The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",
+      "options": {
+        "A": "across",
+        "B": "after",
+        "C": "inside",
+        "D": "among"
+      },
+      "identified_failure": "The output labels the item as a conjunction question and gives an unrelated S1/V1/O1 formula.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Preposition + relative pronoun",
+        "sentence_structure": "Main clause, after which + subject + modal verb + base verb",
+        "pattern": "after which + clause",
+        "vocabulary": [
+          {
+            "word": "attendees",
+            "meaning": "người tham dự",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn B (after). Cụm after which có nghĩa là ‘sau thời điểm/sự việc đó’; which quy chiếu về thời điểm 6:00 P.M. vừa nêu. Sau which là mệnh đề attendees may ask questions. Các lựa chọn across, inside và among không tạo được ý nghĩa và cấu trúc phù hợp trong câu này.",
+        "distractor_analysis": {
+          "A": "Across thường chỉ sự di chuyển/trải dài qua một bề mặt hoặc khu vực; không phù hợp để diễn đạt ‘sau thời điểm đó’.",
+          "B": "After kết hợp với which để tạo cụm after which, chỉ thời điểm sau sự việc vừa nêu.",
+          "C": "Inside chỉ vị trí bên trong, không diễn đạt quan hệ thời gian cần thiết ở đây.",
+          "D": "Among thường chỉ quan hệ giữa các thành viên trong một nhóm; không phù hợp với nghĩa thời gian của câu."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 102,
+      "correct_answer": "A",
+      "question_text": "The _____ antique shop in Pepper Valley will close down next month.",
+      "options": {
+        "A": "last",
+        "B": "lasts",
+        "C": "lasted",
+        "D": "lasting"
+      },
+      "identified_failure": "The output labels last as an adverb, translates it as ‘lâu’, and provides an unrelated N [AdvP] pattern.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Word form / modifier before a noun",
+        "sentence_structure": "the + modifier (last) + noun phrase (antique shop) + will close down + time expression",
+        "pattern": "the last + singular count noun",
+        "vocabulary": [
+          {
+            "word": "last",
+            "meaning": "cuối cùng; còn lại cuối cùng trong ngữ cảnh này",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "antique shop",
+            "meaning": "cửa hàng đồ cổ",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn A (last). Chỗ trống đứng trước cụm danh từ antique shop và mang nghĩa ‘cuối cùng/còn lại cuối cùng’, nên last đóng vai trò từ bổ nghĩa cho shop. Lasts là dạng động từ ngôi thứ ba số ít; lasted là dạng quá khứ/phân từ; lasting không diễn đạt ý ‘cửa hàng cuối cùng’ trong câu này.",
+        "distractor_analysis": {
+          "A": "Last bổ nghĩa cho antique shop và diễn đạt cửa hàng cuối cùng/còn lại cuối cùng ở Pepper Valley.",
+          "B": "Lasts là dạng động từ chia ngôi thứ ba số ít, không phù hợp ở vị trí bổ nghĩa trực tiếp cho danh từ shop.",
+          "C": "Lasted là dạng quá khứ/phân từ của động từ last, không phù hợp với nghĩa và cấu trúc cụm danh từ ở đây.",
+          "D": "Lasting thường là phân từ/tính từ mang nghĩa kéo dài; không diễn đạt ‘cửa hàng cuối cùng’ như câu cần."
+        },
+        "difficulty": "easy"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 104,
+      "correct_answer": "B",
+      "question_text": "As a result of _____ many years leading media organizations, Ms. Ayo was selected for the Dowel Journalism Prize.",
+      "options": {
+        "A": "she",
+        "B": "her",
+        "C": "hers",
+        "D": "herself"
+      },
+      "identified_failure": "The output calls her a preposition and treats many years as the subject of the phrase.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Possessive determiner before a noun phrase",
+        "sentence_structure": "As a result of + possessive determiner + noun phrase, main clause",
+        "pattern": "her + noun phrase",
+        "vocabulary": [
+          {
+            "word": "her",
+            "meaning": "của cô ấy; ở đây bổ nghĩa cho many years",
+            "part_of_speech": "determiner"
+          },
+          {
+            "word": "leading",
+            "meaning": "lãnh đạo/điều hành",
+            "part_of_speech": "verb"
+          }
+        ],
+        "explanation": "Chọn B (her). Sau giới từ of cần cụm danh từ ‘her many years leading media organizations’. Her là từ hạn định sở hữu đứng trước many years, chỉ những năm Ms. Ayo đã dành để lãnh đạo các tổ chức truyền thông. She là đại từ chủ ngữ; hers thường đứng độc lập thay cho cụm sở hữu; herself là đại từ phản thân và không phù hợp vị trí này.",
+        "distractor_analysis": {
+          "A": "She là đại từ chủ ngữ, không đứng ở vị trí bổ nghĩa cho danh từ many years.",
+          "B": "Her là từ hạn định sở hữu đứng trước many years, tạo thành cụm danh từ đúng.",
+          "C": "Hers là đại từ sở hữu thường dùng độc lập, không trực tiếp đứng trước many years.",
+          "D": "Herself là đại từ phản thân/nhấn mạnh, không phù hợp với vị trí từ hạn định sở hữu trong cụm danh từ này."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 105,
+      "correct_answer": "B",
+      "question_text": "To stop the _____ of computer viruses, do not open suspicious e-mails.",
+      "options": {
+        "A": "break",
+        "B": "spread",
+        "C": "balance",
+        "D": "surface"
+      },
+      "identified_failure": "The output treats spread as a verb, labels the grammar as verb tense, and explains the unrelated imperative do not open.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Noun collocation / purpose infinitive",
+        "sentence_structure": "Purpose infinitive phrase (To stop the spread of computer viruses) + imperative clause (do not open suspicious e-mails)",
+        "pattern": "the spread of + noun",
+        "vocabulary": [
+          {
+            "word": "spread",
+            "meaning": "sự lan truyền",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "suspicious",
+            "meaning": "đáng ngờ",
+            "part_of_speech": "adjective"
+          }
+        ],
+        "explanation": "Chọn B (spread). Mạo từ the và cụm of computer viruses cho thấy chỗ trống là danh từ trong cụm ‘the spread of computer viruses’ (sự lan truyền của vi-rút máy tính). Spread ở đây là danh từ, không phải động từ. Cả câu nêu mục đích ‘để ngăn sự lan truyền…’ rồi đưa ra lời khuyên ‘đừng mở email đáng ngờ’.",
+        "distractor_analysis": {
+          "A": "Break không tạo thành collocation tự nhiên ‘the break of computer viruses’ với nghĩa cần thiết.",
+          "B": "Spread là danh từ phù hợp trong cụm cố định ‘the spread of computer viruses’.",
+          "C": "Balance nghĩa là sự cân bằng, không phù hợp với ý ngăn vi-rút lây lan.",
+          "D": "Surface nghĩa là bề mặt hoặc xuất hiện; không phù hợp với cụm danh từ và ý nghĩa ở đây."
+        },
+        "difficulty": "easy"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 108,
+      "correct_answer": "D",
+      "question_text": "Tarateer Pharmaceuticals is varying its product _____ to include over-the-counter medications.",
+      "options": {
+        "A": "to line",
+        "B": "lining",
+        "C": "lined",
+        "D": "line"
+      },
+      "identified_failure": "The output invents a ‘vary with’ phrasal verb and explains line as a verb form.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Compound noun / collocation",
+        "sentence_structure": "Subject + be + V-ing + object noun phrase (its product line) + to-infinitive of purpose/result",
+        "pattern": "product line",
+        "vocabulary": [
+          {
+            "word": "product line",
+            "meaning": "dòng sản phẩm",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "over-the-counter",
+            "meaning": "không cần kê đơn",
+            "part_of_speech": "adjective"
+          }
+        ],
+        "explanation": "Chọn D (line). Chỗ trống hoàn thành cụm danh từ product line, nghĩa là dòng sản phẩm. Trong câu, Tarateer Pharmaceuticals đang điều chỉnh dòng sản phẩm của mình để bao gồm các loại thuốc không cần kê đơn. Line ở đây là danh từ, không phải động từ đi với vary.",
+        "distractor_analysis": {
+          "A": "To line là cụm động từ nguyên mẫu và không tạo thành cụm danh từ product line.",
+          "B": "Lining là dạng -ing của line; không phù hợp để tạo collocation product line.",
+          "C": "Lined là dạng quá khứ/phân từ; không tạo thành cụm danh từ product line.",
+          "D": "Line là danh từ đứng sau product trong collocation product line."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 110,
+      "correct_answer": "A",
+      "question_text": "The cash registers at Pirkle Books automatically _____ the remaining inventory of books available.",
+      "options": {
+        "A": "calculate",
+        "B": "calculator",
+        "C": "calculating",
+        "D": "calculation"
+      },
+      "identified_failure": "The output labels calculate as passive and invents an ‘automatic calculating’ construction.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Present simple / subject-verb agreement / word form",
+        "sentence_structure": "Plural subject (The cash registers) + adverb (automatically) + base verb (calculate) + object",
+        "pattern": "plural subject + adverb + base verb + object",
+        "vocabulary": [
+          {
+            "word": "cash register",
+            "meaning": "máy tính tiền",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "inventory",
+            "meaning": "hàng tồn kho; lượng hàng có sẵn",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn A (calculate). Chủ ngữ chính là The cash registers, ở dạng số nhiều; câu diễn đạt chức năng thường xuyên nên dùng hiện tại đơn. Sau trạng từ automatically cần động từ chính calculate để nhận tân ngữ the remaining inventory. Câu là chủ động, không phải bị động.",
+        "distractor_analysis": {
+          "A": "Calculate là động từ nguyên mẫu phù hợp với chủ ngữ số nhiều ở thì hiện tại đơn.",
+          "B": "Calculator là danh từ chỉ máy tính; không thể làm động từ chính ở vị trí này.",
+          "C": "Calculating là dạng -ing, không thể đứng một mình làm động từ chia thì trong cấu trúc này.",
+          "D": "Calculation là danh từ chỉ phép tính/kết quả tính toán, không thể làm động từ chính ở vị trí này."
+        },
+        "difficulty": "easy"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 112,
+      "correct_answer": "C",
+      "question_text": "According to CEO Mayu Yamada, it would not be _____ responsible to expand the warehouse at this time.",
+      "options": {
+        "A": "finance",
+        "B": "financials",
+        "C": "financially",
+        "D": "financing"
+      },
+      "identified_failure": "Current validator rejected ungrounded vocabulary ‘expansion’; the content also incorrectly claims financially derives from responsible and gives an irrelevant frame.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Adverb modifying an adjective / word form",
+        "sentence_structure": "It + would not be + adverb (financially) + adjective (responsible) + to-infinitive clause",
+        "pattern": "financially responsible; adverb + adjective",
+        "vocabulary": [
+          {
+            "word": "financially",
+            "meaning": "về mặt tài chính",
+            "part_of_speech": "adverb"
+          },
+          {
+            "word": "responsible",
+            "meaning": "hợp lý/có trách nhiệm",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "expand",
+            "meaning": "mở rộng",
+            "part_of_speech": "verb"
+          }
+        ],
+        "explanation": "Chọn C (financially). Trạng từ financially bổ nghĩa cho tính từ responsible, tạo thành financially responsible (‘hợp lý về mặt tài chính’). Ý câu là việc mở rộng kho vào thời điểm này sẽ không hợp lý về mặt tài chính. Financially được hình thành từ financial, không phải từ responsible. Dùng expand trong phần từ vựng vì đây là từ xuất hiện trong câu; không tự đổi thành expansion.",
+        "distractor_analysis": {
+          "A": "Finance thường là danh từ hoặc động từ; không có dạng trạng từ cần để bổ nghĩa cho responsible.",
+          "B": "Financials thường là danh từ số nhiều/thuật ngữ tài chính, không phù hợp vị trí trạng từ.",
+          "C": "Financially là trạng từ, có thể bổ nghĩa cho tính từ responsible.",
+          "D": "Financing là danh từ hoặc dạng -ing của finance, không phù hợp vị trí trạng từ trước responsible."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 114,
+      "correct_answer": "C",
+      "question_text": "As part of its marketing campaign, Elegancia Dishware is _____ soliciting feedback from customers.",
+      "options": {
+        "A": "lightly",
+        "B": "loyally",
+        "C": "actively",
+        "D": "cleanly"
+      },
+      "identified_failure": "The output claims actively is a form of soliciting and mislabels the progressive construction.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Adverb modifying a present-progressive verb phrase",
+        "sentence_structure": "Fronted prepositional phrase + subject + be + adverb + V-ing + object",
+        "pattern": "be + adverb + V-ing",
+        "vocabulary": [
+          {
+            "word": "actively",
+            "meaning": "một cách tích cực/chủ động",
+            "part_of_speech": "adverb"
+          },
+          {
+            "word": "solicit feedback",
+            "meaning": "thu thập/yêu cầu ý kiến phản hồi",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn C (actively). Cấu trúc is soliciting là hiện tại tiếp diễn; actively là trạng từ bổ nghĩa cho hành động soliciting. Ngữ cảnh chiến dịch tiếp thị cho thấy công ty đang chủ động thu thập phản hồi của khách hàng. Các lựa chọn đều là trạng từ về hình thức, nên việc chọn đáp án dựa đáng kể vào nghĩa/collocation, không phải chỉ vào từ loại.",
+        "distractor_analysis": {
+          "A": "Lightly có nghĩa là nhẹ nhàng/ở mức độ nhẹ; không diễn đạt việc chủ động thu thập phản hồi trong ngữ cảnh này.",
+          "B": "Loyally có nghĩa là trung thành; có thể là trạng từ về hình thức nhưng không phù hợp với ý cần diễn đạt ở đây.",
+          "C": "Actively nhấn mạnh việc tích cực/chủ động yêu cầu phản hồi, phù hợp với bối cảnh chiến dịch tiếp thị.",
+          "D": "Cleanly có nghĩa là sạch sẽ/rõ ràng; không phù hợp với collocation và ý nghĩa trong ngữ cảnh này."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 119,
+      "correct_answer": "C",
+      "question_text": "The newspaper article describes ways job seekers can _____ for having little workplace experience.",
+      "options": {
+        "A": "reply",
+        "B": "capture",
+        "C": "compensate",
+        "D": "accumulate"
+      },
+      "identified_failure": "The output uses an incorrect SVOO label/pattern and emits an unexpected E key in the raw distractor analysis.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Verb + preposition collocation",
+        "sentence_structure": "The newspaper article + describes + object (ways + clause: job seekers can compensate for...) ",
+        "pattern": "compensate for + noun / V-ing",
+        "vocabulary": [
+          {
+            "word": "compensate for",
+            "meaning": "bù đắp cho",
+            "part_of_speech": "phrase"
+          },
+          {
+            "word": "workplace experience",
+            "meaning": "kinh nghiệm làm việc",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn C (compensate). Động từ compensate kết hợp với for để diễn đạt việc bù đắp cho một thiếu hụt. Cụm compensate for having little workplace experience có nghĩa là bù đắp cho việc thiếu kinh nghiệm làm việc; sau for là cụm V-ing having little workplace experience.",
+        "distractor_analysis": {
+          "A": "Reply for having little workplace experience không diễn đạt ý bù đắp cho sự thiếu kinh nghiệm trong câu này.",
+          "B": "Capture for không phải collocation phù hợp với nghĩa cần thiết ở đây.",
+          "C": "Compensate for là collocation phù hợp; for được theo sau bởi cụm V-ing having little workplace experience.",
+          "D": "Accumulate for không diễn đạt việc bù đắp cho sự thiếu kinh nghiệm; accumulate thường có nghĩa tích lũy."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 124,
+      "correct_answer": "C",
+      "question_text": "The City of Doyle's new downtown parking _____ have been met with opposition by residents and visitors.",
+      "options": {
+        "A": "restricts",
+        "B": "restricted",
+        "C": "restrictions",
+        "D": "restricting"
+      },
+      "identified_failure": "The output explains the passive verb phrase have been met rather than the blank, which needs a plural noun subject.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Word form / plural noun subject",
+        "sentence_structure": "Subject noun phrase (The City of Doyle's new downtown parking restrictions) + present-perfect passive predicate (have been met with opposition)",
+        "pattern": "parking restrictions; plural subject + have + past participle",
+        "vocabulary": [
+          {
+            "word": "restriction",
+            "meaning": "sự hạn chế/quy định hạn chế",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "opposition",
+            "meaning": "sự phản đối",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn C (restrictions). Chỗ trống thuộc cụm danh từ làm chủ ngữ: the City's new downtown parking restrictions. Động từ have cũng phù hợp với chủ ngữ số nhiều. Restrictions là danh từ số nhiều nghĩa là các hạn chế/quy định hạn chế về đỗ xe; câu cho biết các quy định này vấp phải sự phản đối.",
+        "distractor_analysis": {
+          "A": "Restricts là động từ chia ngôi thứ ba số ít, không thể làm danh từ chủ ngữ sau parking trong cụm này.",
+          "B": "Restricted là dạng quá khứ/phân từ hoặc tính từ, không tạo được cụm danh từ số nhiều cần thiết.",
+          "C": "Restrictions là danh từ số nhiều, tạo thành cụm parking restrictions và phù hợp với have.",
+          "D": "Restricting là dạng -ing, không phù hợp để làm danh từ trung tâm số nhiều trong cụm này."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 127,
+      "correct_answer": "D",
+      "question_text": "As chief analytics officer, Mr. Ko has worked at Lochstan Ltd. with great _____ for more than twenty years.",
+      "options": {
+        "A": "deduction",
+        "B": "duplication",
+        "C": "declaration",
+        "D": "dedication"
+      },
+      "identified_failure": "The output calls dedication a verb/subject, supplies an irrelevant pattern, and includes an unexpected Explanation key under distractor_analysis.",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Noun form / collocation",
+        "sentence_structure": "Subject + present-perfect verb phrase + prepositional phrase (with + adjective + noun)",
+        "pattern": "with great + noun; with great dedication",
+        "vocabulary": [
+          {
+            "word": "dedication",
+            "meaning": "sự tận tâm/cống hiến",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "chief analytics officer",
+            "meaning": "giám đốc phụ trách phân tích dữ liệu",
+            "part_of_speech": "phrase"
+          }
+        ],
+        "explanation": "Chọn D (dedication). Sau tính từ great cần một danh từ; collocation with great dedication nghĩa là làm việc với sự tận tâm lớn. Dedication là danh từ chỉ sự cống hiến/tận tâm, không phải động từ. Cụm for more than twenty years cho biết thời gian ông Ko đã làm việc tại công ty.",
+        "distractor_analysis": {
+          "A": "Deduction là sự suy luận/khoản khấu trừ, không diễn đạt phẩm chất tận tâm trong collocation này.",
+          "B": "Duplication là sự sao chép/nhân đôi; không phù hợp ý nghĩa cần thiết.",
+          "C": "Declaration là lời tuyên bố/bản công bố; không phù hợp với cách mô tả thái độ làm việc.",
+          "D": "Dedication là danh từ nghĩa là sự tận tâm/cống hiến và tạo thành collocation with great dedication."
+        },
+        "difficulty": "medium"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    },
+    {
+      "question_no": 130,
+      "correct_answer": "B",
+      "question_text": "For a $95 _____ fee, our mechanics will determine what repairs are needed.",
+      "options": {
+        "A": "diagnosed",
+        "B": "diagnostic",
+        "C": "diagnosable",
+        "D": "diagnose"
+      },
+      "identified_failure": "The output labels diagnostic as a verb and gives the meaningless pattern fee: (verb form): (verb form).",
+      "gold_enrichment_draft": {
+        "grammar_topic": "Adjective modifying a noun / word form",
+        "sentence_structure": "For + amount + adjective (diagnostic) + noun (fee), main clause",
+        "pattern": "diagnostic + noun; diagnostic fee",
+        "vocabulary": [
+          {
+            "word": "diagnostic",
+            "meaning": "thuộc việc chẩn đoán/kiểm tra để xác định lỗi",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "fee",
+            "meaning": "phí dịch vụ",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "mechanic",
+            "meaning": "thợ máy/kỹ thuật viên sửa chữa",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Chọn B (diagnostic). Chỗ trống đứng ngay trước danh từ fee nên cần từ bổ nghĩa cho danh từ. Diagnostic là tính từ mang nghĩa liên quan đến việc chẩn đoán/kiểm tra lỗi; diagnostic fee là phí kiểm tra để xác định cần sửa chữa gì. Diagnose là động từ; diagnosed là dạng quá khứ/phân từ; diagnosable là tính từ mang nghĩa có thể được chẩn đoán nhưng không tạo collocation phù hợp ở đây.",
+        "distractor_analysis": {
+          "A": "Diagnosed là dạng quá khứ/phân từ của động từ diagnose, không bổ nghĩa tự nhiên cho fee theo nghĩa cần thiết.",
+          "B": "Diagnostic là tính từ phù hợp trong collocation diagnostic fee.",
+          "C": "Diagnosable có nghĩa có thể chẩn đoán được; không phải cách gọi tự nhiên cho loại phí trong ngữ cảnh này.",
+          "D": "Diagnose là động từ nguyên mẫu, không thể đứng trực tiếp trước fee như một tính từ."
+        },
+        "difficulty": "easy"
+      },
+      "review_status": "DRAFT_NEEDS_HUMAN_REVIEW"
+    }
+  ]
+}

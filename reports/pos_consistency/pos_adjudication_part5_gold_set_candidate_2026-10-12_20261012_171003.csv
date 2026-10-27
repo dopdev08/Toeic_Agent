@@ -1,0 +1,2 @@
+﻿source_report,question_id,question_no,vocabulary_word,expected_pos,spacy_pos,spacy_tag,spacy_lemma,spacy_dep,match_mode,checker_outcome,mapping_rationale,completed_sentence_sha256,human_verdict,reviewer_notes
+part5_gold_set_candidate_2026-10-12.json,,104,her,determiner,PRON,PRP$,her,poss,surface,POS_ACCEPTABLE_VARIANT,Possessive determiner/pronoun variation (e.g. her),dd7a00488a52e00e8cfed3537707d832f8dc71e65c8001de7a1ec5e18eb1e634,,

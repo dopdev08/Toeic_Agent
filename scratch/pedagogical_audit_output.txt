@@ -1,0 +1,279 @@
+Total questions in report: 30
+
+--- 1. Quality Warnings ---
+  None! (0 quality warnings emitted by validator)
+
+--- 2. Grammar Topics ---
+Q101 [medium]: topic='preposition' | pattern='time noun + preposition + which + clause'
+Q102 [medium]: topic='word form' | pattern='The + [adjective] + noun'
+Q103 [medium]: topic='noun collocation' | pattern='online status update'
+Q104 [easy]: topic='Pronouns' | pattern='Preposition + Possessive Determiner + Noun Phrase'
+Q105 [medium]: topic='Noun Collocation' | pattern='stop the spread of'
+Q106 [easy]: topic='word form' | pattern='subject + adverb + past participle verb + object'
+Q107 [medium]: topic='Conjunction' | pattern='Verb + conjunction + verb (compound predicate)'
+Q108 [medium]: topic='Noun Compound / Collocation' | pattern='product line'
+Q109 [easy]: topic='verb tense' | pattern='Subject + adverb + present simple verb + object'
+Q110 [easy]: topic='Word Form' | pattern='Noun (Subject) + Adverb + Verb (Predicate) + Noun (Object)'
+Q111 [medium]: topic='adverb selection' | pattern='modal verb (can) + adverb + base verb (locate)'
+Q112 [medium]: topic='word form' | pattern='adverb modifying an adjective'
+Q113 [medium]: topic='Word Form / Noun Formation' | pattern='with any + noun'
+Q114 [medium]: topic='Adverb placement' | pattern='be + adverb + V-ing'
+Q115 [medium]: topic='verb collocation' | pattern='be intended to + V (base verb)'
+Q116 [FAIL_SCHEMA_VALIDATION]: topic='Word Form' (from raw)
+Q117 [medium]: topic='Preposition' | pattern='role in + V-ing'
+Q118 [FAIL_SCHEMA_VALIDATION]: topic='conjunction' (from raw)
+Q119 [medium]: topic='verb collocation' | pattern='compensate for + noun/gerund'
+Q120 [FAIL_SCHEMA_VALIDATION]: topic='pronoun' (from raw)
+Q121 [medium]: topic='preposition' | pattern='despite + noun phrase'
+Q122 [easy]: topic='verb form' | pattern='wish to + bare infinitive (V)'
+Q123 [medium]: topic='Adjective Choice' | pattern='begin a [adjective] agreement with + N'
+Q124 [medium]: topic='word form' | pattern='adjective/noun modifier + noun'
+Q125 [medium]: topic='adverb usage' | pattern='studied + adverb'
+Q126 [medium]: topic='Word Form' | pattern='Compound Noun / Noun Phrase (fixed price assurance)'
+Q127 [medium]: topic='Word Form' | pattern='with great + Noun'
+Q128 [medium]: topic='Prepositional Phrase / Conjunction' | pattern='A rather than B'
+Q129 [medium]: topic='vocabulary' | pattern='adjective + noun collocation'
+Q130 [medium]: topic='Word Form' | pattern='Article ($95) + Adjective + Noun (fee)'
+
+--- 3. Qualitative Pedagogical Check on Key Questions ---
+
+==================== Q101 ====================
+Question: The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.
+Options: A=across | B=after | C=inside | D=among
+Correct Answer: B
+Topic: preposition
+Structure: S V Prep O, Prep which S V O.
+Pattern: time noun + preposition + which + clause
+Explanation (VN): Câu hỏi kiểm tra việc lựa chọn giới từ phù hợp để kết hợp với đại từ quan hệ 'which' trong mệnh đề quan hệ chỉ thời gian. 'At 6:00 P.M.' chỉ một mốc thời gian cụ thể. Giới từ 'after' (sau) phù hợp nhất về mặt ngữ nghĩa và ngữ cảnh khi nói về hoạt động đặt câu hỏi diễn ra sau thời điểm bài giảng kết thúc.
+Distractors:
+  [A]: Đáp án 'across' (băng qua, ở bên kia) không phù hợp về mặt ngữ nghĩa khi đi với mốc thời gian và mệnh đề chỉ thời điểm đặt câu hỏi.
+  [B]: Đáp án 'after' (sau) là đáp án chính xác, kết hợp với 'which' tạo thành cấu trúc chỉ thời gian 'sau thời điểm 6:00 P.M.', hoàn toàn phù hợp với ngữ cảnh người tham dự đặt câu hỏi sau buổi thuyết trình.
+  [C]: Đáp án 'inside' (bên trong) chỉ vị trí không gian, không phù hợp với mốc thời gian '6:00 P.M.' và ngữ cảnh của câu.
+  [D]: Đáp án 'among' (giữa, trong số) dùng cho ba đối tượng trở lên, không tạo thành cụm từ chỉ thời gian hợp lý với 'which' trong câu này.
+Vocabulary:
+  * attendee: người tham dự (noun)
+  * lecture: bài giảng (noun)
+  * take place: diễn ra (verb phrase)
+
+==================== Q102 ====================
+Question: The _____ antique shop in Pepper Valley will close down next month.
+Options: A=last | B=lasts | C=lasted | D=lasting
+Correct Answer: A
+Topic: word form
+Structure: S (The + [blank] + antique shop) + V (will close) + Adv (down) + Adv (next month).
+Pattern: The + [adjective] + noun
+Explanation (VN): Câu hỏi yêu cầu điền một tính từ vào vị trí trống trước danh từ ghép 'antique shop' và sau mạo từ 'The' để làm định ngữ cho danh từ chính 'shop'. Từ 'last' (cuối cùng) đóng vai trò là tính từ, phù hợp cả về mặt ngữ pháp lẫn ngữ nghĩa ('cửa hàng đồ cổ cuối cùng ở Pepper Valley').
+Distractors:
+  [A]: Đáp án chính xác. 'last' được dùng như một tính từ đứng trước danh từ 'antique shop' để chỉ cửa hàng cuối cùng.
+  [B]: Sai ngữ pháp. 'lasts' là động từ chia ở ngôi thứ ba số ít thì hiện tại đơn, không thể đứng ở vị trí làm định ngữ trước danh từ trong cấu trúc này.
+  [C]: Sai ngữ pháp. 'lasted' là dạng quá khứ hoặc quá khứ phân từ của động từ 'last', không phù hợp với cấu trúc vị trí tính từ trước danh từ ở đây.
+  [D]: Sai ngữ pháp và nghĩa. 'lasting' là phân từ hiện tại (mang tính kéo dài), không phù hợp với ngữ cảnh chỉ thứ tự 'cuối cùng' của cửa hàng.
+Vocabulary:
+  * antique shop: cửa hàng đồ cổ (noun phrase)
+  * close down: đóng cửa, ngừng hoạt động (verb phrase)
+  * last: cuối cùng (adjective)
+
+==================== Q104 ====================
+Question: As a result of _____ many years leading media organizations, Ms. Ayo was selected for the Dowel Journalism Prize.
+Options: A=she | B=her | C=hers | D=herself
+Correct Answer: B
+Topic: Pronouns
+Structure: Prep (As a result of) + Pronoun (blank) + Noun (many years) + Participle (leading) + Object (media organizations), S (Ms. Ayo) + V (was selected) + Prep (for)...
+Pattern: Preposition + Possessive Determiner + Noun Phrase
+Explanation (VN): Chỗ trống đứng trước cụm danh từ "many years leading media organizations" và theo sau giới từ "of". Do đó, vị trí này cần một tính từ sở hữu (possessive determiner) để bổ nghĩa cho danh từ "years". Đáp án "her" là tính từ sở hữu phù hợp nhất về mặt ngữ pháp và ngữ nghĩa.
+Distractors:
+  [A]: "she" là đại từ nhân xưng chủ ngữ (subject pronoun), không thể đứng trước cụm danh từ để làm hạn định từ trong trường hợp này.
+  [B]: "her" là tính từ sở hữu (possessive determiner), đứng trước cụm danh từ "many years" để chỉ sự sở hữu, hoàn toàn phù hợp với cấu trúc ngữ pháp.
+  [C]: "hers" là đại từ sở hữu (possessive pronoun), thay thế cho danh từ đã được nhắc tới trước đó chứ không đứng trước danh từ để bổ nghĩa.
+  [D]: "herself" là đại từ phản thân (reflexive pronoun), dùng để nhấn mạnh hoặc khi chủ ngữ và tân ngữ trùng nhau, không phù hợp ở vị trí trước cụm danh từ này.
+Vocabulary:
+  * result: kết quả (noun)
+  * leading: lãnh đạo, dẫn dắt (adjective)
+  * organizations: các tổ chức (noun)
+  * selected: được lựa chọn (verb)
+
+==================== Q105 ====================
+Question: To stop the _____ of computer viruses, do not open suspicious e-mails.
+Options: A=break | B=spread | C=balance | D=surface
+Correct Answer: B
+Topic: Noun Collocation
+Structure: Infinitival Purpose Clause (To + V) + Object Noun Phrase (the + [blank] + of + N) + Prep Phrase, + Imperative Clause (do not open + O).
+Pattern: stop the spread of
+Explanation (VN): Câu này kiểm tra khả năng kết hợp từ (collocation) đi sau động từ 'stop' và mạo từ 'the'. Danh từ 'spread' (sự lây lan) kết hợp tự nhiên nhất với cụm 'of computer viruses' (của vi-rút máy tính) theo ngữ cảnh phòng chống mã độc.
+Distractors:
+  [A]: Đáp án 'break' không tạo thành một cụm từ có nghĩa hoặc cụm danh từ thông dụng đi với 'of computer viruses' trong ngữ cảnh này.
+  [B]: Đáp án đúng. 'Spread' (sự lây lan) kết hợp hoàn hảo với 'computer viruses' để tạo thành cụm danh từ mang ý nghĩa hợp lý: ngăn chặn sự lây lan của vi-rút máy tính.
+  [C]: Đáp án 'balance' (sự cân bằng) không phù hợp về mặt ngữ nghĩa khi đi kèm với vi-rút máy tính.
+  [D]: Đáp án 'surface' (bề mặt) không tạo ra một cụm danh từ có ý nghĩa logic trong ngữ cảnh phòng chống vi-rút.
+Vocabulary:
+  * spread: sự lây lan (noun)
+  * suspicious: đáng ngờ (adjective)
+  * viruses: vi-rút (noun)
+
+==================== Q106 ====================
+Question: The hiring manager _____ considered each applicant's résumé and qualifications.
+Options: A=caring | B=careful | C=carefully | D=carefulness
+Correct Answer: C
+Topic: word form
+Structure: S + [Adv] + V + O
+Pattern: subject + adverb + past participle verb + object
+Explanation (VN): Câu này yêu cầu điền một trạng từ vào vị trí trống để bổ nghĩa cho động từ chính 'considered'. Cụm 'The hiring manager' là chủ ngữ, 'considered' là động từ ở dạng quá khứ, và 'each applicant's résumé and qualifications' là tân ngữ. Do đó, cần dùng trạng từ 'carefully' (một cách cẩn thận) đứng trước động từ để chỉ cách thức hành động.
+Distractors:
+  [A]: Đáp án A (caring) là tính từ hoặc phân từ, không phù hợp để đứng trước động từ 'considered' nhằm bổ nghĩa cho hành động trong cấu trúc này.
+  [B]: Đáp án B (careful) là tính từ, dùng để bổ nghĩa cho danh từ chứ không thể đứng ở vị trí này để bổ nghĩa cho động từ 'considered'.
+  [C]: Đáp án C (carefully) là trạng từ chính xác, đứng trước động từ 'considered' để bổ nghĩa, diễn tả hành động xem xét hồ sơ một cách kỹ lưỡng.
+  [D]: Đáp án D (carefulness) là danh từ, không phù hợp về mặt ngữ pháp khi đứng vào vị trí trạng từ bổ nghĩa cho động từ.
+Vocabulary:
+  * hiring manager: giám đốc tuyển dụng (noun phrase)
+  * applicant: người ứng tuyển (noun)
+  * résumé: sơ yếu lý lịch (noun)
+  * qualification: trình độ chuyên môn (noun)
+
+==================== Q110 ====================
+Question: The cash registers at Pirkle Books automatically _____ the remaining inventory of books available.
+Options: A=calculate | B=calculator | C=calculating | D=calculation
+Correct Answer: A
+Topic: Word Form
+Structure: S + V + O
+Pattern: Noun (Subject) + Adverb + Verb (Predicate) + Noun (Object)
+Explanation (VN): Câu này yêu cầu điền một động từ để làm vị ngữ chính cho chủ ngữ số nhiều 'The cash registers'. Trạng từ 'automatically' đứng trước vị ngữ để bổ nghĩa. Do đó, đáp án cần là dạng động từ nguyên mẫu 'calculate'.
+Distractors:
+  [A]: Đáp án chính xác. 'calculate' là động từ nguyên mẫu, phù hợp làm vị ngữ cho chủ ngữ số nhiều 'The cash registers' ở thì hiện tại đơn.
+  [B]: 'calculator' là danh từ chỉ vật (máy tính), không thể đứng ở vị trí làm vị ngữ chính của câu sau trạng từ 'automatically'.
+  [C]: 'calculating' là danh động từ hoặc phân từ, không thể đóng vai trò là động từ chính của câu mà không có trợ động từ đi kèm.
+  [D]: 'calculation' là danh từ chỉ sự tính toán, không phù hợp về mặt ngữ pháp khi đứng sau chủ ngữ và trạng từ để tạo thành cấu trúc vị ngữ.
+Vocabulary:
+  * cash register: máy tính tiền (noun phrase)
+  * automatically: một cách tự động (adverb)
+  * inventory: hàng tồn kho, kiểm kê (noun)
+  * calculate: tính toán (verb)
+
+==================== Q114 ====================
+Question: As part of its marketing campaign, Elegancia Dishware is _____ soliciting feedback from customers.
+Options: A=lightly | B=loyally | C=actively | D=cleanly
+Correct Answer: C
+Topic: Adverb placement
+Structure: S (Elegancia Dishware) + V (is) + [Adv] + V-ing (soliciting) + O (feedback) + Prep (from customers).
+Pattern: be + adverb + V-ing
+Explanation (VN): Câu này kiểm tra việc lựa chọn trạng từ phù hợp về mặt ngữ nghĩa để bổ nghĩa cho động từ 'soliciting' trong thì hiện tại tiếp diễn ('is soliciting'). Trạng từ 'actively' (tích cực) hoàn toàn phù hợp với ngữ cảnh chiến dịch tiếp thị khi công ty chủ động thu thập ý kiến phản hồi từ khách hàng.
+Distractors:
+  [A]: lightly (nhẹ nhàng, ít) không phù hợp về ngữ nghĩa khi kết hợp với hành động thu thập phản hồi trong chiến dịch marketing.
+  [B]: loyally (trung thành) thường dùng để mô tả sự trung thành của khách hàng hoặc nhân viên, không phù hợp để bổ nghĩa cho hành động 'soliciting'.
+  [C]: actively (tích cực) là đáp án đúng, diễn tả hành động chủ động và tích cực tìm kiếm, thu thập ý kiến từ phía khách hàng.
+  [D]: cleanly (sạch sẽ) không có liên quan gì đến ngữ cảnh tiếp thị hay thu thập phản hồi.
+Vocabulary:
+  * campaign: chiến dịch (noun)
+  * soliciting: thu thập, kêu gọi, xin (verb)
+  * feedback: ý kiến phản hồi (noun)
+  * actively: một cách tích cực (adverb)
+
+==================== Q116 ====================
+Question: Theta Industries' training program aims to increase the _____ of its manufacturing systems.
+Options: A=producer | B=produced | C=productive | D=productivity
+Correct Answer: D
+Topic: Word Form
+Structure: S + V + Obj [determiner 'the' + blank + prepositional phrase]
+Pattern: aims to increase + the + [Noun]
+Explanation (VN): Chỗ trống nằm sau mạo từ 'the' và trước giới từ 'of', đóng vai trò là danh từ làm tân ngữ cho động từ 'increase'. Do đó, ta cần một danh từ không đếm được hoặc danh từ chỉ khái niệm để điền vào chỗ trống. Đáp án (D) 'productivity' là danh từ thích hợp nhất về mặt ngữ nghĩa và cấu trúc.
+Distractors:
+  [A]: Producer là danh từ chỉ người (nhà sản xuất), không phù hợp về mặt ngữ nghĩa trong ngữ cảnh nói về hiệu suất của hệ thống.
+  [B]: Produced là dạng phân từ quá khứ hoặc động từ chia ở quá khứ, không phù hợp đứng sau mạo từ 'the' ở vị trí tân ngữ chính trong cấu trúc này.
+  [C]: Productive là tính từ, không thể đứng độc lập làm tân ngữ sau mạo từ 'the' khi thiếu danh từ trung tâm theo sau.
+  [D]: Productivity là danh từ (năng suất, hiệu suất), hoàn toàn phù hợp về ngữ pháp (đứng sau mạo từ 'the') và ngữ nghĩa (tăng năng suất của hệ thống sản xuất).
+Vocabulary:
+  * training: đào tạo (None)
+  * program: chương trình (None)
+  * increase: tăng lên (None)
+  * manufacturing: sản xuất (None)
+
+==================== Q118 ====================
+Question: The finance director gave his approval _____ the project can move forward.
+Options: A=along | B=furthermore | C=cautiously | D=so that
+Correct Answer: D
+Topic: conjunction
+Structure: S + V + O + Conj + S + V + O
+Pattern: clause + so that + clause (expressing purpose or result)
+Explanation (VN): Câu này cần một liên từ nối hai mệnh đề "The finance director gave his approval" và "the project can move forward" để diễn tả mục đích hoặc kết quả (giám đốc tài chính đã phê duyệt để dự án có thể tiến triển). 'so that' là liên từ phù hợp nhất về mặt ngữ nghĩa và cấu trúc.
+Distractors:
+  [A]: along là giới từ hoặc trạng từ chỉ vị trí/hướng, không phù hợp để làm liên từ nối hai mệnh đề.
+  [B]: furthermore là trạng từ nối dùng để bổ sung ý, không đóng vai trò là liên từ nối tiếp trực tiếp giữa hai mệnh đề trong cấu trúc này.
+  [C]: cautiously là trạng từ chỉ thể cách (một cách thận trọng), không phù hợp về ngữ nghĩa lẫn ngữ pháp để nối hai mệnh đề.
+  [D]: so that là liên từ chỉ mục đích/kết quả, hoàn toàn chính xác để kết nối hai mệnh đề trong ngữ cảnh này.
+Vocabulary:
+  * finance: tài chính (noun)
+  * director: giám đốc (noun)
+  * approval: sự phê duyệt (noun)
+  * project: dự án (noun)
+
+==================== Q120 ====================
+Question: Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.
+Options: A=myself | B=neither | C=anybody | D=whoever
+Correct Answer: B
+Topic: pronoun
+Structure: S (Mr. Ellis and Ms. Barnes) V (were) Adj (qualified), Conj (but) Pronoun (_____ ) V (got) O (the job).
+Pattern: neither + V
+Explanation (VN): Câu này cần một đại từ đóng vai trò làm chủ ngữ cho động từ 'got'. Vế trước nhắc đến hai người (Mr. Ellis and Ms. Barnes) và liên từ 'but' thể hiện ý nghĩa tương phản. 'Neither' (không ai trong số hai người) là đại từ phủ định phù hợp nhất về mặt ngữ nghĩa để chỉ việc không ai trong hai ứng viên đủ điều kiện đó nhận được công việc.
+Distractors:
+  [A]: Myself là đại từ phản thân, không phù hợp để làm chủ ngữ chính của mệnh đề thứ hai trong ngữ cảnh này.
+  [B]: Neither là đại từ chính xác, dùng để chỉ hai đối tượng đã nhắc tới trước đó và phủ định cả hai, phù hợp với ngữ cảnh tương phản sau liên từ 'but'.
+  [C]: Anybody thường dùng trong câu phủ định hoặc nghi vấn với nghĩa 'bất kỳ ai', không tạo ra ngữ nghĩa hợp lý khi đối chiếu với hai người cụ thể ở vế trước.
+  [D]: None
+Vocabulary:
+  * qualified: có đủ năng lực, đủ điều kiện (adjective)
+  * job: công việc (noun)
+
+==================== Q125 ====================
+Question: The plumbing position requires extensive training, even for those who studied _____ in technical school.
+Options: A=diligently | B=scientifically | C=objectively | D=decidedly
+Correct Answer: A
+Topic: adverb usage
+Structure: S + V + O, Prep + [those who + V + adverb + Prep + N]
+Pattern: studied + adverb
+Explanation (VN): Câu hỏi yêu cầu chọn một trạng từ bổ nghĩa cho động từ 'studied'. Vị trí cần một từ diễn tả thái độ học tập hoặc làm việc chăm chỉ, nghiêm túc trong trường kỹ thuật để phù hợp với ngữ cảnh đòi hỏi 'extensive training' (đào tạo chuyên sâu) cho vị trí thợ ống nước. Trạng từ 'diligently' (một cách siêng năng, chăm chỉ) hoàn toàn phù hợp về mặt ý nghĩa ngữ cảnh này.
+Distractors:
+  [A]: Đáp án chính xác. 'diligently' có nghĩa là 'siêng năng, chăm chỉ', bổ nghĩa cho động từ 'studied', phù hợp với ngữ cảnh học tập chăm chỉ trong trường kỹ thuật.
+  [B]: 'scientifically' có nghĩa là 'một cách khoa học'. Từ này không phù hợp với ngữ cảnh học nghề thợ ống nước tại trường kỹ thuật.
+  [C]: 'objectively' có nghĩa là 'một cách khách quan'. Từ này không tạo ra sự kết hợp nghĩa hợp lý với động từ 'studied' trong bối cảnh học nghề.
+  [D]: 'decidedly' có nghĩa là 'một cách quả quyết, rõ rệt'. Từ này không phù hợp về mặt ngữ nghĩa khi đi với hành động học tập 'studied'.
+Vocabulary:
+  * plumbing: ngành thợ ống nước, công việc lắp đặt hệ thống ống nước (noun)
+  * training: sự đào tạo, huấn luyện (noun)
+  * diligently: một cách siêng năng, chăm chỉ (adverb)
+  * technical: thuộc về kỹ thuật (adjective)
+
+==================== Q126 ====================
+Question: With its fixed price _____, Omega Cellular guarantees no phone bill increases for three years.
+Options: A=assurance | B=assuredly | C=assuring | D=assures
+Correct Answer: A
+Topic: Word Form
+Structure: Prep (With) + Possessive (its) + Adjective (fixed) + Noun (price) + Blank (_____), + S (Omega Cellular) + V (guarantees) + O.
+Pattern: Compound Noun / Noun Phrase (fixed price assurance)
+Explanation (VN): Câu này yêu cầu điền một danh từ để tạo thành cụm danh từ ghép 'fixed price assurance' (sự cam kết giá cố định) đi sau tính từ 'fixed' và danh từ 'price', làm thành phần trung tâm cho cụm giới từ mở đầu bằng 'With'. Do đó, danh từ 'assurance' (Đáp án A) là lựa chọn chính xác về mặt ngữ pháp và ngữ nghĩa.
+Distractors:
+  [A]: assurance: Đáp án chính xác. Là danh từ, phù hợp để tạo thành cụm danh từ ghép 'fixed price assurance' sau cụm 'fixed price'.
+  [B]: assuredly: Là trạng từ, không thể đứng ở vị trí cần một danh từ để hoàn thiện cụm danh từ ghép trong câu.
+  [C]: assuring: Là dạng phân từ hiện tại / động từ thêm -ing, không phù hợp về mặt ngữ pháp vì vị trí này cần một danh từ chính.
+  [D]: assures: Là động từ chia ở ngôi thứ ba số ít, không thể đứng ở vị trí này vì câu đã có động từ chính là 'guarantees'.
+Vocabulary:
+  * fixed: cố định (adjective)
+  * price: giá cả (noun)
+  * assurance: sự cam kết, sự đảm bảo (noun)
+  * guarantees: đảm bảo (verb)
+
+==================== Q130 ====================
+Question: For a $95 _____ fee, our mechanics will determine what repairs are needed.
+Options: A=diagnosed | B=diagnostic | C=diagnosable | D=diagnose
+Correct Answer: B
+Topic: Word Form
+Structure: Prep [For a $95 [blank] fee], S [our mechanics] V [will determine] O [what repairs are needed].
+Pattern: Article ($95) + Adjective + Noun (fee)
+Explanation (VN): Chỗ trống đứng trước danh từ 'fee' và theo sau mạo từ 'a' cùng cụm danh từ chỉ giá tiền '$95'. Do đó, cần một tính từ để bổ nghĩa cho danh từ 'fee'. Đáp án (B) 'diagnostic' (thuộc về chẩn đoán) là tính từ phù hợp nhất về mặt ngữ pháp và ngữ nghĩa.
+Distractors:
+  [A]: diagnosed là dạng quá khứ phân từ/thì quá khứ của động từ, không phù hợp đứng trước danh từ 'fee' trong cấu trúc này.
+  [B]: diagnostic là tính từ, đứng trước danh từ 'fee' để tạo thành cụm danh từ 'diagnostic fee' (phí chẩn đoán), hoàn toàn chính xác.
+  [C]: diagnosable là tính từ mang nghĩa 'có thể chẩn đoán được', nhưng xét về ngữ cảnh và cụm từ chuyên ngành thì không tự nhiên bằng 'diagnostic fee'.
+  [D]: diagnose là động từ nguyên mẫu, không thể đứng ở vị trí cần tính từ bổ nghĩa cho danh từ phía sau.
+Vocabulary:
+  * fee: phí, học phí, tiền thù lao (noun)
+  * mechanic: thợ cơ khí, thợ máy (noun)
+  * determine: xác định, quyết định (verb)

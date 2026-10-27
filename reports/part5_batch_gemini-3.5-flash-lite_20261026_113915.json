@@ -1,0 +1,145 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "database_url": "sqlite:///./toeic_agent.db",
+  "part_filter": 5,
+  "read_only": true,
+  "request_interval": 4.0,
+  "total_questions": 2,
+  "quality_passed": 2,
+  "quality_rejected": 0,
+  "schema_failed": 0,
+  "json_decode_failed": 0,
+  "llm_failed": 0,
+  "unexpected_failed": 0,
+  "passed": 2,
+  "failed": 0,
+  "elapsed_seconds": 7.65,
+  "average_seconds_per_question": 3.83,
+  "total_prompt_tokens": 3619,
+  "total_candidates_tokens": 923,
+  "total_tokens": 4542,
+  "status_semantics": {
+    "PASS_QUALITY_VALIDATED": "Passed JSON parsing, Pydantic schema validation, and deterministic EnrichmentValidator quality checks.",
+    "REJECTED_QUALITY": "Passed JSON decode and Pydantic schema validation, but rejected or flagged as suspicious by EnrichmentValidator.",
+    "FAIL_SCHEMA_VALIDATION": "Decoded valid JSON, but failed Pydantic QuestionEnrichment validation.",
+    "FAIL_JSON_DECODE": "Failed to decode LLM response as valid JSON.",
+    "FAIL_LLM_SERVICE": "LLM connection, timeout, or provider error.",
+    "FAIL_UNEXPECTED": "Unexpected runtime exception."
+  },
+  "results": [
+    {
+      "question_id": 2,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 102,
+      "question_text": "The _____ antique shop in Pepper Valley will close down next month.",
+      "option_a": "last",
+      "option_b": "lasts",
+      "option_c": "lasted",
+      "option_d": "lasting",
+      "correct_answer": "A",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 2.48,
+      "token_usage": {
+        "prompt_tokens": 1807,
+        "candidates_tokens": 466,
+        "total_tokens": 2273
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Adjective\",\n  \"sentence_structure\": \"S (The _____ antique shop in Pepper Valley) + V (will close) + Adv (down) + Adv (next month).\",\n  \"pattern\": \"determiner + adjective + noun\",\n  \"vocabulary\": [\n    {\n      \"word\": \"antique shop\",\n      \"meaning\": \"cửa hàng đồ cổ\",\n      \"part_of_speech\": \"noun phrase\"\n    },\n    {\n      \"word\": \"close down\",\n      \"meaning\": \"đóng cửa, ngừng hoạt động\",\n      \"part_of_speech\": \"verb phrase\"\n    },\n    {\n      \"word\": \"last\",\n      \"meaning\": \"cuối cùng, duy nhất còn lại\",\n      \"part_of_speech\": \"adjective\"\n    }\n  ],\n  \"explanation\": \"Câu này cần một tính từ đứng trước danh từ 'antique shop' và sau mạo từ 'The' để bổ nghĩa cho danh từ đó. Trong các lựa chọn, 'last' đóng vai trò là tính từ mang nghĩa 'cuối cùng' hoặc 'còn lại', phù hợp với ngữ cảnh cửa hàng đồ cổ cuối cùng ở Pepper Valley sẽ đóng cửa vào tháng tới.\",\n  \"distractor_analysis\": {\n    \"A\": \"Đáp án đúng. 'last' là tính từ đứng trước danh từ 'antique shop' để chỉ cửa hàng cuối cùng/còn lại.\",\n    \"B\": \"Sai. 'lasts' là động từ chia ở số ít thì hiện tại đơn, không thể đứng ở vị trí này trước danh từ làm tính từ bổ nghĩa.\",\n    \"C\": \"Sai. 'lasted' là động từ chia ở thì quá khứ đơn hoặc quá khứ phân từ, không phù hợp về mặt ngữ pháp để bổ nghĩa trực tiếp cho danh từ trong cấu trúc này.\",\n    \"D\": \"Sai. 'lasting' là phân từ hiện tại/tính từ mang nghĩa kéo dài, không tạo ra nghĩa hợp lý và tự nhiên trong ngữ cảnh chỉ cửa hàng cuối cùng.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Adjective",
+        "sentence_structure": "S (The _____ antique shop in Pepper Valley) + V (will close) + Adv (down) + Adv (next month).",
+        "pattern": "determiner + adjective + noun",
+        "vocabulary": [
+          {
+            "word": "antique shop",
+            "meaning": "cửa hàng đồ cổ",
+            "part_of_speech": "noun phrase"
+          },
+          {
+            "word": "close down",
+            "meaning": "đóng cửa, ngừng hoạt động",
+            "part_of_speech": "verb phrase"
+          },
+          {
+            "word": "last",
+            "meaning": "cuối cùng, duy nhất còn lại",
+            "part_of_speech": "adjective"
+          }
+        ],
+        "explanation": "Câu này cần một tính từ đứng trước danh từ 'antique shop' và sau mạo từ 'The' để bổ nghĩa cho danh từ đó. Trong các lựa chọn, 'last' đóng vai trò là tính từ mang nghĩa 'cuối cùng' hoặc 'còn lại', phù hợp với ngữ cảnh cửa hàng đồ cổ cuối cùng ở Pepper Valley sẽ đóng cửa vào tháng tới.",
+        "distractor_analysis": {
+          "A": "Đáp án đúng. 'last' là tính từ đứng trước danh từ 'antique shop' để chỉ cửa hàng cuối cùng/còn lại.",
+          "B": "Sai. 'lasts' là động từ chia ở số ít thì hiện tại đơn, không thể đứng ở vị trí này trước danh từ làm tính từ bổ nghĩa.",
+          "C": "Sai. 'lasted' là động từ chia ở thì quá khứ đơn hoặc quá khứ phân từ, không phù hợp về mặt ngữ pháp để bổ nghĩa trực tiếp cho danh từ trong cấu trúc này.",
+          "D": "Sai. 'lasting' là phân từ hiện tại/tính từ mang nghĩa kéo dài, không tạo ra nghĩa hợp lý và tự nhiên trong ngữ cảnh chỉ cửa hàng cuối cùng."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_id": 20,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 120,
+      "question_text": "Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",
+      "option_a": "myself",
+      "option_b": "neither",
+      "option_c": "anybody",
+      "option_d": "whoever",
+      "correct_answer": "B",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 5.17,
+      "token_usage": {
+        "prompt_tokens": 1812,
+        "candidates_tokens": 457,
+        "total_tokens": 2269
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Pronouns\",\n  \"sentence_structure\": \"S (Mr. Ellis and Ms. Barnes) and S (Ms. Barnes) V (were) Adv (both) Adj (qualified), Conj (but) Pronoun (_____) V (got) O (the job).\",\n  \"pattern\": \"neither + got (singular verb used with binary negative pronoun)\",\n  \"vocabulary\": [\n    {\n      \"word\": \"qualified\",\n      \"meaning\": \"có đủ năng lực, đủ trình độ\",\n      \"part_of_speech\": \"adjective\"\n    },\n    {\n      \"word\": \"neither\",\n      \"meaning\": \"không ai trong hai (người)\",\n      \"part_of_speech\": \"pronoun\"\n    }\n  ],\n  \"explanation\": \"Câu này nói về hai ứng viên là Mr. Ellis và Ms. Barnes đều có năng lực, nhưng mệnh đề sau dùng liên từ 'but' (nhưng) để chỉ sự đối lập, kết hợp với động từ số ít 'got the job' và ngữ cảnh phủ định cho hai người, ta cần đại từ 'neither' (không ai trong hai người) để chỉ việc không ai trong số hai ứng viên đạt được công việc đó.\",\n  \"distractor_analysis\": {\n    \"A\": \"myself là đại từ phản thân ngôi thứ nhất số ít, không phù hợp với chủ ngữ ngôi thứ ba (Mr. Ellis và Ms. Barnes).\",\n    \"B\": \"neither là đại từ chỉ hai người nhưng mang nghĩa phủ định (không ai trong hai), hoàn toàn phù hợp về mặt ngữ nghĩa và cấu trúc với hai đối tượng được nhắc đến trước đó.\",\n    \"C\": \"anybody là đại từ bất định thường dùng trong câu phủ định hoặc nghi vấn, không phù hợp về ngữ nghĩa đối lập khi nói về hai người cụ thể.\",\n    \"D\": \"whoever tạo ra cấu trúc mệnh đề danh từ không cần thiết hoặc sai ngữ pháp trong vị trí chủ ngữ của mệnh đề độc lập đứng sau 'but'.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Pronouns",
+        "sentence_structure": "S (Mr. Ellis and Ms. Barnes) and S (Ms. Barnes) V (were) Adv (both) Adj (qualified), Conj (but) Pronoun (_____) V (got) O (the job).",
+        "pattern": "neither + got (singular verb used with binary negative pronoun)",
+        "vocabulary": [
+          {
+            "word": "qualified",
+            "meaning": "có đủ năng lực, đủ trình độ",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "neither",
+            "meaning": "không ai trong hai (người)",
+            "part_of_speech": "pronoun"
+          }
+        ],
+        "explanation": "Câu này nói về hai ứng viên là Mr. Ellis và Ms. Barnes đều có năng lực, nhưng mệnh đề sau dùng liên từ 'but' (nhưng) để chỉ sự đối lập, kết hợp với động từ số ít 'got the job' và ngữ cảnh phủ định cho hai người, ta cần đại từ 'neither' (không ai trong hai người) để chỉ việc không ai trong số hai ứng viên đạt được công việc đó.",
+        "distractor_analysis": {
+          "A": "myself là đại từ phản thân ngôi thứ nhất số ít, không phù hợp với chủ ngữ ngôi thứ ba (Mr. Ellis và Ms. Barnes).",
+          "B": "neither là đại từ chỉ hai người nhưng mang nghĩa phủ định (không ai trong hai), hoàn toàn phù hợp về mặt ngữ nghĩa và cấu trúc với hai đối tượng được nhắc đến trước đó.",
+          "C": "anybody là đại từ bất định thường dùng trong câu phủ định hoặc nghi vấn, không phù hợp về ngữ nghĩa đối lập khi nói về hai người cụ thể.",
+          "D": "whoever tạo ra cấu trúc mệnh đề danh từ không cần thiết hoặc sai ngữ pháp trong vị trí chủ ngữ của mệnh đề độc lập đứng sau 'but'."
+        },
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

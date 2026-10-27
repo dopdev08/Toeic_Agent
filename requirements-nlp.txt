@@ -1,0 +1,14 @@
+# Optional NLP dependencies for offline POS consistency checking (Task 3.3)
+# Keep spaCy out of core application runtime.
+#
+# Installation instructions:
+#   pip install -r requirements-nlp.txt
+#   pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+#   # Or via spacy CLI if network allows:
+#   # python -m spacy download en_core_web_sm
+#
+# Validation:
+#   python -m spacy validate
+
+spacy==3.8.16
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl

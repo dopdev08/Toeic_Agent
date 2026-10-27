@@ -1,0 +1,971 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,prompt_tokens,candidates_tokens,total_tokens,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+1,ETS2026,5,101,PASS_QUALITY_VALIDATED,True,True,VALID,,,,2.06,1816,432,2248,"The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",across,after,inside,among,B,"{""grammar_topic"": ""Preposition"", ""sentence_structure"": ""S V Prep O, [preposition] which S V O."", ""pattern"": ""time preposition + which (relative clause for time/event sequence)"", ""vocabulary"": [{""word"": ""lecture"", ""meaning"": ""bài giảng"", ""part_of_speech"": ""noun""}, {""word"": ""take place"", ""meaning"": ""diễn ra"", ""part_of_speech"": ""verb phrase""}, {""word"": ""attendee"", ""meaning"": ""người tham dự"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu hỏi kiểm tra việc lựa chọn giới từ phù hợp đứng trước đại từ quan hệ 'which' để chỉ mối quan hệ thời gian hoặc không gian. Dựa vào ngữ nghĩa, bài giảng sẽ diễn ra lúc 6:00 chiều, và 'sau' thời điểm đó (after which) thì những người tham dự có thể đặt câu hỏi. Do đó, 'after' là giới từ chính xác nhất về mặt ngữ nghĩa và logic thời gian."", ""distractor_analysis"": {""A"": ""across (xuyên qua) không phù hợp về mặt ngữ nghĩa để chỉ thời điểm sau khi bài giảng kết thúc."", ""B"": ""after (sau) là đáp án đúng, chỉ thời gian sau 6:00 chiều là lúc người tham dự có thể đặt câu hỏi."", ""C"": ""inside (bên trong) chỉ vị trí không gian, không phù hợp với mốc thời gian 6:00 P.M."", ""D"": ""among (giữa nhiều người/vật) dùng cho tập hợp từ ba đối tượng trở lên, không phù hợp với mốc thời gian.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition"",
+  ""sentence_structure"": ""S V Prep O, [preposition] which S V O."",
+  ""pattern"": ""time preposition + which (relative clause for time/event sequence)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""lecture"",
+      ""meaning"": ""bài giảng"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""take place"",
+      ""meaning"": ""diễn ra"",
+      ""part_of_speech"": ""verb phrase""
+    },
+    {
+      ""word"": ""attendee"",
+      ""meaning"": ""người tham dự"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra việc lựa chọn giới từ phù hợp đứng trước đại từ quan hệ 'which' để chỉ mối quan hệ thời gian hoặc không gian. Dựa vào ngữ nghĩa, bài giảng sẽ diễn ra lúc 6:00 chiều, và 'sau' thời điểm đó (after which) thì những người tham dự có thể đặt câu hỏi. Do đó, 'after' là giới từ chính xác nhất về mặt ngữ nghĩa và logic thời gian."",
+  ""distractor_analysis"": {
+    ""A"": ""across (xuyên qua) không phù hợp về mặt ngữ nghĩa để chỉ thời điểm sau khi bài giảng kết thúc."",
+    ""B"": ""after (sau) là đáp án đúng, chỉ thời gian sau 6:00 chiều là lúc người tham dự có thể đặt câu hỏi."",
+    ""C"": ""inside (bên trong) chỉ vị trí không gian, không phù hợp với mốc thời gian 6:00 P.M."",
+    ""D"": ""among (giữa nhiều người/vật) dùng cho tập hợp từ ba đối tượng trở lên, không phù hợp với mốc thời gian.""
+  },
+  ""difficulty"": ""medium""
+}"
+2,ETS2026,5,102,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.53,1807,452,2259,The _____ antique shop in Pepper Valley will close down next month.,last,lasts,lasted,lasting,A,"{""grammar_topic"": ""Adjective"", ""sentence_structure"": ""S (The _____ antique shop in Pepper Valley) + V (will close down) + Adv (next month)."", ""pattern"": ""determiner + adjective + noun phrase"", ""vocabulary"": [{""word"": ""antique"", ""meaning"": ""đồ cổ, thuộc về đồ cổ"", ""part_of_speech"": ""adjective""}, {""word"": ""close down"", ""meaning"": ""đóng cửa, ngừng hoạt động"", ""part_of_speech"": ""verb phrase""}, {""word"": ""last"", ""meaning"": ""cuối cùng"", ""part_of_speech"": ""adjective""}], ""explanation"": ""Câu hỏi yêu cầu một tính từ đứng trước danh từ 'antique shop' để làm rõ nghĩa cho cụm danh từ này. Trong các phương án, 'last' (cuối cùng) là tính từ phù hợp về mặt ngữ nghĩa và ngữ pháp để diễn tả rằng cửa hàng đồ cổ cuối cùng ở Pepper Valley sắp đóng cửa."", ""distractor_analysis"": {""A"": ""Đáp án đúng. 'last' đóng vai trò là tính từ bổ nghĩa cho danh từ 'antique shop', tạo thành cụm mang nghĩa 'cửa hàng đồ cổ cuối cùng'."", ""B"": ""'lasts' là dạng động từ chia ở ngôi thứ ba số ít thì hiện tại đơn, không phù hợp đứng trước danh từ để làm định ngữ trong cấu trúc câu này."", ""C"": ""'lasted' là dạng quá khứ của động từ 'last', không phù hợp về mặt ngữ pháp khi đặt vào vị trí cần một tính từ trước danh từ."", ""D"": ""'lasting' là phân từ hiện tại / tính từ mang nghĩa 'lâu dài', không tạo ra ngữ cảnh hợp lý cho nghĩa của câu về việc cửa hàng cuối cùng đóng cửa.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adjective"",
+  ""sentence_structure"": ""S (The _____ antique shop in Pepper Valley) + V (will close down) + Adv (next month)."",
+  ""pattern"": ""determiner + adjective + noun phrase"",
+  ""vocabulary"": [
+    {
+      ""word"": ""antique"",
+      ""meaning"": ""đồ cổ, thuộc về đồ cổ"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""close down"",
+      ""meaning"": ""đóng cửa, ngừng hoạt động"",
+      ""part_of_speech"": ""verb phrase""
+    },
+    {
+      ""word"": ""last"",
+      ""meaning"": ""cuối cùng"",
+      ""part_of_speech"": ""adjective""
+    }
+  ],
+  ""explanation"": ""Câu hỏi yêu cầu một tính từ đứng trước danh từ 'antique shop' để làm rõ nghĩa cho cụm danh từ này. Trong các phương án, 'last' (cuối cùng) là tính từ phù hợp về mặt ngữ nghĩa và ngữ pháp để diễn tả rằng cửa hàng đồ cổ cuối cùng ở Pepper Valley sắp đóng cửa."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án đúng. 'last' đóng vai trò là tính từ bổ nghĩa cho danh từ 'antique shop', tạo thành cụm mang nghĩa 'cửa hàng đồ cổ cuối cùng'."",
+    ""B"": ""'lasts' là dạng động từ chia ở ngôi thứ ba số ít thì hiện tại đơn, không phù hợp đứng trước danh từ để làm định ngữ trong cấu trúc câu này."",
+    ""C"": ""'lasted' là dạng quá khứ của động từ 'last', không phù hợp về mặt ngữ pháp khi đặt vào vị trí cần một tính từ trước danh từ."",
+    ""D"": ""'lasting' là phân từ hiện tại / tính từ mang nghĩa 'lâu dài', không tạo ra ngữ cảnh hợp lý cho nghĩa của câu về việc cửa hàng cuối cùng đóng cửa.""
+  },
+  ""difficulty"": ""medium""
+}"
+3,ETS2026,5,103,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.6,1810,436,2246,Merryville residents will receive an online status _____ about the ongoing bridge construction project.,update,change,payment,request,A,"{""grammar_topic"": ""vocabulary"", ""sentence_structure"": ""S + will + V + O (Noun Phrase)."", ""pattern"": ""receive an online status update"", ""vocabulary"": [{""word"": ""resident"", ""meaning"": ""cư dân"", ""part_of_speech"": ""noun""}, {""word"": ""ongoing"", ""meaning"": ""đang diễn ra"", ""part_of_speech"": ""adjective""}, {""word"": ""construction"", ""meaning"": ""sự xây dựng"", ""part_of_speech"": ""noun""}, {""word"": ""update"", ""meaning"": ""sự cập nhật"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu hỏi kiểm tra từ vựng phù hợp với ngữ cảnh câu. 'Status update' là một cụm danh từ phổ biến mang nghĩa 'bản cập nhật trạng thái', hoàn toàn phù hợp khi nói về một dự án xây dựng cầu đang diễn ra."", ""distractor_analysis"": {""A"": ""update (sự cập nhật): Phù hợp nhất về mặt ngữ nghĩa, kết hợp với 'status' tạo thành cụm từ 'status update' (bản cập nhật trạng thái) thường dùng trong thông báo dự án."", ""B"": ""change (sự thay đổi): Không phù hợp bằng 'update' trong ngữ cảnh nhận thông tin về tiến độ dự án đang diễn ra."", ""C"": ""payment (khoản thanh toán): Không hợp lý về mặt ngữ nghĩa vì cư dân không nhận 'thanh toán' về dự án xây dựng."", ""D"": ""request (sự yêu cầu): Không tạo thành cụm từ tự nhiên với 'online status' trong ngữ cảnh này.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""vocabulary"",
+  ""sentence_structure"": ""S + will + V + O (Noun Phrase)."",
+  ""pattern"": ""receive an online status update"",
+  ""vocabulary"": [
+    {
+      ""word"": ""resident"",
+      ""meaning"": ""cư dân"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""ongoing"",
+      ""meaning"": ""đang diễn ra"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""construction"",
+      ""meaning"": ""sự xây dựng"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""update"",
+      ""meaning"": ""sự cập nhật"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra từ vựng phù hợp với ngữ cảnh câu. 'Status update' là một cụm danh từ phổ biến mang nghĩa 'bản cập nhật trạng thái', hoàn toàn phù hợp khi nói về một dự án xây dựng cầu đang diễn ra."",
+  ""distractor_analysis"": {
+    ""A"": ""update (sự cập nhật): Phù hợp nhất về mặt ngữ nghĩa, kết hợp với 'status' tạo thành cụm từ 'status update' (bản cập nhật trạng thái) thường dùng trong thông báo dự án."",
+    ""B"": ""change (sự thay đổi): Không phù hợp bằng 'update' trong ngữ cảnh nhận thông tin về tiến độ dự án đang diễn ra."",
+    ""C"": ""payment (khoản thanh toán): Không hợp lý về mặt ngữ nghĩa vì cư dân không nhận 'thanh toán' về dự án xây dựng."",
+    ""D"": ""request (sự yêu cầu): Không tạo thành cụm từ tự nhiên với 'online status' trong ngữ cảnh này.""
+  },
+  ""difficulty"": ""easy""
+}"
+4,ETS2026,5,104,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.57,1817,516,2333,"As a result of _____ many years leading media organizations, Ms. Ayo was selected for the Dowel Journalism Prize.",she,her,hers,herself,B,"{""grammar_topic"": ""Pronouns"", ""sentence_structure"": ""Prep (As a result of) + [Pronoun (possessive determiner)] + Noun (many years) + Participle (leading) + Object (media organizations), S (Ms. Ayo) + V (was selected) + Prep (for the Dowel Journalism Prize)."", ""pattern"": ""As a result of + [possessive adjective/determiner] + [noun]"", ""vocabulary"": [{""word"": ""result"", ""meaning"": ""kết quả"", ""part_of_speech"": ""noun""}, {""word"": ""leading"", ""meaning"": ""dẫn dắt, lãnh đạo"", ""part_of_speech"": ""adjective""}, {""word"": ""organizations"", ""meaning"": ""các tổ chức"", ""part_of_speech"": ""noun""}, {""word"": ""selected"", ""meaning"": ""được lựa chọn"", ""part_of_speech"": ""verb""}], ""explanation"": ""Chỗ trống đứng trước cụm danh từ \""many years leading media organizations\"" và theo sau giới từ \""of\"" trong cụm nguyên nhân \""As a result of\"". Vị trí này cần một tính từ sở hữu để bổ nghĩa cho danh từ \""years\"". Do đó, đáp án đúng là \""her\""."", ""distractor_analysis"": {""A"": ""Sai vì \""she\"" là đại từ nhân xưng đóng vai trò làm chủ ngữ, không thể đứng trước cụm danh từ để sở hữu."", ""B"": ""Đúng vì \""her\"" là tính từ sở hữu, đứng trước danh từ \""many years\"" để chỉ sự sở hữu (nhiều năm lãnh đạo của cô ấy)."", ""C"": ""Sai vì \""hers\"" là đại từ sở hữu, đứng độc lập và không dùng để bổ nghĩa trực tiếp cho danh từ đi liền phía sau."", ""D"": ""Sai vì \""herself\"" là đại từ phản thân, thường dùng để nhấn mạnh hoặc khi chủ ngữ và tân ngữ cùng chỉ một đối tượng, không phù hợp với cấu trúc sở hữu này.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Pronouns"",
+  ""sentence_structure"": ""Prep (As a result of) + [Pronoun (possessive determiner)] + Noun (many years) + Participle (leading) + Object (media organizations), S (Ms. Ayo) + V (was selected) + Prep (for the Dowel Journalism Prize)."",
+  ""pattern"": ""As a result of + [possessive adjective/determiner] + [noun]"",
+  ""vocabulary"": [
+    {
+      ""word"": ""result"",
+      ""meaning"": ""kết quả"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""leading"",
+      ""meaning"": ""dẫn dắt, lãnh đạo"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""organizations"",
+      ""meaning"": ""các tổ chức"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""selected"",
+      ""meaning"": ""được lựa chọn"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Chỗ trống đứng trước cụm danh từ \""many years leading media organizations\"" và theo sau giới từ \""of\"" trong cụm nguyên nhân \""As a result of\"". Vị trí này cần một tính từ sở hữu để bổ nghĩa cho danh từ \""years\"". Do đó, đáp án đúng là \""her\""."",
+  ""distractor_analysis"": {
+    ""A"": ""Sai vì \""she\"" là đại từ nhân xưng đóng vai trò làm chủ ngữ, không thể đứng trước cụm danh từ để sở hữu."",
+    ""B"": ""Đúng vì \""her\"" là tính từ sở hữu, đứng trước danh từ \""many years\"" để chỉ sự sở hữu (nhiều năm lãnh đạo của cô ấy)."",
+    ""C"": ""Sai vì \""hers\"" là đại từ sở hữu, đứng độc lập và không dùng để bổ nghĩa trực tiếp cho danh từ đi liền phía sau."",
+    ""D"": ""Sai vì \""herself\"" là đại từ phản thân, thường dùng để nhấn mạnh hoặc khi chủ ngữ và tân ngữ cùng chỉ một đối tượng, không phù hợp với cấu trúc sở hữu này.""
+  },
+  ""difficulty"": ""easy""
+}"
+5,ETS2026,5,105,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.33,1810,446,2256,"To stop the _____ of computer viruses, do not open suspicious e-mails.",break,spread,balance,surface,B,"{""grammar_topic"": ""Noun Selection / Vocabulary"", ""sentence_structure"": ""S (To stop the [blank] of computer viruses) + V (do not open) + O (suspicious e-mails)."", ""pattern"": ""the + [noun] + of + [noun]"", ""vocabulary"": [{""word"": ""spread"", ""meaning"": ""sự lây lan"", ""part_of_speech"": ""noun""}, {""word"": ""virus"", ""meaning"": ""vi-rút"", ""part_of_speech"": ""noun""}, {""word"": ""suspicious"", ""meaning"": ""đáng ngờ"", ""part_of_speech"": ""adjective""}], ""explanation"": ""Câu hỏi kiểm tra khả năng sử dụng từ vựng (danh từ) phù hợp với ngữ cảnh. Cấu trúc 'the spread of computer viruses' mang ý nghĩa 'sự lây lan của vi-rút máy tính', hoàn toàn phù hợp với vế sau 'do not open suspicious e-mails' (không mở các email đáng ngờ)."", ""distractor_analysis"": {""A"": ""Danh từ 'break' (sự đứt gãy, sự nghỉ) không tạo thành cụm từ có nghĩa phù hợp với việc ngăn chặn vi-rút máy tính."", ""B"": ""Đáp án chính xác. 'Spread' (sự lây lan) kết hợp hoàn hảo với cụm từ chỉ vi-rút máy tính trong ngữ cảnh bảo mật thông tin."", ""C"": ""Danh từ 'balance' có nghĩa là sự cân bằng, không phù hợp về mặt ngữ nghĩa khi đi với vi-rút máy tính."", ""D"": ""Danh từ 'surface' có nghĩa là bề mặt, không tạo ra một kết hợp từ hợp lý trong ngữ cảnh này.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Noun Selection / Vocabulary"",
+  ""sentence_structure"": ""S (To stop the [blank] of computer viruses) + V (do not open) + O (suspicious e-mails)."",
+  ""pattern"": ""the + [noun] + of + [noun]"",
+  ""vocabulary"": [
+    {
+      ""word"": ""spread"",
+      ""meaning"": ""sự lây lan"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""virus"",
+      ""meaning"": ""vi-rút"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""suspicious"",
+      ""meaning"": ""đáng ngờ"",
+      ""part_of_speech"": ""adjective""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra khả năng sử dụng từ vựng (danh từ) phù hợp với ngữ cảnh. Cấu trúc 'the spread of computer viruses' mang ý nghĩa 'sự lây lan của vi-rút máy tính', hoàn toàn phù hợp với vế sau 'do not open suspicious e-mails' (không mở các email đáng ngờ)."",
+  ""distractor_analysis"": {
+    ""A"": ""Danh từ 'break' (sự đứt gãy, sự nghỉ) không tạo thành cụm từ có nghĩa phù hợp với việc ngăn chặn vi-rút máy tính."",
+    ""B"": ""Đáp án chính xác. 'Spread' (sự lây lan) kết hợp hoàn hảo với cụm từ chỉ vi-rút máy tính trong ngữ cảnh bảo mật thông tin."",
+    ""C"": ""Danh từ 'balance' có nghĩa là sự cân bằng, không phù hợp về mặt ngữ nghĩa khi đi với vi-rút máy tính."",
+    ""D"": ""Danh từ 'surface' có nghĩa là bề mặt, không tạo ra một kết hợp từ hợp lý trong ngữ cảnh này.""
+  },
+  ""difficulty"": ""medium""
+}"
+6,ETS2026,5,106,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.42,1808,484,2292,The hiring manager _____ considered each applicant's résumé and qualifications.,caring,careful,carefully,carefulness,C,"{""grammar_topic"": ""Word Form (Adverb vs. Adjective)"", ""sentence_structure"": ""S + [Adv] + V + O"", ""pattern"": ""Subject + Adverb + Verb + Object"", ""vocabulary"": [{""word"": ""hiring manager"", ""meaning"": ""người quản lý tuyển dụng"", ""part_of_speech"": ""noun phrase""}, {""word"": ""consider"", ""meaning"": ""xem xét, cân nhắc"", ""part_of_speech"": ""verb""}, {""word"": ""applicant"", ""meaning"": ""người ứng tuyển, ứng viên"", ""part_of_speech"": ""noun""}, {""word"": ""qualification"", ""meaning"": ""trình độ chuyên môn, năng lực"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu điền một từ để bổ nghĩa cho động từ chính 'considered'. Vị trí trống nằm giữa chủ ngữ 'The hiring manager' và động từ 'considered', đây là vị trí của trạng từ (adverb). Trạng từ 'carefully' được dùng để diễn tả cách thức mà người quản lý xem xét hồ sơ và năng lực của từng ứng viên."", ""distractor_analysis"": {""A"": ""Caring là tính từ (hoặc phân từ) mang nghĩa 'chu đáo, quan tâm', không phù hợp đứng trước động từ 'considered' để bổ nghĩa cho hành động."", ""B"": ""Careful là tính từ mang nghĩa 'cẩn thận', không thể đứng ở vị trí này vì tính từ không dùng để bổ nghĩa cho động từ chính."", ""C"": ""Carefully là trạng từ mang nghĩa 'một cách cẩn thận', hoàn toàn chính xác để bổ nghĩa cho động từ 'considered'."", ""D"": ""Carefulness là danh từ mang nghĩa 'sự cẩn thận', không phù hợp về mặt ngữ pháp khi đứng trước động từ để làm trạng ngữ chỉ cách thức.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Word Form (Adverb vs. Adjective)"",
+  ""sentence_structure"": ""S + [Adv] + V + O"",
+  ""pattern"": ""Subject + Adverb + Verb + Object"",
+  ""vocabulary"": [
+    {
+      ""word"": ""hiring manager"",
+      ""meaning"": ""người quản lý tuyển dụng"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""consider"",
+      ""meaning"": ""xem xét, cân nhắc"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""applicant"",
+      ""meaning"": ""người ứng tuyển, ứng viên"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""qualification"",
+      ""meaning"": ""trình độ chuyên môn, năng lực"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu điền một từ để bổ nghĩa cho động từ chính 'considered'. Vị trí trống nằm giữa chủ ngữ 'The hiring manager' và động từ 'considered', đây là vị trí của trạng từ (adverb). Trạng từ 'carefully' được dùng để diễn tả cách thức mà người quản lý xem xét hồ sơ và năng lực của từng ứng viên."",
+  ""distractor_analysis"": {
+    ""A"": ""Caring là tính từ (hoặc phân từ) mang nghĩa 'chu đáo, quan tâm', không phù hợp đứng trước động từ 'considered' để bổ nghĩa cho hành động."",
+    ""B"": ""Careful là tính từ mang nghĩa 'cẩn thận', không thể đứng ở vị trí này vì tính từ không dùng để bổ nghĩa cho động từ chính."",
+    ""C"": ""Carefully là trạng từ mang nghĩa 'một cách cẩn thận', hoàn toàn chính xác để bổ nghĩa cho động từ 'considered'."",
+    ""D"": ""Carefulness là danh từ mang nghĩa 'sự cẩn thận', không phù hợp về mặt ngữ pháp khi đứng trước động từ để làm trạng ngữ chỉ cách thức.""
+  },
+  ""difficulty"": ""easy""
+}"
+7,ETS2026,5,107,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.88,1819,501,2320,"In October, Mr. Sakamoto will leave for New Zealand _____ will oversee the opening of the new Auckland branch.",because,in addition,and,prior to,C,"{""grammar_topic"": ""conjunction"", ""sentence_structure"": ""S + V + Prep + N + Conj + V + O"", ""pattern"": ""Verb + and + Verb (coordinating compound verb predicate)"", ""vocabulary"": [{""word"": ""leave"", ""meaning"": ""rời đi, khởi hành"", ""part_of_speech"": ""verb""}, {""word"": ""oversee"", ""meaning"": ""giám sát"", ""part_of_speech"": ""verb""}, {""word"": ""opening"", ""meaning"": ""lễ khai trương, việc mở cửa"", ""part_of_speech"": ""noun""}, {""word"": ""branch"", ""meaning"": ""chi nhánh"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu một liên từ hoặc giới từ nối tiếp các thành phần trong câu. Chủ ngữ 'Mr. Sakamoto' thực hiện hai hành động liên tiếp được diễn đạt qua các động từ 'will leave' và 'will oversee' (lược bỏ trợ động từ phía sau). Do đó, liên từ kết hợp 'and' (C) là lựa chọn chính xác để nối hai hành động này trong cùng một chủ ngữ."", ""distractor_analysis"": {""A"": ""because là liên từ chỉ nguyên nhân, không phù hợp về mặt ngữ nghĩa để nối tiếp hai hành động liên tiếp của chủ ngữ trong ngữ cảnh này."", ""B"": ""in addition là trạng ngữ/trạng từ (hoặc cần cụm 'in addition to'), không thể đứng trực tiếp làm liên từ nối liền hai động từ mà không có giới từ 'to' hoặc dấu câu phù hợp."", ""C"": ""and là liên từ kết hợp đúng ngữ pháp, nối liền hai động từ 'will leave' và 'will oversee' do cùng một chủ ngữ thực hiện."", ""D"": ""prior to là giới từ mang nghĩa 'trước khi', không phù hợp với ngữ cảnh diễn tả hai hành động được thực hiện nối tiếp nhau bởi cùng một người trong tương lai.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""conjunction"",
+  ""sentence_structure"": ""S + V + Prep + N + Conj + V + O"",
+  ""pattern"": ""Verb + and + Verb (coordinating compound verb predicate)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""leave"",
+      ""meaning"": ""rời đi, khởi hành"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""oversee"",
+      ""meaning"": ""giám sát"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""opening"",
+      ""meaning"": ""lễ khai trương, việc mở cửa"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""branch"",
+      ""meaning"": ""chi nhánh"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu một liên từ hoặc giới từ nối tiếp các thành phần trong câu. Chủ ngữ 'Mr. Sakamoto' thực hiện hai hành động liên tiếp được diễn đạt qua các động từ 'will leave' và 'will oversee' (lược bỏ trợ động từ phía sau). Do đó, liên từ kết hợp 'and' (C) là lựa chọn chính xác để nối hai hành động này trong cùng một chủ ngữ."",
+  ""distractor_analysis"": {
+    ""A"": ""because là liên từ chỉ nguyên nhân, không phù hợp về mặt ngữ nghĩa để nối tiếp hai hành động liên tiếp của chủ ngữ trong ngữ cảnh này."",
+    ""B"": ""in addition là trạng ngữ/trạng từ (hoặc cần cụm 'in addition to'), không thể đứng trực tiếp làm liên từ nối liền hai động từ mà không có giới từ 'to' hoặc dấu câu phù hợp."",
+    ""C"": ""and là liên từ kết hợp đúng ngữ pháp, nối liền hai động từ 'will leave' và 'will oversee' do cùng một chủ ngữ thực hiện."",
+    ""D"": ""prior to là giới từ mang nghĩa 'trước khi', không phù hợp với ngữ cảnh diễn tả hai hành động được thực hiện nối tiếp nhau bởi cùng một người trong tương lai.""
+  },
+  ""difficulty"": ""easy""
+}"
+8,ETS2026,5,108,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.41,1813,525,2338,Tarateer Pharmaceuticals is varying its product _____ to include over-the-counter medications.,to line,lining,lined,line,D,"{""grammar_topic"": ""Noun Collocation / Compound Noun"", ""sentence_structure"": ""S (Tarateer Pharmaceuticals) + V (is varying) + O (its product _____)."", ""pattern"": ""product line"", ""vocabulary"": [{""word"": ""vary"", ""meaning"": ""làm cho khác nhau, thay đổi"", ""part_of_speech"": ""verb""}, {""word"": ""product"", ""meaning"": ""sản phẩm"", ""part_of_speech"": ""noun""}, {""word"": ""line"", ""meaning"": ""dòng sản phẩm"", ""part_of_speech"": ""noun""}, {""word"": ""include"", ""meaning"": ""bao gồm"", ""part_of_speech"": ""verb""}], ""explanation"": ""Câu này kiểm tra kiến thức về cụm từ cố định (collocation) và danh từ ghép. Sau tính từ sở hữu 'its' và danh từ 'product', ta cần một danh từ chính để tạo thành cụm danh từ hoàn chỉnh làm tân ngữ cho động từ 'is varying'. Cụm từ 'product line' là một thuật ngữ kinh doanh quen thuộc có nghĩa là 'dòng sản phẩm'. Do đó, 'line' là lựa chọn chính xác nhất về mặt ngữ nghĩa và cấu trúc."", ""distractor_analysis"": {""A"": ""Sai ngữ pháp vì cụm 'to line' (động từ nguyên mẫu có 'to') không phù hợp đứng sau cụm danh từ 'product' để làm tân ngữ trong ngữ cảnh này."", ""B"": ""Sai ngữ pháp vì 'lining' là danh động từ hoặc phân từ hiện đại, không tạo thành cụm từ cố định chuẩn xác với 'product' và làm sai lệch cấu trúc câu."", ""C"": ""Sai ngữ pháp vì 'lined' là quá khứ phân từ, không phù hợp để tạo thành cụm danh từ chỉ dòng sản phẩm ở vị trí tân ngữ này."", ""D"": ""Đáp án chính xác. 'line' kết hợp với 'product' tạo thành cụm danh từ 'product line' (dòng sản phẩm), phù hợp hoàn hảo với ngữ nghĩa của câu.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Noun Collocation / Compound Noun"",
+  ""sentence_structure"": ""S (Tarateer Pharmaceuticals) + V (is varying) + O (its product _____)."",
+  ""pattern"": ""product line"",
+  ""vocabulary"": [
+    {
+      ""word"": ""vary"",
+      ""meaning"": ""làm cho khác nhau, thay đổi"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""product"",
+      ""meaning"": ""sản phẩm"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""line"",
+      ""meaning"": ""dòng sản phẩm"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""include"",
+      ""meaning"": ""bao gồm"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Câu này kiểm tra kiến thức về cụm từ cố định (collocation) và danh từ ghép. Sau tính từ sở hữu 'its' và danh từ 'product', ta cần một danh từ chính để tạo thành cụm danh từ hoàn chỉnh làm tân ngữ cho động từ 'is varying'. Cụm từ 'product line' là một thuật ngữ kinh doanh quen thuộc có nghĩa là 'dòng sản phẩm'. Do đó, 'line' là lựa chọn chính xác nhất về mặt ngữ nghĩa và cấu trúc."",
+  ""distractor_analysis"": {
+    ""A"": ""Sai ngữ pháp vì cụm 'to line' (động từ nguyên mẫu có 'to') không phù hợp đứng sau cụm danh từ 'product' để làm tân ngữ trong ngữ cảnh này."",
+    ""B"": ""Sai ngữ pháp vì 'lining' là danh động từ hoặc phân từ hiện đại, không tạo thành cụm từ cố định chuẩn xác với 'product' và làm sai lệch cấu trúc câu."",
+    ""C"": ""Sai ngữ pháp vì 'lined' là quá khứ phân từ, không phù hợp để tạo thành cụm danh từ chỉ dòng sản phẩm ở vị trí tân ngữ này."",
+    ""D"": ""Đáp án chính xác. 'line' kết hợp với 'product' tạo thành cụm danh từ 'product line' (dòng sản phẩm), phù hợp hoàn hảo với ngữ nghĩa của câu.""
+  },
+  ""difficulty"": ""medium""
+}"
+9,ETS2026,5,109,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.4,1811,488,2299,"Dynart, Inc. continuously _____ new ways to reduce its use of plastics.",seeks,seeker,to seek,seeking,A,"{""grammar_topic"": ""Verb Tense and Subject-Verb Agreement"", ""sentence_structure"": ""S (Dynart, Inc.) + Adv (continuously) + V (seeks) + O (new ways) + Modifier (to reduce its use of plastics)."", ""pattern"": ""Subject + Adverb + Main Verb (Present Simple) + Object"", ""vocabulary"": [{""word"": ""continuously"", ""meaning"": ""liên tục, liên tiếp"", ""part_of_speech"": ""adverb""}, {""word"": ""reduce"", ""meaning"": ""giảm bớt, cắt giảm"", ""part_of_speech"": ""verb""}, {""word"": ""plastics"", ""meaning"": ""chất nhựa, vật liệu nhựa"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này thiếu động từ chính để tạo thành một mệnh đề hoàn chỉnh với chủ ngữ 'Dynart, Inc.'. Trạng từ 'continuously' đứng trước vị trí trống để bổ nghĩa cho động từ chính. Chủ ngữ 'Dynart, Inc.' là danh từ số ít ngôi thứ ba, và câu diễn tả một hành động thường xuyên, lặp đi lặp lại ở thì hiện tại đơn, do đó ta cần dùng động từ chia ở số ít 'seeks'."", ""distractor_analysis"": {""A"": ""seeks là động từ chia ở thì hiện tại đơn dạng số ít, phù hợp với chủ ngữ số ít 'Dynart, Inc.' và trạng từ chỉ tần suất 'continuously'."", ""B"": ""seeker là danh từ chỉ người (người tìm kiếm), không thể đứng sau chủ ngữ để làm động từ chính của câu."", ""C"": ""to seek là động từ nguyên mẫu có 'to', không thể đóng vai trò là động từ chính cho chủ ngữ số ít trong cấu trúc câu này."", ""D"": ""seeking là phân từ hiện tại (V-ing), không thể đứng độc lập làm động từ chính của câu khi không đi kèm trợ động từ.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Verb Tense and Subject-Verb Agreement"",
+  ""sentence_structure"": ""S (Dynart, Inc.) + Adv (continuously) + V (seeks) + O (new ways) + Modifier (to reduce its use of plastics)."",
+  ""pattern"": ""Subject + Adverb + Main Verb (Present Simple) + Object"",
+  ""vocabulary"": [
+    {
+      ""word"": ""continuously"",
+      ""meaning"": ""liên tục, liên tiếp"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""reduce"",
+      ""meaning"": ""giảm bớt, cắt giảm"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""plastics"",
+      ""meaning"": ""chất nhựa, vật liệu nhựa"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này thiếu động từ chính để tạo thành một mệnh đề hoàn chỉnh với chủ ngữ 'Dynart, Inc.'. Trạng từ 'continuously' đứng trước vị trí trống để bổ nghĩa cho động từ chính. Chủ ngữ 'Dynart, Inc.' là danh từ số ít ngôi thứ ba, và câu diễn tả một hành động thường xuyên, lặp đi lặp lại ở thì hiện tại đơn, do đó ta cần dùng động từ chia ở số ít 'seeks'."",
+  ""distractor_analysis"": {
+    ""A"": ""seeks là động từ chia ở thì hiện tại đơn dạng số ít, phù hợp với chủ ngữ số ít 'Dynart, Inc.' và trạng từ chỉ tần suất 'continuously'."",
+    ""B"": ""seeker là danh từ chỉ người (người tìm kiếm), không thể đứng sau chủ ngữ để làm động từ chính của câu."",
+    ""C"": ""to seek là động từ nguyên mẫu có 'to', không thể đóng vai trò là động từ chính cho chủ ngữ số ít trong cấu trúc câu này."",
+    ""D"": ""seeking là phân từ hiện tại (V-ing), không thể đứng độc lập làm động từ chính của câu khi không đi kèm trợ động từ.""
+  },
+  ""difficulty"": ""easy""
+}"
+10,ETS2026,5,110,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.72,1811,442,2253,The cash registers at Pirkle Books automatically _____ the remaining inventory of books available.,calculate,calculator,calculating,calculation,A,"{""grammar_topic"": ""Word Form"", ""sentence_structure"": ""S (The cash registers) + Adv (automatically) + V (_____) + O (the remaining inventory of books available)"", ""pattern"": ""Subject + Adverb + Verb + Object"", ""vocabulary"": [{""word"": ""cash register"", ""meaning"": ""máy tính tiền"", ""part_of_speech"": ""noun phrase""}, {""word"": ""automatically"", ""meaning"": ""tự động"", ""part_of_speech"": ""adverb""}, {""word"": ""inventory"", ""meaning"": ""hàng tồn kho, kiểm kê"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu đã có chủ ngữ là cụm danh từ số nhiều \""The cash registers at Pirkle Books\"" và trạng từ chỉ tần suất/thể cách \""automatically\"". Vị trí trống cần một động từ chính chia ở thì hiện tại đơn (dạng nguyên thể số nhiều để phù hợp với chủ ngữ số nhiều \""registers\"") để tạo thành vị trí vị ngữ trong câu. Do đó, động từ \""calculate\"" là lựa chọn chính xác."", ""distractor_analysis"": {""A"": ""calculate là động từ nguyên thể số nhiều, phù hợp với chủ ngữ số nhiều \""The cash registers\"" và đứng sau trạng từ \""automatically\""."", ""B"": ""calculator là danh từ chỉ vật (máy tính), không thể đứng sau trạng từ để làm vị ngữ trong câu này."", ""C"": ""calculating là dạng V-ing hoặc tính từ, thiếu động từ chính để tạo thành một câu hoàn chỉnh về mặt ngữ pháp."", ""D"": ""calculation là danh từ (sự tính toán), không thể đứng sau chủ ngữ và trạng từ để đóng vai trò là hành động chính của câu.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Word Form"",
+  ""sentence_structure"": ""S (The cash registers) + Adv (automatically) + V (_____) + O (the remaining inventory of books available)"",
+  ""pattern"": ""Subject + Adverb + Verb + Object"",
+  ""vocabulary"": [
+    {
+      ""word"": ""cash register"",
+      ""meaning"": ""máy tính tiền"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""automatically"",
+      ""meaning"": ""tự động"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""inventory"",
+      ""meaning"": ""hàng tồn kho, kiểm kê"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu đã có chủ ngữ là cụm danh từ số nhiều \""The cash registers at Pirkle Books\"" và trạng từ chỉ tần suất/thể cách \""automatically\"". Vị trí trống cần một động từ chính chia ở thì hiện tại đơn (dạng nguyên thể số nhiều để phù hợp với chủ ngữ số nhiều \""registers\"") để tạo thành vị trí vị ngữ trong câu. Do đó, động từ \""calculate\"" là lựa chọn chính xác."",
+  ""distractor_analysis"": {
+    ""A"": ""calculate là động từ nguyên thể số nhiều, phù hợp với chủ ngữ số nhiều \""The cash registers\"" và đứng sau trạng từ \""automatically\""."",
+    ""B"": ""calculator là danh từ chỉ vật (máy tính), không thể đứng sau trạng từ để làm vị ngữ trong câu này."",
+    ""C"": ""calculating là dạng V-ing hoặc tính từ, thiếu động từ chính để tạo thành một câu hoàn chỉnh về mặt ngữ pháp."",
+    ""D"": ""calculation là danh từ (sự tính toán), không thể đứng sau chủ ngữ và trạng từ để đóng vai trò là hành động chính của câu.""
+  },
+  ""difficulty"": ""easy""
+}"
+11,ETS2026,5,111,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.46,1808,482,2290,The product team is designing mapping software that can _____ locate underground minerals.,infinitely,sincerely,precisely,greatly,C,"{""grammar_topic"": ""Adverb selection"", ""sentence_structure"": ""S (The product team) + V (is designing) + O (mapping software) + [relative clause: that + modal (can) + Adv (_____ ) + V (locate) + O (underground minerals)]"", ""pattern"": ""modal verb + adverb + base verb"", ""vocabulary"": [{""word"": ""design"", ""meaning"": ""thiết kế"", ""part_of_speech"": ""verb""}, {""word"": ""mapping"", ""meaning"": ""lập bản đồ"", ""part_of_speech"": ""noun""}, {""word"": ""software"", ""meaning"": ""phần mềm"", ""part_of_speech"": ""noun""}, {""word"": ""locate"", ""meaning"": ""xác định vị trí"", ""part_of_speech"": ""verb""}], ""explanation"": ""Câu hỏi kiểm tra việc lựa chọn trạng từ phù hợp để bổ nghĩa cho động từ \""locate\"" trong ngữ cảnh phần mềm bản đồ. Trạng từ \""precisely\"" (một cách chính xác) là lựa chọn hợp lý nhất về mặt ngữ nghĩa vì phần mềm bản đồ được thiết kế để xác định vị trí khoáng sản ngầm một cách chính xác."", ""distractor_analysis"": {""A"": ""infinitely (vô tận, vô hạn) không phù hợp về nghĩa với việc xác định vị trí khoáng sản."", ""B"": ""sincerely (một cách thành tâm, chân thành) thường dùng với các động từ thể hiện cảm xúc hoặc giao tiếp, không phù hợp với ngữ cảnh kỹ thuật."", ""C"": ""precisely (một cách chính xác) là đáp án đúng, bổ nghĩa hoàn hảo cho động từ locate trong ngữ cảnh phần mềm bản đồ."", ""D"": ""greatly (đáng kể, rất nhiều) không tạo thành một collocation tự nhiên với động từ locate bằng trạng từ chỉ mức độ chính xác.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adverb selection"",
+  ""sentence_structure"": ""S (The product team) + V (is designing) + O (mapping software) + [relative clause: that + modal (can) + Adv (_____ ) + V (locate) + O (underground minerals)]"",
+  ""pattern"": ""modal verb + adverb + base verb"",
+  ""vocabulary"": [
+    {
+      ""word"": ""design"",
+      ""meaning"": ""thiết kế"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""mapping"",
+      ""meaning"": ""lập bản đồ"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""software"",
+      ""meaning"": ""phần mềm"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""locate"",
+      ""meaning"": ""xác định vị trí"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra việc lựa chọn trạng từ phù hợp để bổ nghĩa cho động từ \""locate\"" trong ngữ cảnh phần mềm bản đồ. Trạng từ \""precisely\"" (một cách chính xác) là lựa chọn hợp lý nhất về mặt ngữ nghĩa vì phần mềm bản đồ được thiết kế để xác định vị trí khoáng sản ngầm một cách chính xác."",
+  ""distractor_analysis"": {
+    ""A"": ""infinitely (vô tận, vô hạn) không phù hợp về nghĩa với việc xác định vị trí khoáng sản."",
+    ""B"": ""sincerely (một cách thành tâm, chân thành) thường dùng với các động từ thể hiện cảm xúc hoặc giao tiếp, không phù hợp với ngữ cảnh kỹ thuật."",
+    ""C"": ""precisely (một cách chính xác) là đáp án đúng, bổ nghĩa hoàn hảo cho động từ locate trong ngữ cảnh phần mềm bản đồ."",
+    ""D"": ""greatly (đáng kể, rất nhiều) không tạo thành một collocation tự nhiên với động từ locate bằng trạng từ chỉ mức độ chính xác.""
+  },
+  ""difficulty"": ""medium""
+}"
+12,ETS2026,5,112,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.57,1815,486,2301,"According to CEO Mayu Yamada, it would not be _____ responsible to expand the warehouse at this time.",finance,financials,financially,financing,C,"{""grammar_topic"": ""Word Form (Adverb vs. Adjective)"", ""sentence_structure"": ""Prep (According to CEO Mayu Yamada), S (it) V (would not be) [blank] Adj (responsible) Inf (to expand) O (the warehouse) AdvP (at this time)."", ""pattern"": ""Be + [Adverb] + Adjective"", ""vocabulary"": [{""word"": ""financially"", ""meaning"": ""về mặt tài chính"", ""part_of_speech"": ""adverb""}, {""word"": ""responsible"", ""meaning"": ""chịu trách nhiệm, hợp lý, đáng tin cậy"", ""part_of_speech"": ""adjective""}, {""word"": ""expand"", ""meaning"": ""mở rộng"", ""part_of_speech"": ""verb""}, {""word"": ""warehouse"", ""meaning"": ""nhà kho"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu một trạng từ đứng trước tính từ 'responsible' để bổ nghĩa cho nó ('financially responsible' nghĩa là có trách nhiệm về mặt tài chính). Do đó, trạng từ 'financially' là lựa chọn chính xác nhất về mặt ngữ pháp và ngữ nghĩa."", ""distractor_analysis"": {""A"": ""Sai vì 'finance' là danh từ hoặc động từ, không thể đứng trước một tính từ để bổ nghĩa cho tính từ đó."", ""B"": ""Sai vì 'financials' là danh từ số nhiều (báo cáo tài chính), vị trí này không cần một danh từ đứng trước tính từ."", ""C"": ""Đúng vì 'financially' là trạng từ, phù hợp để bổ nghĩa cho tính từ 'responsible' theo cấu trúc 'be + adverb + adjective'."", ""D"": ""Sai vì 'financing' là danh từ hoặc danh động từ (gerund), không phù hợp về mặt ngữ pháp khi đứng trước tính từ 'responsible'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Word Form (Adverb vs. Adjective)"",
+  ""sentence_structure"": ""Prep (According to CEO Mayu Yamada), S (it) V (would not be) [blank] Adj (responsible) Inf (to expand) O (the warehouse) AdvP (at this time)."",
+  ""pattern"": ""Be + [Adverb] + Adjective"",
+  ""vocabulary"": [
+    {
+      ""word"": ""financially"",
+      ""meaning"": ""về mặt tài chính"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""responsible"",
+      ""meaning"": ""chịu trách nhiệm, hợp lý, đáng tin cậy"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""expand"",
+      ""meaning"": ""mở rộng"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""warehouse"",
+      ""meaning"": ""nhà kho"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu một trạng từ đứng trước tính từ 'responsible' để bổ nghĩa cho nó ('financially responsible' nghĩa là có trách nhiệm về mặt tài chính). Do đó, trạng từ 'financially' là lựa chọn chính xác nhất về mặt ngữ pháp và ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""Sai vì 'finance' là danh từ hoặc động từ, không thể đứng trước một tính từ để bổ nghĩa cho tính từ đó."",
+    ""B"": ""Sai vì 'financials' là danh từ số nhiều (báo cáo tài chính), vị trí này không cần một danh từ đứng trước tính từ."",
+    ""C"": ""Đúng vì 'financially' là trạng từ, phù hợp để bổ nghĩa cho tính từ 'responsible' theo cấu trúc 'be + adverb + adjective'."",
+    ""D"": ""Sai vì 'financing' là danh từ hoặc danh động từ (gerund), không phù hợp về mặt ngữ pháp khi đứng trước tính từ 'responsible'.""
+  },
+  ""difficulty"": ""medium""
+}"
+13,ETS2026,5,113,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.64,1810,508,2318,Analysts cannot say with any _____ what the regional demand for electric trucks will be.,certainty,justice,excellence,denial,A,"{""grammar_topic"": ""Word Form (Noun)"", ""sentence_structure"": ""S + V + Prep + any + [Blank] + subordinate clause"", ""pattern"": ""cannot say with any + noun"", ""vocabulary"": [{""word"": ""certainty"", ""meaning"": ""sự chắc chắn"", ""part_of_speech"": ""noun""}, {""word"": ""justice"", ""meaning"": ""công lý, sự công bằng"", ""part_of_speech"": ""noun""}, {""word"": ""excellence"", ""meaning"": ""sự xuất sắc, sự ưu tú"", ""part_of_speech"": ""noun""}, {""word"": ""denial"", ""meaning"": ""sự phủ nhận"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu điền một danh từ phù hợp về mặt ngữ nghĩa vào chỗ trống sau cụm từ 'with any' (với bất kỳ...). Xét về ngữ cảnh, các nhà phân tích không thể nói một cách 'chắc chắn' về nhu cầu xe tải điện trong khu vực. Do đó, 'certainty' (sự chắc chắn) là danh từ chính xác nhất để kết hợp với cụm từ 'with any certainty'."", ""distractor_analysis"": {""A"": ""Đáp án chính xác. 'Certainty' kết hợp với cụm từ 'with any certainty' tạo thành cụm trạng ngữ chỉ mức độ chắc chắn, phù hợp với ngữ cảnh câu nói của các nhà phân tích."", ""B"": ""'Justice' có nghĩa là công lý hoặc sự công bằng, không phù hợp về mặt ngữ nghĩa khi nói về mức độ dự đoán nhu cầu thị trường."", ""C"": ""'Excellence' có nghĩa là sự xuất sắc hoặc sự ưu tú, không tạo ra một cụm từ có nghĩa hợp lý trong ngữ cảnh diễn tả sự không chắc chắn của dự báo."", ""D"": ""'Denial' có nghĩa là sự phủ nhận, không phù hợp với cấu trúc 'with any' để diễn tả trạng thái dự báo nhu cầu tương lai.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Word Form (Noun)"",
+  ""sentence_structure"": ""S + V + Prep + any + [Blank] + subordinate clause"",
+  ""pattern"": ""cannot say with any + noun"",
+  ""vocabulary"": [
+    {
+      ""word"": ""certainty"",
+      ""meaning"": ""sự chắc chắn"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""justice"",
+      ""meaning"": ""công lý, sự công bằng"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""excellence"",
+      ""meaning"": ""sự xuất sắc, sự ưu tú"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""denial"",
+      ""meaning"": ""sự phủ nhận"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu điền một danh từ phù hợp về mặt ngữ nghĩa vào chỗ trống sau cụm từ 'with any' (với bất kỳ...). Xét về ngữ cảnh, các nhà phân tích không thể nói một cách 'chắc chắn' về nhu cầu xe tải điện trong khu vực. Do đó, 'certainty' (sự chắc chắn) là danh từ chính xác nhất để kết hợp với cụm từ 'with any certainty'."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án chính xác. 'Certainty' kết hợp với cụm từ 'with any certainty' tạo thành cụm trạng ngữ chỉ mức độ chắc chắn, phù hợp với ngữ cảnh câu nói của các nhà phân tích."",
+    ""B"": ""'Justice' có nghĩa là công lý hoặc sự công bằng, không phù hợp về mặt ngữ nghĩa khi nói về mức độ dự đoán nhu cầu thị trường."",
+    ""C"": ""'Excellence' có nghĩa là sự xuất sắc hoặc sự ưu tú, không tạo ra một cụm từ có nghĩa hợp lý trong ngữ cảnh diễn tả sự không chắc chắn của dự báo."",
+    ""D"": ""'Denial' có nghĩa là sự phủ nhận, không phù hợp với cấu trúc 'with any' để diễn tả trạng thái dự báo nhu cầu tương lai.""
+  },
+  ""difficulty"": ""medium""
+}"
+14,ETS2026,5,114,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.22,1813,489,2302,"As part of its marketing campaign, Elegancia Dishware is _____ soliciting feedback from customers.",lightly,loyally,actively,cleanly,C,"{""grammar_topic"": ""Adverb choice"", ""sentence_structure"": ""S (Elegancia Dishware) + V (is) + Adverb (blank) + Present Participle (soliciting) + O (feedback)"", ""pattern"": ""Be + Adverb + V-ing"", ""vocabulary"": [{""word"": ""marketing"", ""meaning"": ""tiếp thị, quảng cáo"", ""part_of_speech"": ""noun""}, {""word"": ""soliciting"", ""meaning"": ""xin, kêu gọi, thu thập"", ""part_of_speech"": ""verb""}, {""word"": ""feedback"", ""meaning"": ""ý kiến phản hồi"", ""part_of_speech"": ""noun""}, {""word"": ""actively"", ""meaning"": ""một cách tích cực"", ""part_of_speech"": ""adverb""}], ""explanation"": ""Câu hỏi yêu cầu chọn trạng từ phù hợp để bổ nghĩa cho động từ đang ở dạng tiếp diễn 'soliciting' trong ngữ cảnh chiến dịch tiếp thị. Xét về mặt ngữ nghĩa, công ty 'Elegancia Dishware' đang 'tích cực' thu thập ý kiến phản hồi từ khách hàng, do đó trạng từ 'actively' là sự lựa chọn chính xác nhất."", ""distractor_analysis"": {""A"": ""lightly (nhẹ nhàng, một chút): Không phù hợp về nghĩa khi kết hợp với hành động thu thập phản hồi trong chiến dịch tiếp thị."", ""B"": ""loyally (một cách trung thành): Không phù hợp với ngữ cảnh hành động xin ý kiến phản hồi của một công ty."", ""C"": ""actively (một cách tích cực): Đáp án chính xác. Diễn tả hành động thu thập ý kiến phản hồi được thực hiện một cách chủ động và tích cực như một phần của chiến dịch marketing."", ""D"": ""cleanly (một cách sạch sẽ): Không liên quan đến ngữ nghĩa của câu về việc thu thập thông tin phản hồi.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adverb choice"",
+  ""sentence_structure"": ""S (Elegancia Dishware) + V (is) + Adverb (blank) + Present Participle (soliciting) + O (feedback)"",
+  ""pattern"": ""Be + Adverb + V-ing"",
+  ""vocabulary"": [
+    {
+      ""word"": ""marketing"",
+      ""meaning"": ""tiếp thị, quảng cáo"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""soliciting"",
+      ""meaning"": ""xin, kêu gọi, thu thập"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""feedback"",
+      ""meaning"": ""ý kiến phản hồi"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""actively"",
+      ""meaning"": ""một cách tích cực"",
+      ""part_of_speech"": ""adverb""
+    }
+  ],
+  ""explanation"": ""Câu hỏi yêu cầu chọn trạng từ phù hợp để bổ nghĩa cho động từ đang ở dạng tiếp diễn 'soliciting' trong ngữ cảnh chiến dịch tiếp thị. Xét về mặt ngữ nghĩa, công ty 'Elegancia Dishware' đang 'tích cực' thu thập ý kiến phản hồi từ khách hàng, do đó trạng từ 'actively' là sự lựa chọn chính xác nhất."",
+  ""distractor_analysis"": {
+    ""A"": ""lightly (nhẹ nhàng, một chút): Không phù hợp về nghĩa khi kết hợp với hành động thu thập phản hồi trong chiến dịch tiếp thị."",
+    ""B"": ""loyally (một cách trung thành): Không phù hợp với ngữ cảnh hành động xin ý kiến phản hồi của một công ty."",
+    ""C"": ""actively (một cách tích cực): Đáp án chính xác. Diễn tả hành động thu thập ý kiến phản hồi được thực hiện một cách chủ động và tích cực như một phần của chiến dịch marketing."",
+    ""D"": ""cleanly (một cách sạch sẽ): Không liên quan đến ngữ nghĩa của câu về việc thu thập thông tin phản hồi.""
+  },
+  ""difficulty"": ""medium""
+}"
+15,ETS2026,5,115,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.38,1808,540,2348,Rain gardens are intended to _____ water to prevent flooding of local roads.,engage,undergo,absorb,overwhelm,C,"{""grammar_topic"": ""verb collocation"", ""sentence_structure"": ""S (Rain gardens) + V (are intended) + to-infinitive phrase [to + blank (absorb) + O (water)] + to-infinitive clause of purpose [to prevent flooding of local roads]."", ""pattern"": ""be intended to + V (base verb)"", ""vocabulary"": [{""word"": ""rain garden"", ""meaning"": ""vườn mưa (khu vực trồng cây được thiết kế để hấp thụ nước mưa)"", ""part_of_speech"": ""noun phrase""}, {""word"": ""absorb"", ""meaning"": ""hấp thụ"", ""part_of_speech"": ""verb""}, {""word"": ""prevent"", ""meaning"": ""ngăn chặn"", ""part_of_speech"": ""verb""}, {""word"": ""flooding"", ""meaning"": ""sự ngập lụt"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu hỏi kiểm tra từ vựng (động từ) phù hợp về mặt ngữ nghĩa và kết hợp từ trong ngữ cảnh của câu. Chủ ngữ là 'Rain gardens' (vườn mưa) có mục đích là hấp thụ nước mưa để ngăn ngừa ngập lụt đường sá. Động từ 'absorb' (hấp thụ) là sự lựa chọn chính xác nhất về mặt ngữ nghĩa khi kết hợp với tân ngữ 'water' (nước)."", ""distractor_analysis"": {""A"": ""Sai nghĩa. 'engage' có nghĩa là tham gia hoặc thu hút, không phù hợp khi đi với tân ngữ 'water' trong ngữ cảnh này."", ""B"": ""Sai nghĩa. 'undergo' có nghĩa là trải qua (sự thay đổi, quá trình), không dùng để chỉ hành động hấp thụ nước."", ""C"": ""Đáp án chính xác. 'absorb' có nghĩa là hấp thụ, hoàn toàn phù hợp với hành động của vườn mưa là hấp thụ nước để chống ngập lụt."", ""D"": ""Sai nghĩa. 'overwhelm' có nghĩa là làm ngợp, áp đảo hoặc nhấn chìm, trái ngược với mục đích ngăn ngừa ngập lụt của vườn mưa.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""verb collocation"",
+  ""sentence_structure"": ""S (Rain gardens) + V (are intended) + to-infinitive phrase [to + blank (absorb) + O (water)] + to-infinitive clause of purpose [to prevent flooding of local roads]."",
+  ""pattern"": ""be intended to + V (base verb)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""rain garden"",
+      ""meaning"": ""vườn mưa (khu vực trồng cây được thiết kế để hấp thụ nước mưa)"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""absorb"",
+      ""meaning"": ""hấp thụ"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""prevent"",
+      ""meaning"": ""ngăn chặn"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""flooding"",
+      ""meaning"": ""sự ngập lụt"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra từ vựng (động từ) phù hợp về mặt ngữ nghĩa và kết hợp từ trong ngữ cảnh của câu. Chủ ngữ là 'Rain gardens' (vườn mưa) có mục đích là hấp thụ nước mưa để ngăn ngừa ngập lụt đường sá. Động từ 'absorb' (hấp thụ) là sự lựa chọn chính xác nhất về mặt ngữ nghĩa khi kết hợp với tân ngữ 'water' (nước)."",
+  ""distractor_analysis"": {
+    ""A"": ""Sai nghĩa. 'engage' có nghĩa là tham gia hoặc thu hút, không phù hợp khi đi với tân ngữ 'water' trong ngữ cảnh này."",
+    ""B"": ""Sai nghĩa. 'undergo' có nghĩa là trải qua (sự thay đổi, quá trình), không dùng để chỉ hành động hấp thụ nước."",
+    ""C"": ""Đáp án chính xác. 'absorb' có nghĩa là hấp thụ, hoàn toàn phù hợp với hành động của vườn mưa là hấp thụ nước để chống ngập lụt."",
+    ""D"": ""Sai nghĩa. 'overwhelm' có nghĩa là làm ngợp, áp đảo hoặc nhấn chìm, trái ngược với mục đích ngăn ngừa ngập lụt của vườn mưa.""
+  },
+  ""difficulty"": ""medium""
+}"
+16,ETS2026,5,116,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.73,1809,473,2282,Theta Industries' training program aims to increase the _____ of its manufacturing systems.,producer,produced,productive,productivity,D,"{""grammar_topic"": ""Word Form"", ""sentence_structure"": ""S + V + to-infinitive (aims to increase [Det + N])."", ""pattern"": ""increase + noun (objective noun phrase)"", ""vocabulary"": [{""word"": ""training program"", ""meaning"": ""chương trình đào tạo"", ""part_of_speech"": ""noun phrase""}, {""word"": ""manufacturing"", ""meaning"": ""sản xuất, chế tạo"", ""part_of_speech"": ""adjective""}, {""word"": ""productivity"", ""meaning"": ""năng suất"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu yêu cầu điền một danh từ vào chỗ trống làm tân ngữ cho ngoại động từ 'increase' (tăng cường, làm tăng). Trước chỗ trống có mạo từ 'the', và theo sau là cụm giới từ 'of its manufacturing systems', vì vậy vị trí này cần một danh từ số ít hoặc danh từ không đếm được. Đáp án (D) 'productivity' là danh từ chỉ năng suất, phù hợp nhất về mặt ngữ pháp lẫn ngữ nghĩa."", ""distractor_analysis"": {""A"": ""producer là danh từ chỉ người (nhà sản xuất), không phù hợp về ngữ nghĩa khi đi với động từ tăng cường hiệu suất của hệ thống."", ""B"": ""produced là dạng quá khứ hoặc phân từ quá khứ của động từ 'produce', không thể đứng sau mạo từ 'the' ở vị trí tân ngữ này."", ""C"": ""productive là tính từ (có năng suất), không đứng ở vị trí sau mạo từ 'the' để làm tân ngữ chính của câu mà thiếu danh từ đi kèm."", ""D"": ""productivity là danh từ (năng suất), đi sau mạo từ 'the' và làm tân ngữ cho ngoại động từ 'increase', tạo thành cụm danh từ hoàn chỉnh về ngữ nghĩa và ngữ pháp.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Word Form"",
+  ""sentence_structure"": ""S + V + to-infinitive (aims to increase [Det + N])."",
+  ""pattern"": ""increase + noun (objective noun phrase)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""training program"",
+      ""meaning"": ""chương trình đào tạo"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""manufacturing"",
+      ""meaning"": ""sản xuất, chế tạo"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""productivity"",
+      ""meaning"": ""năng suất"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu yêu cầu điền một danh từ vào chỗ trống làm tân ngữ cho ngoại động từ 'increase' (tăng cường, làm tăng). Trước chỗ trống có mạo từ 'the', và theo sau là cụm giới từ 'of its manufacturing systems', vì vậy vị trí này cần một danh từ số ít hoặc danh từ không đếm được. Đáp án (D) 'productivity' là danh từ chỉ năng suất, phù hợp nhất về mặt ngữ pháp lẫn ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""producer là danh từ chỉ người (nhà sản xuất), không phù hợp về ngữ nghĩa khi đi với động từ tăng cường hiệu suất của hệ thống."",
+    ""B"": ""produced là dạng quá khứ hoặc phân từ quá khứ của động từ 'produce', không thể đứng sau mạo từ 'the' ở vị trí tân ngữ này."",
+    ""C"": ""productive là tính từ (có năng suất), không đứng ở vị trí sau mạo từ 'the' để làm tân ngữ chính của câu mà thiếu danh từ đi kèm."",
+    ""D"": ""productivity là danh từ (năng suất), đi sau mạo từ 'the' và làm tân ngữ cho ngoại động từ 'increase', tạo thành cụm danh từ hoàn chỉnh về ngữ nghĩa và ngữ pháp.""
+  },
+  ""difficulty"": ""easy""
+}"
+17,ETS2026,5,117,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.64,1818,488,2306,The board of directors has voted to award Mr. Mitrakos a bonus for his role _____ obtaining the international contract.,in,at,except,apart,A,"{""grammar_topic"": ""Preposition"", ""sentence_structure"": ""S + V + O + Prep Phrase"", ""pattern"": ""role in + V-ing"", ""vocabulary"": [{""word"": ""board of directors"", ""meaning"": ""hội đồng quản trị"", ""part_of_speech"": ""noun phrase""}, {""word"": ""award"", ""meaning"": ""thưởng, trao tặng"", ""part_of_speech"": ""verb""}, {""word"": ""bonus"", ""meaning"": ""tiền thưởng"", ""part_of_speech"": ""noun""}, {""word"": ""obtain"", ""meaning"": ""đạt được, giành được"", ""part_of_speech"": ""verb""}], ""explanation"": ""Câu này kiểm tra giới từ đi kèm với danh từ 'role'. Cấu trúc chuẩn trong tiếng Anh là 'one's role in doing something' (vai trò của ai trong việc làm gì). Do đó, giới từ 'in' là lựa chọn chính xác để kết hợp với cụm từ 'his role' và đi trước danh động từ 'obtaining'."", ""distractor_analysis"": {""A"": ""Đáp án chính xác. Giới từ 'in' kết hợp hoàn hảo với danh từ 'role' tạo thành cụm chỉ vai trò trong việc thực hiện một hành động nào đó ('his role in obtaining')."", ""B"": ""Giới từ 'at' không đi kèm với 'role' theo ngữ cảnh này và không tạo thành cụm từ có nghĩa phù hợp."", ""C"": ""Liên từ/giới từ 'except' (ngoại trừ) không phù hợp về mặt ngữ nghĩa và cấu trúc ngữ pháp khi đứng trước danh động từ chỉ lĩnh vực hoặc hoạt động đóng góp."", ""D"": ""Trạng từ/giới từ 'apart' thường đi với 'from' (apart from: ngoại trừ/ngoài ra) chứ không đứng độc lập trước danh động từ trong cấu trúc này.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition"",
+  ""sentence_structure"": ""S + V + O + Prep Phrase"",
+  ""pattern"": ""role in + V-ing"",
+  ""vocabulary"": [
+    {
+      ""word"": ""board of directors"",
+      ""meaning"": ""hội đồng quản trị"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""award"",
+      ""meaning"": ""thưởng, trao tặng"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""bonus"",
+      ""meaning"": ""tiền thưởng"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""obtain"",
+      ""meaning"": ""đạt được, giành được"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Câu này kiểm tra giới từ đi kèm với danh từ 'role'. Cấu trúc chuẩn trong tiếng Anh là 'one's role in doing something' (vai trò của ai trong việc làm gì). Do đó, giới từ 'in' là lựa chọn chính xác để kết hợp với cụm từ 'his role' và đi trước danh động từ 'obtaining'."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án chính xác. Giới từ 'in' kết hợp hoàn hảo với danh từ 'role' tạo thành cụm chỉ vai trò trong việc thực hiện một hành động nào đó ('his role in obtaining')."",
+    ""B"": ""Giới từ 'at' không đi kèm với 'role' theo ngữ cảnh này và không tạo thành cụm từ có nghĩa phù hợp."",
+    ""C"": ""Liên từ/giới từ 'except' (ngoại trừ) không phù hợp về mặt ngữ nghĩa và cấu trúc ngữ pháp khi đứng trước danh động từ chỉ lĩnh vực hoặc hoạt động đóng góp."",
+    ""D"": ""Trạng từ/giới từ 'apart' thường đi với 'from' (apart from: ngoại trừ/ngoài ra) chứ không đứng độc lập trước danh động từ trong cấu trúc này.""
+  },
+  ""difficulty"": ""medium""
+}"
+18,ETS2026,5,118,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.02,1809,435,2244,The finance director gave his approval _____ the project can move forward.,along,furthermore,cautiously,so that,D,"{""grammar_topic"": ""Conjunction"", ""sentence_structure"": ""S V O Conj S V O"", ""pattern"": ""clause + so that + clause"", ""vocabulary"": [{""word"": ""approval"", ""meaning"": ""sự phê duyệt, sự chấp thuận"", ""part_of_speech"": ""noun""}, {""word"": ""cautiously"", ""meaning"": ""một cách cẩn trọng"", ""part_of_speech"": ""adverb""}, {""word"": ""furthermore"", ""meaning"": ""hơn nữa, ngoài ra"", ""part_of_speech"": ""adverb""}], ""explanation"": ""Câu này cần một liên từ hoặc trạng từ nối hai mệnh đề có quan hệ chỉ mục đích hoặc kết quả. 'so that' (để mà) là liên từ phù hợp nhất về mặt ngữ nghĩa và cấu trúc để nối hai mệnh đề 'The finance director gave his approval' và 'the project can move forward'."", ""distractor_analysis"": {""A"": ""along là giới từ hoặc trạng từ (đi cùng, dọc theo), không phù hợp để nối hai mệnh đề hoàn chỉnh trong ngữ cảnh này."", ""B"": ""furthermore là trạng từ mang nghĩa 'hơn nữa', dùng để bổ sung ý chứ không phải là liên từ chỉ mục đích hay kết quả để liên kết hai mệnh đề liền mạch như yêu cầu."", ""C"": ""cautiously là trạng từ (một cách cẩn trọng), vị trí trống cần một liên từ nối mệnh đề thay vì trạng từ bổ nghĩa cho động từ."", ""D"": ""so that là liên từ chỉ mục đích (để mà), hoàn toàn phù hợp để nối mệnh đề chỉ sự phê duyệt với mệnh đề chỉ mục đích dự án có thể tiến lên phía trước.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Conjunction"",
+  ""sentence_structure"": ""S V O Conj S V O"",
+  ""pattern"": ""clause + so that + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""approval"",
+      ""meaning"": ""sự phê duyệt, sự chấp thuận"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""cautiously"",
+      ""meaning"": ""một cách cẩn trọng"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""furthermore"",
+      ""meaning"": ""hơn nữa, ngoài ra"",
+      ""part_of_speech"": ""adverb""
+    }
+  ],
+  ""explanation"": ""Câu này cần một liên từ hoặc trạng từ nối hai mệnh đề có quan hệ chỉ mục đích hoặc kết quả. 'so that' (để mà) là liên từ phù hợp nhất về mặt ngữ nghĩa và cấu trúc để nối hai mệnh đề 'The finance director gave his approval' và 'the project can move forward'."",
+  ""distractor_analysis"": {
+    ""A"": ""along là giới từ hoặc trạng từ (đi cùng, dọc theo), không phù hợp để nối hai mệnh đề hoàn chỉnh trong ngữ cảnh này."",
+    ""B"": ""furthermore là trạng từ mang nghĩa 'hơn nữa', dùng để bổ sung ý chứ không phải là liên từ chỉ mục đích hay kết quả để liên kết hai mệnh đề liền mạch như yêu cầu."",
+    ""C"": ""cautiously là trạng từ (một cách cẩn trọng), vị trí trống cần một liên từ nối mệnh đề thay vì trạng từ bổ nghĩa cho động từ."",
+    ""D"": ""so that là liên từ chỉ mục đích (để mà), hoàn toàn phù hợp để nối mệnh đề chỉ sự phê duyệt với mệnh đề chỉ mục đích dự án có thể tiến lên phía trước.""
+  },
+  ""difficulty"": ""medium""
+}"
+19,ETS2026,5,119,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.33,1809,437,2246,The newspaper article describes ways job seekers can _____ for having little workplace experience.,reply,capture,compensate,accumulate,C,"{""grammar_topic"": ""Verb Collocation and Vocabulary"", ""sentence_structure"": ""S (The newspaper article) + V (describes) + O (ways [that] job seekers can _____ [prep] [O])"", ""pattern"": ""compensate for + noun/gerund"", ""vocabulary"": [{""word"": ""compensate"", ""meaning"": ""đền bù, bù đắp"", ""part_of_speech"": ""verb""}, {""word"": ""experience"", ""meaning"": ""kinh nghiệm"", ""part_of_speech"": ""noun""}, {""word"": ""job seekers"", ""meaning"": ""người tìm việc"", ""part_of_speech"": ""noun phrase""}], ""explanation"": ""Câu yêu cầu điền một động từ phù hợp với ngữ cảnh của câu và kết hợp được với giới từ 'for' ở phía sau. Cụm từ 'compensate for' có nghĩa là 'bù đắp cho', rất phù hợp với ngữ cảnh 'bù đắp cho việc có ít kinh nghiệm làm việc'."", ""distractor_analysis"": {""A"": ""reply: Không phù hợp về nghĩa và cấu trúc ngữ pháp (thường đi với giới từ 'to', không đi với 'for' theo nghĩa bù đắp)."", ""B"": ""capture: Có nghĩa là 'bắt giữ, thu hút', không kết hợp với giới từ 'for' trong ngữ cảnh này."", ""C"": ""compensate: Là đáp án chính xác. Cấu trúc 'compensate for' có nghĩa là bù đắp cho điều gì đó."", ""D"": ""accumulate: Có nghĩa là 'tích lũy', không phù hợp với giới từ 'for' và ngữ cảnh bù đắp cho việc thiếu kinh nghiệm.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb Collocation and Vocabulary"",
+  ""sentence_structure"": ""S (The newspaper article) + V (describes) + O (ways [that] job seekers can _____ [prep] [O])"",
+  ""pattern"": ""compensate for + noun/gerund"",
+  ""vocabulary"": [
+    {
+      ""word"": ""compensate"",
+      ""meaning"": ""đền bù, bù đắp"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""experience"",
+      ""meaning"": ""kinh nghiệm"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""job seekers"",
+      ""meaning"": ""người tìm việc"",
+      ""part_of_speech"": ""noun phrase""
+    }
+  ],
+  ""explanation"": ""Câu yêu cầu điền một động từ phù hợp với ngữ cảnh của câu và kết hợp được với giới từ 'for' ở phía sau. Cụm từ 'compensate for' có nghĩa là 'bù đắp cho', rất phù hợp với ngữ cảnh 'bù đắp cho việc có ít kinh nghiệm làm việc'."",
+  ""distractor_analysis"": {
+    ""A"": ""reply: Không phù hợp về nghĩa và cấu trúc ngữ pháp (thường đi với giới từ 'to', không đi với 'for' theo nghĩa bù đắp)."",
+    ""B"": ""capture: Có nghĩa là 'bắt giữ, thu hút', không kết hợp với giới từ 'for' trong ngữ cảnh này."",
+    ""C"": ""compensate: Là đáp án chính xác. Cấu trúc 'compensate for' có nghĩa là bù đắp cho điều gì đó."",
+    ""D"": ""accumulate: Có nghĩa là 'tích lũy', không phù hợp với giới từ 'for' và ngữ cảnh bù đắp cho việc thiếu kinh nghiệm.""
+  },
+  ""difficulty"": ""medium""
+}"
+20,ETS2026,5,120,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.67,1812,413,2225,"Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",myself,neither,anybody,whoever,B,"{""grammar_topic"": ""Pronouns"", ""sentence_structure"": ""S + V + O, but Pronoun + V + O."", ""pattern"": ""neither + got the job"", ""vocabulary"": [{""word"": ""qualified"", ""meaning"": ""có đủ năng lực, đủ điều kiện"", ""part_of_speech"": ""adjective""}, {""word"": ""neither"", ""meaning"": ""cả hai không (ai trong số hai người không)"", ""part_of_speech"": ""pronoun""}], ""explanation"": ""Câu này đề cập đến hai ứng viên (Mr. Ellis và Ms. Barnes) đều có trình độ cao, nhưng từ liên kết 'but' chỉ sự đối lập cho thấy không ai trong số họ nhận được công việc. Đại từ phủ định 'neither' (dùng cho hai đối tượng) là sự lựa chọn chính xác về mặt ngữ nghĩa và ngữ pháp để điền vào vị trí chủ ngữ của mệnh đề sau."", ""distractor_analysis"": {""A"": ""myself là đại từ phản thân, không phù hợp làm chủ ngữ đứng độc lập trong ngữ cảnh này."", ""B"": ""neither là đại từ phủ định chỉ hai người (không ai trong hai), hoàn toàn chính xác về nghĩa khi xét trong ngữ cảnh hai ứng viên đều giỏi nhưng không ai được nhận việc."", ""C"": ""anybody là đại từ bất định dùng trong câu phủ định hoặc nghi vấn, không phù hợp với cấu trúc câu khẳng định mang nghĩa đối lập qua 'but'."", ""D"": ""whoever tạo thành một mệnh đề danh từ nhưng cấu trúc câu đã thiếu chủ ngữ chính cho động từ 'got', nên không thể dùng đại từ quan hệ/nghi vấn này.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Pronouns"",
+  ""sentence_structure"": ""S + V + O, but Pronoun + V + O."",
+  ""pattern"": ""neither + got the job"",
+  ""vocabulary"": [
+    {
+      ""word"": ""qualified"",
+      ""meaning"": ""có đủ năng lực, đủ điều kiện"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""neither"",
+      ""meaning"": ""cả hai không (ai trong số hai người không)"",
+      ""part_of_speech"": ""pronoun""
+    }
+  ],
+  ""explanation"": ""Câu này đề cập đến hai ứng viên (Mr. Ellis và Ms. Barnes) đều có trình độ cao, nhưng từ liên kết 'but' chỉ sự đối lập cho thấy không ai trong số họ nhận được công việc. Đại từ phủ định 'neither' (dùng cho hai đối tượng) là sự lựa chọn chính xác về mặt ngữ nghĩa và ngữ pháp để điền vào vị trí chủ ngữ của mệnh đề sau."",
+  ""distractor_analysis"": {
+    ""A"": ""myself là đại từ phản thân, không phù hợp làm chủ ngữ đứng độc lập trong ngữ cảnh này."",
+    ""B"": ""neither là đại từ phủ định chỉ hai người (không ai trong hai), hoàn toàn chính xác về nghĩa khi xét trong ngữ cảnh hai ứng viên đều giỏi nhưng không ai được nhận việc."",
+    ""C"": ""anybody là đại từ bất định dùng trong câu phủ định hoặc nghi vấn, không phù hợp với cấu trúc câu khẳng định mang nghĩa đối lập qua 'but'."",
+    ""D"": ""whoever tạo thành một mệnh đề danh từ nhưng cấu trúc câu đã thiếu chủ ngữ chính cho động từ 'got', nên không thể dùng đại từ quan hệ/nghi vấn này.""
+  },
+  ""difficulty"": ""medium""
+}"
+21,ETS2026,5,121,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.74,1807,435,2242,Ennis Photography purchased all new lighting equipment _____ the high cost.,even though,however,until,despite,D,"{""grammar_topic"": ""Preposition vs. Conjunction"", ""sentence_structure"": ""S + V + O + Prep + NP."", ""pattern"": ""despite + noun phrase (showing contrast)"", ""vocabulary"": [{""word"": ""despite"", ""meaning"": ""mặc dù, bất chấp"", ""part_of_speech"": ""preposition""}, {""word"": ""equipment"", ""meaning"": ""thiết bị"", ""part_of_speech"": ""noun""}, {""word"": ""cost"", ""meaning"": ""chi phí"", ""part_of_speech"": ""noun""}], ""explanation"": ""Chỗ trống cần một giới từ mang nghĩa nhượng bộ để đi trước cụm danh từ 'the high cost' (chi phí cao). 'Despite' là giới từ có nghĩa là 'mặc dù', được theo sau bởi một danh từ hoặc cụm danh từ, hoàn toàn phù hợp về mặt ngữ pháp và ngữ nghĩa."", ""distractor_analysis"": {""A"": ""even though là liên từ, phải được theo sau bởi một mệnh đề (S + V), trong khi sau chỗ trống là cụm danh từ 'the high cost'."", ""B"": ""however là trạng từ liên kết, thường đứng đầu câu và cách biệt bằng dấu phẩy hoặc đứng sau dấu chấm phẩy, không dùng để nối trực tiếp với cụm danh từ trong cùng một mệnh đề."", ""C"": ""until là liên từ hoặc giới từ chỉ thời gian (cho đến khi), không phù hợp với ngữ cảnh diễn tả sự nhượng bộ, tương phản về chi phí."", ""D"": ""despite là giới từ chỉ sự nhượng bộ, theo sau bởi cụm danh từ 'the high cost', phù hợp hoàn toàn với cấu trúc và ngữ nghĩa của câu.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition vs. Conjunction"",
+  ""sentence_structure"": ""S + V + O + Prep + NP."",
+  ""pattern"": ""despite + noun phrase (showing contrast)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""despite"",
+      ""meaning"": ""mặc dù, bất chấp"",
+      ""part_of_speech"": ""preposition""
+    },
+    {
+      ""word"": ""equipment"",
+      ""meaning"": ""thiết bị"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""cost"",
+      ""meaning"": ""chi phí"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Chỗ trống cần một giới từ mang nghĩa nhượng bộ để đi trước cụm danh từ 'the high cost' (chi phí cao). 'Despite' là giới từ có nghĩa là 'mặc dù', được theo sau bởi một danh từ hoặc cụm danh từ, hoàn toàn phù hợp về mặt ngữ pháp và ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""even though là liên từ, phải được theo sau bởi một mệnh đề (S + V), trong khi sau chỗ trống là cụm danh từ 'the high cost'."",
+    ""B"": ""however là trạng từ liên kết, thường đứng đầu câu và cách biệt bằng dấu phẩy hoặc đứng sau dấu chấm phẩy, không dùng để nối trực tiếp với cụm danh từ trong cùng một mệnh đề."",
+    ""C"": ""until là liên từ hoặc giới từ chỉ thời gian (cho đến khi), không phù hợp với ngữ cảnh diễn tả sự nhượng bộ, tương phản về chi phí."",
+    ""D"": ""despite là giới từ chỉ sự nhượng bộ, theo sau bởi cụm danh từ 'the high cost', phù hợp hoàn toàn với cấu trúc và ngữ nghĩa của câu.""
+  },
+  ""difficulty"": ""medium""
+}"
+22,ETS2026,5,122,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.91,1815,481,2296,Marburton residents who wish to _____ a home should contact the award-winning team at Kwan Real Estate.,seller,sold,sell,selling,C,"{""grammar_topic"": ""Word Form (Verb Base Form)"", ""sentence_structure"": ""S (Marburton residents) + relative clause [who + V (wish) + infinitive object (to + _____)] + V (should contact) + O."", ""pattern"": ""wish to + V (base form)"", ""vocabulary"": [{""word"": ""resident"", ""meaning"": ""cư dân"", ""part_of_speech"": ""noun""}, {""word"": ""wish"", ""meaning"": ""muốn, mong muốn"", ""part_of_speech"": ""verb""}, {""word"": ""contact"", ""meaning"": ""liên hệ"", ""part_of_speech"": ""verb""}, {""word"": ""real estate"", ""meaning"": ""bất động sản"", ""part_of_speech"": ""noun""}], ""explanation"": ""Trỗ trống nằm sau cấu trúc 'wish to', đây là cấu trúc động từ nguyên mẫu có 'to' (to-infinitive). Do đó, vị trí này đòi hỏi một động từ nguyên mẫu (base form). Phương án (C) 'sell' là động từ nguyên mẫu, phù hợp về mặt ngữ pháp và ngữ cảnh ('muốn bán một ngôi nhà')."", ""distractor_analysis"": {""A"": ""seller là danh từ chỉ người (người bán), không phù hợp đứng sau 'to' trong cấu trúc động từ nguyên mẫu."", ""B"": ""sold là dạng quá khứ hoặc quá khứ phân từ của động từ sell, không đi sau hạt từ 'to' ở dạng này."", ""C"": ""sell là động từ nguyên mẫu (base form), đứng sau 'to' để tạo thành cụm to-infinitive (to sell), đáp án chính xác."", ""D"": ""selling là động từ thêm đuôi -ing (gerund/participle), không phù hợp đi ngay sau 'to' trong cấu trúc này.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Word Form (Verb Base Form)"",
+  ""sentence_structure"": ""S (Marburton residents) + relative clause [who + V (wish) + infinitive object (to + _____)] + V (should contact) + O."",
+  ""pattern"": ""wish to + V (base form)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""resident"",
+      ""meaning"": ""cư dân"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""wish"",
+      ""meaning"": ""muốn, mong muốn"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""contact"",
+      ""meaning"": ""liên hệ"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""real estate"",
+      ""meaning"": ""bất động sản"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Trỗ trống nằm sau cấu trúc 'wish to', đây là cấu trúc động từ nguyên mẫu có 'to' (to-infinitive). Do đó, vị trí này đòi hỏi một động từ nguyên mẫu (base form). Phương án (C) 'sell' là động từ nguyên mẫu, phù hợp về mặt ngữ pháp và ngữ cảnh ('muốn bán một ngôi nhà')."",
+  ""distractor_analysis"": {
+    ""A"": ""seller là danh từ chỉ người (người bán), không phù hợp đứng sau 'to' trong cấu trúc động từ nguyên mẫu."",
+    ""B"": ""sold là dạng quá khứ hoặc quá khứ phân từ của động từ sell, không đi sau hạt từ 'to' ở dạng này."",
+    ""C"": ""sell là động từ nguyên mẫu (base form), đứng sau 'to' để tạo thành cụm to-infinitive (to sell), đáp án chính xác."",
+    ""D"": ""selling là động từ thêm đuôi -ing (gerund/participle), không phù hợp đi ngay sau 'to' trong cấu trúc này.""
+  },
+  ""difficulty"": ""easy""
+}"
+23,ETS2026,5,123,PASS_QUALITY_VALIDATED,True,True,VALID,,,,4.85,1814,422,2236,Maswa Bistro began a _____ agreement with local farmers to purchase a set amount of produce each week.,disruptive,cooperative,grateful,concerned,B,"{""grammar_topic"": ""vocabulary"", ""sentence_structure"": ""S + V + O (Noun Phrase: a [blank] agreement with local farmers) + Infinitive Phrase"", ""pattern"": ""adj + noun (agreement)"", ""vocabulary"": [{""word"": ""agreement"", ""meaning"": ""thỏa thuận, hợp đồng"", ""part_of_speech"": ""noun""}, {""word"": ""cooperative"", ""meaning"": ""mang tính hợp tác"", ""part_of_speech"": ""adjective""}, {""word"": ""produce"", ""meaning"": ""nông sản"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu hỏi kiểm tra từ vựng loại tính từ đứng trước danh từ 'agreement' để bổ nghĩa cho nó. Dựa vào ngữ cảnh của câu, Maswa Bistro thiết lập một thỏa thuận mua một lượng cố định nông sản mỗi tuần với nông dân địa phương, từ 'cooperative' (mang tính hợp tác) là phù hợp nhất về mặt ngữ nghĩa."", ""distractor_analysis"": {""A"": ""Disruptive có nghĩa là 'gây gián đoạn, quấy rối', không phù hợp với ngữ cảnh thiết lập thỏa thuận mua bán ổn định với nông dân."", ""B"": ""Cooperative có nghĩa là 'mang tính hợp tác', là đáp án chính xác vì diễn tả một thỏa thuận hợp tác cùng có lợi giữa nhà hàng và nông dân địa phương."", ""C"": ""Grateful có nghĩa là 'biết ơn', không hợp nghĩa khi đi với danh từ 'agreement'."", ""D"": ""Concerned có nghĩa là 'lo lắng, quan ngại', không phù hợp với ngữ cảnh thỏa thuận cung cấp nông sản.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""vocabulary"",
+  ""sentence_structure"": ""S + V + O (Noun Phrase: a [blank] agreement with local farmers) + Infinitive Phrase"",
+  ""pattern"": ""adj + noun (agreement)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""agreement"",
+      ""meaning"": ""thỏa thuận, hợp đồng"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""cooperative"",
+      ""meaning"": ""mang tính hợp tác"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""produce"",
+      ""meaning"": ""nông sản"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra từ vựng loại tính từ đứng trước danh từ 'agreement' để bổ nghĩa cho nó. Dựa vào ngữ cảnh của câu, Maswa Bistro thiết lập một thỏa thuận mua một lượng cố định nông sản mỗi tuần với nông dân địa phương, từ 'cooperative' (mang tính hợp tác) là phù hợp nhất về mặt ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""Disruptive có nghĩa là 'gây gián đoạn, quấy rối', không phù hợp với ngữ cảnh thiết lập thỏa thuận mua bán ổn định với nông dân."",
+    ""B"": ""Cooperative có nghĩa là 'mang tính hợp tác', là đáp án chính xác vì diễn tả một thỏa thuận hợp tác cùng có lợi giữa nhà hàng và nông dân địa phương."",
+    ""C"": ""Grateful có nghĩa là 'biết ơn', không hợp nghĩa khi đi với danh từ 'agreement'."",
+    ""D"": ""Concerned có nghĩa là 'lo lắng, quan ngại', không phù hợp với ngữ cảnh thỏa thuận cung cấp nông sản.""
+  },
+  ""difficulty"": ""medium""
+}"
+24,ETS2026,5,124,PASS_QUALITY_VALIDATED,True,True,VALID,,,,6.61,1814,488,2302,The City of Doyle's new downtown parking _____ have been met with opposition by residents and visitors.,restricts,restricted,restrictions,restricting,C,"{""grammar_topic"": ""Word Form (Noun vs. Verb)"", ""sentence_structure"": ""S (The City of Doyle's new downtown parking restrictions) + V (have been met) + Prep (with) + O (opposition by residents and visitors)."", ""pattern"": ""Possessive / Adjective + Noun (Subject) + Verb Phrase"", ""vocabulary"": [{""word"": ""restrictions"", ""meaning"": ""sự hạn chế, quy định hạn chế"", ""part_of_speech"": ""noun""}, {""word"": ""opposition"", ""meaning"": ""sự phản đối"", ""part_of_speech"": ""noun""}, {""word"": ""residents"", ""meaning"": ""cư dân"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu tìm một danh từ làm chủ ngữ chính cho câu, đứng sau cụm tính từ sở hữu và các tính từ bổ nghĩa 'new downtown parking'. Các lựa chọn khác như động từ chia ở các dạng khác nhau không phù hợp về mặt ngữ pháp để làm chủ ngữ đứng trước trợ động từ 'have been met'. Do đó, danh từ số nhiều 'restrictions' là lựa chọn chính xác."", ""distractor_analysis"": {""A"": ""Sai ngữ pháp vì 'restricts' là động từ chia ở thì hiện tại đơn ngôi thứ ba số ít, không thể đứng làm chủ ngữ của câu."", ""B"": ""Sai ngữ pháp vì 'restricted' là dạng quá khứ hoặc quá khứ phân từ của động từ, không đóng vai trò làm danh từ làm chủ ngữ trong cấu trúc này."", ""C"": ""Đúng ngữ pháp và ngữ nghĩa. 'restrictions' là danh từ số nhiều, phù hợp làm chủ ngữ kết hợp với trợ động từ số nhiều 'have been'."", ""D"": ""Sai ngữ pháp vì 'restricting' là danh động từ (gerund) hoặc phân từ hiện tại (-ing), không phù hợp để tạo thành chủ ngữ chính đứng trước động từ chính 'have been met'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Word Form (Noun vs. Verb)"",
+  ""sentence_structure"": ""S (The City of Doyle's new downtown parking restrictions) + V (have been met) + Prep (with) + O (opposition by residents and visitors)."",
+  ""pattern"": ""Possessive / Adjective + Noun (Subject) + Verb Phrase"",
+  ""vocabulary"": [
+    {
+      ""word"": ""restrictions"",
+      ""meaning"": ""sự hạn chế, quy định hạn chế"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""opposition"",
+      ""meaning"": ""sự phản đối"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""residents"",
+      ""meaning"": ""cư dân"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu tìm một danh từ làm chủ ngữ chính cho câu, đứng sau cụm tính từ sở hữu và các tính từ bổ nghĩa 'new downtown parking'. Các lựa chọn khác như động từ chia ở các dạng khác nhau không phù hợp về mặt ngữ pháp để làm chủ ngữ đứng trước trợ động từ 'have been met'. Do đó, danh từ số nhiều 'restrictions' là lựa chọn chính xác."",
+  ""distractor_analysis"": {
+    ""A"": ""Sai ngữ pháp vì 'restricts' là động từ chia ở thì hiện tại đơn ngôi thứ ba số ít, không thể đứng làm chủ ngữ của câu."",
+    ""B"": ""Sai ngữ pháp vì 'restricted' là dạng quá khứ hoặc quá khứ phân từ của động từ, không đóng vai trò làm danh từ làm chủ ngữ trong cấu trúc này."",
+    ""C"": ""Đúng ngữ pháp và ngữ nghĩa. 'restrictions' là danh từ số nhiều, phù hợp làm chủ ngữ kết hợp với trợ động từ số nhiều 'have been'."",
+    ""D"": ""Sai ngữ pháp vì 'restricting' là danh động từ (gerund) hoặc phân từ hiện tại (-ing), không phù hợp để tạo thành chủ ngữ chính đứng trước động từ chính 'have been met'.""
+  },
+  ""difficulty"": ""medium""
+}"
+25,ETS2026,5,125,PASS_QUALITY_VALIDATED,True,True,VALID,,,,4.81,1811,504,2315,"The plumbing position requires extensive training, even for those who studied _____ in technical school.",diligently,scientifically,objectively,decidedly,A,"{""grammar_topic"": ""vocabulary"", ""sentence_structure"": ""S + V + O, Prep + NP (those who studied [adverb] in technical school)."", ""pattern"": ""study + adverb (manner)"", ""vocabulary"": [{""word"": ""plumbing"", ""meaning"": ""công việc thợ ống nước, hệ thống ống nước"", ""part_of_speech"": ""noun""}, {""word"": ""extensive"", ""meaning"": ""bao quát, sâu rộng, nhiều"", ""part_of_speech"": ""adjective""}, {""word"": ""diligently"", ""meaning"": ""một cách chăm chỉ, siêng năng"", ""part_of_speech"": ""adverb""}, {""word"": ""technical"", ""meaning"": ""thuộc kỹ thuật, chuyên kỹ thuật"", ""part_of_speech"": ""adjective""}], ""explanation"": ""Câu hỏi kiểm tra nghĩa của trạng từ đi kèm với động từ 'studied'. Ngữ cảnh câu nói về vị trí công việc thợ sửa ống nước đòi hỏi quá trình đào tạo bài bản, ngay cả đối với những người đã học tập một cách chăm chỉ tại trường kỹ thuật. Do đó, 'diligently' (chăm chỉ) là từ phù hợp nhất về mặt ngữ nghĩa."", ""distractor_analysis"": {""A"": ""Đáp án chính xác. 'diligently' (một cách chăm chỉ, siêng năng) phù hợp hoàn toàn với ngữ cảnh học tập tại trường kỹ thuật."", ""B"": ""Sai về ngữ nghĩa. 'scientifically' có nghĩa là 'một cách khoa học', không phù hợp với việc học nghề thợ ống nước."", ""C"": ""Sai về ngữ nghĩa. 'objectively' có nghĩa là 'một cách khách quan', không tạo nên ý nghĩa hợp lý khi bổ nghĩa cho động từ 'studied' trong ngữ cảnh này."", ""D"": ""Sai về ngữ nghĩa. 'decidedly' có nghĩa là 'một cách quả quyết, rõ ràng', không phù hợp để diễn tả cách thức học tập.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""vocabulary"",
+  ""sentence_structure"": ""S + V + O, Prep + NP (those who studied [adverb] in technical school)."",
+  ""pattern"": ""study + adverb (manner)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""plumbing"",
+      ""meaning"": ""công việc thợ ống nước, hệ thống ống nước"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""extensive"",
+      ""meaning"": ""bao quát, sâu rộng, nhiều"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""diligently"",
+      ""meaning"": ""một cách chăm chỉ, siêng năng"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""technical"",
+      ""meaning"": ""thuộc kỹ thuật, chuyên kỹ thuật"",
+      ""part_of_speech"": ""adjective""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra nghĩa của trạng từ đi kèm với động từ 'studied'. Ngữ cảnh câu nói về vị trí công việc thợ sửa ống nước đòi hỏi quá trình đào tạo bài bản, ngay cả đối với những người đã học tập một cách chăm chỉ tại trường kỹ thuật. Do đó, 'diligently' (chăm chỉ) là từ phù hợp nhất về mặt ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án chính xác. 'diligently' (một cách chăm chỉ, siêng năng) phù hợp hoàn toàn với ngữ cảnh học tập tại trường kỹ thuật."",
+    ""B"": ""Sai về ngữ nghĩa. 'scientifically' có nghĩa là 'một cách khoa học', không phù hợp với việc học nghề thợ ống nước."",
+    ""C"": ""Sai về ngữ nghĩa. 'objectively' có nghĩa là 'một cách khách quan', không tạo nên ý nghĩa hợp lý khi bổ nghĩa cho động từ 'studied' trong ngữ cảnh này."",
+    ""D"": ""Sai về ngữ nghĩa. 'decidedly' có nghĩa là 'một cách quả quyết, rõ ràng', không phù hợp để diễn tả cách thức học tập.""
+  },
+  ""difficulty"": ""medium""
+}"
+26,ETS2026,5,126,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.41,1812,495,2307,"With its fixed price _____, Omega Cellular guarantees no phone bill increases for three years.",assurance,assuredly,assuring,assures,A,"{""grammar_topic"": ""word form"", ""sentence_structure"": ""Prep (With) Possessive (its) Adjective (fixed) Noun (price) Blank (_____) , S (Omega Cellular) V (guarantees) O (no phone bill increases for three years) ."", ""pattern"": ""fixed price + noun"", ""vocabulary"": [{""word"": ""fixed"", ""meaning"": ""cố định"", ""part_of_speech"": ""adjective""}, {""word"": ""guarantee"", ""meaning"": ""đảm bảo"", ""part_of_speech"": ""verb""}, {""word"": ""assurance"", ""meaning"": ""sự đảm bảo"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu điền một danh từ để tạo thành một cụm danh từ hoàn chỉnh làm tân ngữ cho giới từ 'With'. Phía trước chỗ trống có các từ bổ nghĩa gồm tính từ sở hữu 'its', tính từ 'fixed', và danh từ 'price'. Cụm từ 'fixed price assurance' có nghĩa là 'sự đảm bảo giá cố định'. Do đó, danh từ 'assurance' (đáp án A) là lựa chọn chính xác về mặt ngữ pháp và ngữ nghĩa."", ""distractor_analysis"": {""A"": ""Đáp án chính xác. 'Assurance' là danh từ, phù hợp để đứng sau cụm 'fixed price' tạo thành cụm danh từ làm tân ngữ cho giới từ."", ""B"": ""Sai. 'Assuredly' là trạng từ, không thể đứng ở vị trí cần một danh từ để tạo thành cụm danh từ bổ nghĩa cho giới từ."", ""C"": ""Sai. 'Assuring' là dạng V-ing hoặc tính từ hiện tại phân từ, không phù hợp về mặt cấu trúc cụm danh từ trong ngữ cảnh này."", ""D"": ""Sai. 'Assures' là động từ chia ở ngôi thứ ba số ít thì hiện tại đơn, trong khi câu đã có động từ chính là 'guarantees'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""word form"",
+  ""sentence_structure"": ""Prep (With) Possessive (its) Adjective (fixed) Noun (price) Blank (_____) , S (Omega Cellular) V (guarantees) O (no phone bill increases for three years) ."",
+  ""pattern"": ""fixed price + noun"",
+  ""vocabulary"": [
+    {
+      ""word"": ""fixed"",
+      ""meaning"": ""cố định"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""guarantee"",
+      ""meaning"": ""đảm bảo"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""assurance"",
+      ""meaning"": ""sự đảm bảo"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu điền một danh từ để tạo thành một cụm danh từ hoàn chỉnh làm tân ngữ cho giới từ 'With'. Phía trước chỗ trống có các từ bổ nghĩa gồm tính từ sở hữu 'its', tính từ 'fixed', và danh từ 'price'. Cụm từ 'fixed price assurance' có nghĩa là 'sự đảm bảo giá cố định'. Do đó, danh từ 'assurance' (đáp án A) là lựa chọn chính xác về mặt ngữ pháp và ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án chính xác. 'Assurance' là danh từ, phù hợp để đứng sau cụm 'fixed price' tạo thành cụm danh từ làm tân ngữ cho giới từ."",
+    ""B"": ""Sai. 'Assuredly' là trạng từ, không thể đứng ở vị trí cần một danh từ để tạo thành cụm danh từ bổ nghĩa cho giới từ."",
+    ""C"": ""Sai. 'Assuring' là dạng V-ing hoặc tính từ hiện tại phân từ, không phù hợp về mặt cấu trúc cụm danh từ trong ngữ cảnh này."",
+    ""D"": ""Sai. 'Assures' là động từ chia ở ngôi thứ ba số ít thì hiện tại đơn, trong khi câu đã có động từ chính là 'guarantees'.""
+  },
+  ""difficulty"": ""medium""
+}"
+27,ETS2026,5,127,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.31,1818,477,2295,"As chief analytics officer, Mr. Ko has worked at Lochstan Ltd. with great _____ for more than twenty years.",deduction,duplication,declaration,dedication,D,"{""grammar_topic"": ""Word Form (Noun vs. Noun/Collocation)"", ""sentence_structure"": ""S (Mr. Ko) + V (has worked) + Prep (at Lochstan Ltd.) + Prep (with great [blank]) + Prep (for more than twenty years)."", ""pattern"": ""work with great + noun (dedication/commitment)"", ""vocabulary"": [{""word"": ""dedication"", ""meaning"": ""sự cống hiến, tận tụy"", ""part_of_speech"": ""noun""}, {""word"": ""analytics"", ""meaning"": ""phân tích"", ""part_of_speech"": ""noun""}, {""word"": ""officer"", ""meaning"": ""viên chức, sĩ quan, cán bộ cấp cao"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này kiểm tra từ vựng danh từ phù hợp về mặt ngữ nghĩa và cụm từ (collocation) đi sau tính từ 'great' và giới từ 'with'. Cụm từ 'with great dedication' (với sự tận tụy/cống hiến lớn) phù hợp với ngữ cảnh làm việc hơn 20 năm tại công ty của ông Ko."", ""distractor_analysis"": {""A"": ""deduction (sự suy luận, khấu trừ) không phù hợp với ngữ cảnh làm việc lâu năm và tận tụy."", ""B"": ""duplication (sự sao chép, nhân bản) không tạo thành cụm từ hợp lý về nghĩa khi đi với 'with great' trong ngữ cảnh làm việc."", ""C"": ""declaration (sự tuyên bố, tờ khai) không phù hợp với ngữ cảnh miễn tả thái độ hoặc tinh thần làm việc."", ""D"": ""dedication (sự tận tụy, cống hiến) là danh từ chính xác nhất về mặt ngữ nghĩa khi kết hợp với 'great' và ngữ cảnh cống hiến lâu năm.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Word Form (Noun vs. Noun/Collocation)"",
+  ""sentence_structure"": ""S (Mr. Ko) + V (has worked) + Prep (at Lochstan Ltd.) + Prep (with great [blank]) + Prep (for more than twenty years)."",
+  ""pattern"": ""work with great + noun (dedication/commitment)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""dedication"",
+      ""meaning"": ""sự cống hiến, tận tụy"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""analytics"",
+      ""meaning"": ""phân tích"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""officer"",
+      ""meaning"": ""viên chức, sĩ quan, cán bộ cấp cao"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này kiểm tra từ vựng danh từ phù hợp về mặt ngữ nghĩa và cụm từ (collocation) đi sau tính từ 'great' và giới từ 'with'. Cụm từ 'with great dedication' (với sự tận tụy/cống hiến lớn) phù hợp với ngữ cảnh làm việc hơn 20 năm tại công ty của ông Ko."",
+  ""distractor_analysis"": {
+    ""A"": ""deduction (sự suy luận, khấu trừ) không phù hợp với ngữ cảnh làm việc lâu năm và tận tụy."",
+    ""B"": ""duplication (sự sao chép, nhân bản) không tạo thành cụm từ hợp lý về nghĩa khi đi với 'with great' trong ngữ cảnh làm việc."",
+    ""C"": ""declaration (sự tuyên bố, tờ khai) không phù hợp với ngữ cảnh miễn tả thái độ hoặc tinh thần làm việc."",
+    ""D"": ""dedication (sự tận tụy, cống hiến) là danh từ chính xác nhất về mặt ngữ nghĩa khi kết hợp với 'great' và ngữ cảnh cống hiến lâu năm.""
+  },
+  ""difficulty"": ""medium""
+}"
+28,ETS2026,5,128,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.62,1816,472,2288,Milltown Hospital's cafeteria serves lunch seven days a week _____ only on weekdays.,up to,as though,each time,rather than,D,"{""grammar_topic"": ""Conjunction / Prepositional Phrase"", ""sentence_structure"": ""S + V + O + Adv _____ Prep Phrase"", ""pattern"": ""rather than"", ""vocabulary"": [{""word"": ""cafeteria"", ""meaning"": ""căng-tin, quán ăn tự phục vụ"", ""part_of_speech"": ""noun""}, {""word"": ""weekdays"", ""meaning"": ""các ngày trong tuần"", ""part_of_speech"": ""noun""}, {""word"": ""rather than"", ""meaning"": ""hơn là, thay vì"", ""part_of_speech"": ""prepositional phrase""}], ""explanation"": ""Câu này kiểm tra cấu trúc từ vựng/liên từ chỉ sự đối lập hoặc lựa chọn. Ngữ cảnh của câu cho biết căng-tin của bệnh viện phục vụ bữa trưa bảy ngày một tuần, thay vì chỉ vào các ngày trong tuần. Do đó, cụm giới từ/liên từ 'rather than' (thay vì) là lựa chọn hoàn toàn phù hợp về mặt ngữ nghĩa và cấu trúc ngữ pháp."", ""distractor_analysis"": {""A"": ""up to (lên đến) không phù hợp về ngữ nghĩa để diễn tả sự đối lập giữa việc phục vụ 7 ngày với chỉ các ngày trong tuần."", ""B"": ""as though (như thể là) là một liên từ chỉ thể cách, không tạo ra ngữ nghĩa hợp lý trong bối cảnh chỉ sự lựa chọn hoặc thay thế."", ""C"": ""each time (mỗi khi) mang nghĩa chỉ thời gian/tần suất, không phù hợp với cấu trúc so sánh hoặc phủ định một khả năng khác ở vế sau."", ""D"": ""rather than (thay vì, hơn là) hoàn toàn chính xác về mặt ngữ nghĩa, nối liền hai trạng ngữ chỉ thời gian để diễn tả việc phục vụ cả tuần thay vì chỉ phục vụ các ngày trong tuần.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Conjunction / Prepositional Phrase"",
+  ""sentence_structure"": ""S + V + O + Adv _____ Prep Phrase"",
+  ""pattern"": ""rather than"",
+  ""vocabulary"": [
+    {
+      ""word"": ""cafeteria"",
+      ""meaning"": ""căng-tin, quán ăn tự phục vụ"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""weekdays"",
+      ""meaning"": ""các ngày trong tuần"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""rather than"",
+      ""meaning"": ""hơn là, thay vì"",
+      ""part_of_speech"": ""prepositional phrase""
+    }
+  ],
+  ""explanation"": ""Câu này kiểm tra cấu trúc từ vựng/liên từ chỉ sự đối lập hoặc lựa chọn. Ngữ cảnh của câu cho biết căng-tin của bệnh viện phục vụ bữa trưa bảy ngày một tuần, thay vì chỉ vào các ngày trong tuần. Do đó, cụm giới từ/liên từ 'rather than' (thay vì) là lựa chọn hoàn toàn phù hợp về mặt ngữ nghĩa và cấu trúc ngữ pháp."",
+  ""distractor_analysis"": {
+    ""A"": ""up to (lên đến) không phù hợp về ngữ nghĩa để diễn tả sự đối lập giữa việc phục vụ 7 ngày với chỉ các ngày trong tuần."",
+    ""B"": ""as though (như thể là) là một liên từ chỉ thể cách, không tạo ra ngữ nghĩa hợp lý trong bối cảnh chỉ sự lựa chọn hoặc thay thế."",
+    ""C"": ""each time (mỗi khi) mang nghĩa chỉ thời gian/tần suất, không phù hợp với cấu trúc so sánh hoặc phủ định một khả năng khác ở vế sau."",
+    ""D"": ""rather than (thay vì, hơn là) hoàn toàn chính xác về mặt ngữ nghĩa, nối liền hai trạng ngữ chỉ thời gian để diễn tả việc phục vụ cả tuần thay vì chỉ phục vụ các ngày trong tuần.""
+  },
+  ""difficulty"": ""medium""
+}"
+29,ETS2026,5,129,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.19,1809,484,2293,The store's entire inventory of lumber comes from a nearby _____ supplier.,financial,promotional,chemical,commercial,D,"{""grammar_topic"": ""vocabulary"", ""sentence_structure"": ""S + V + O + Prep + Adj + blank + N"", ""pattern"": ""adjective + noun (collocation)"", ""vocabulary"": [{""word"": ""inventory"", ""meaning"": ""hàng tồn kho, toàn bộ hàng hóa"", ""part_of_speech"": ""noun""}, {""word"": ""lumber"", ""meaning"": ""gỗ xẻ, gỗ xây dựng"", ""part_of_speech"": ""noun""}, {""word"": ""commercial"", ""meaning"": ""mang tính thương mại, buôn bán"", ""part_of_speech"": ""adjective""}, {""word"": ""supplier"", ""meaning"": ""nhà cung cấp"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu hỏi kiểm tra khả năng sử dụng từ vựng (tính từ) bổ nghĩa cho danh từ \""supplier\"" (nhà cung cấp). Dựa vào ngữ cảnh của câu, kho hàng hóa gồm gỗ (lumber) của cửa hàng xuất phát từ một nhà cung cấp thương mại gần đó. Từ \""commercial\"" kết hợp hoàn hảo với \""supplier\"" để chỉ nhà cung cấp phục vụ mục đích thương mại/kinh doanh."", ""distractor_analysis"": {""A"": ""financial (tính từ - thuộc về tài chính): Không phù hợp với ngữ cảnh chỉ loại hình nhà cung cấp vật liệu xây dựng/gỗ."", ""B"": ""promotional (tính từ - mang tính quảng cáo, khuyến mại): Không hợp nghĩa trong ngữ cảnh cung cấp gỗ thương mại."", ""C"": ""chemical (tính từ - thuộc về hóa học): Không phù hợp với danh từ \""supplier\"" chuyên cung cấp gỗ (lumber)."", ""D"": ""commercial (tính từ - thương mại): Là đáp án chính xác vì kết hợp tạo thành cụm từ hợp nghĩa \""commercial supplier\"" (nhà cung cấp thương mại).""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""vocabulary"",
+  ""sentence_structure"": ""S + V + O + Prep + Adj + blank + N"",
+  ""pattern"": ""adjective + noun (collocation)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""inventory"",
+      ""meaning"": ""hàng tồn kho, toàn bộ hàng hóa"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""lumber"",
+      ""meaning"": ""gỗ xẻ, gỗ xây dựng"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""commercial"",
+      ""meaning"": ""mang tính thương mại, buôn bán"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""supplier"",
+      ""meaning"": ""nhà cung cấp"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra khả năng sử dụng từ vựng (tính từ) bổ nghĩa cho danh từ \""supplier\"" (nhà cung cấp). Dựa vào ngữ cảnh của câu, kho hàng hóa gồm gỗ (lumber) của cửa hàng xuất phát từ một nhà cung cấp thương mại gần đó. Từ \""commercial\"" kết hợp hoàn hảo với \""supplier\"" để chỉ nhà cung cấp phục vụ mục đích thương mại/kinh doanh."",
+  ""distractor_analysis"": {
+    ""A"": ""financial (tính từ - thuộc về tài chính): Không phù hợp với ngữ cảnh chỉ loại hình nhà cung cấp vật liệu xây dựng/gỗ."",
+    ""B"": ""promotional (tính từ - mang tính quảng cáo, khuyến mại): Không hợp nghĩa trong ngữ cảnh cung cấp gỗ thương mại."",
+    ""C"": ""chemical (tính từ - thuộc về hóa học): Không phù hợp với danh từ \""supplier\"" chuyên cung cấp gỗ (lumber)."",
+    ""D"": ""commercial (tính từ - thương mại): Là đáp án chính xác vì kết hợp tạo thành cụm từ hợp nghĩa \""commercial supplier\"" (nhà cung cấp thương mại).""
+  },
+  ""difficulty"": ""medium""
+}"
+30,ETS2026,5,130,PASS_QUALITY_VALIDATED,True,True,VALID,,,,6.17,1813,540,2353,"For a $95 _____ fee, our mechanics will determine what repairs are needed.",diagnosed,diagnostic,diagnosable,diagnose,B,"{""grammar_topic"": ""word form"", ""sentence_structure"": ""Prep (For) Art (a) Adj (_____ fee) N (fee), S (mechanics) V (will determine) O (what repairs are needed)."", ""pattern"": ""For a + [Adjective] + [Noun]"", ""vocabulary"": [{""word"": ""fee"", ""meaning"": ""phí, học phí, thù lao"", ""part_of_speech"": ""noun""}, {""word"": ""mechanic"", ""meaning"": ""thợ máy, thợ sửa chữa"", ""part_of_speech"": ""noun""}, {""word"": ""determine"", ""meaning"": ""xác định, tìm ra"", ""part_of_speech"": ""verb""}, {""word"": ""repair"", ""meaning"": ""sự sửa chữa, việc sửa chữa"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu hỏi kiểm tra về từ loại (word form). Vị trí trống đứng trước danh từ 'fee' và sau mạo từ 'a' cùng khoản tiền '$95', do đó cần một tính từ để bổ nghĩa cho danh từ 'fee'. Trong các lựa chọn, 'diagnostic' là tính từ (mang tính chẩn đoán), phù hợp với cụm từ 'diagnostic fee' (phí chẩn đoán/kiểm tra)."", ""distractor_analysis"": {""A"": ""Là dạng quá khứ phân từ hoặc động từ chia ở quá khứ của 'diagnose', không phù hợp đứng trước danh từ để làm tính từ bổ nghĩa trong ngữ cảnh này."", ""B"": ""Là tính từ đúng (mang tính chẩn đoán), đứng trước danh từ 'fee' tạo thành cụm danh từ 'diagnostic fee' (phí chẩn đoán), hoàn toàn chính xác về ngữ pháp và ngữ nghĩa."", ""C"": ""Là tính từ có thể chẩn đoán được, tuy nhiên không tạo thành cụm từ tự nhiên và thông dụng như 'diagnostic fee' trong tiếng Anh chuyên ngành kỹ thuật/dịch vụ."", ""D"": ""Là động từ nguyên mẫu (diagnose), không thể đứng ở vị trí cần tính từ bổ nghĩa cho danh từ 'fee'.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""word form"",
+  ""sentence_structure"": ""Prep (For) Art (a) Adj (_____ fee) N (fee), S (mechanics) V (will determine) O (what repairs are needed)."",
+  ""pattern"": ""For a + [Adjective] + [Noun]"",
+  ""vocabulary"": [
+    {
+      ""word"": ""fee"",
+      ""meaning"": ""phí, học phí, thù lao"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""mechanic"",
+      ""meaning"": ""thợ máy, thợ sửa chữa"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""determine"",
+      ""meaning"": ""xác định, tìm ra"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""repair"",
+      ""meaning"": ""sự sửa chữa, việc sửa chữa"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra về từ loại (word form). Vị trí trống đứng trước danh từ 'fee' và sau mạo từ 'a' cùng khoản tiền '$95', do đó cần một tính từ để bổ nghĩa cho danh từ 'fee'. Trong các lựa chọn, 'diagnostic' là tính từ (mang tính chẩn đoán), phù hợp với cụm từ 'diagnostic fee' (phí chẩn đoán/kiểm tra)."",
+  ""distractor_analysis"": {
+    ""A"": ""Là dạng quá khứ phân từ hoặc động từ chia ở quá khứ của 'diagnose', không phù hợp đứng trước danh từ để làm tính từ bổ nghĩa trong ngữ cảnh này."",
+    ""B"": ""Là tính từ đúng (mang tính chẩn đoán), đứng trước danh từ 'fee' tạo thành cụm danh từ 'diagnostic fee' (phí chẩn đoán), hoàn toàn chính xác về ngữ pháp và ngữ nghĩa."",
+    ""C"": ""Là tính từ có thể chẩn đoán được, tuy nhiên không tạo thành cụm từ tự nhiên và thông dụng như 'diagnostic fee' trong tiếng Anh chuyên ngành kỹ thuật/dịch vụ."",
+    ""D"": ""Là động từ nguyên mẫu (diagnose), không thể đứng ở vị trí cần tính từ bổ nghĩa cho danh từ 'fee'."",
+  },
+  ""difficulty"": ""easy""
+}"

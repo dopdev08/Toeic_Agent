@@ -1,0 +1,85 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "database_url": "sqlite:///./toeic_agent.db",
+  "part_filter": 5,
+  "read_only": true,
+  "total_questions": 1,
+  "quality_passed": 1,
+  "quality_rejected": 0,
+  "schema_failed": 0,
+  "json_decode_failed": 0,
+  "llm_failed": 0,
+  "unexpected_failed": 0,
+  "passed": 1,
+  "failed": 0,
+  "elapsed_seconds": 2.43,
+  "average_seconds_per_question": 2.43,
+  "total_prompt_tokens": 945,
+  "total_candidates_tokens": 454,
+  "total_tokens": 1399,
+  "status_semantics": {
+    "PASS_QUALITY_VALIDATED": "Passed JSON parsing, Pydantic schema validation, and deterministic EnrichmentValidator quality checks.",
+    "REJECTED_QUALITY": "Passed JSON decode and Pydantic schema validation, but rejected or flagged as suspicious by EnrichmentValidator.",
+    "FAIL_SCHEMA_VALIDATION": "Decoded valid JSON, but failed Pydantic QuestionEnrichment validation.",
+    "FAIL_JSON_DECODE": "Failed to decode LLM response as valid JSON.",
+    "FAIL_LLM_SERVICE": "LLM connection, timeout, or provider error.",
+    "FAIL_UNEXPECTED": "Unexpected runtime exception."
+  },
+  "results": [
+    {
+      "question_id": 20,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 120,
+      "question_text": "Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",
+      "option_a": "myself",
+      "option_b": "neither",
+      "option_c": "anybody",
+      "option_d": "whoever",
+      "correct_answer": "B",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 2.43,
+      "token_usage": {
+        "prompt_tokens": 945,
+        "candidates_tokens": 454,
+        "total_tokens": 1399
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Pronouns\",\n  \"sentence_structure\": \"S (Mr. Ellis and Ms. Barnes) V (were) Comp (qualified), but S (_____), V (got) O (the job).\",\n  \"pattern\": \"neither + got (singular verb for a negative pronoun referring to two entities)\",\n  \"vocabulary\": [\n    {\n      \"word\": \"qualified\",\n      \"meaning\": \"có đủ năng lực, đủ điều kiện\",\n      \"part_of_speech\": \"adjective\"\n    },\n    {\n      \"word\": \"neither\",\n      \"meaning\": \"cả hai ... đều không\",\n      \"part_of_speech\": \"pronoun\"\n    }\n  ],\n  \"explanation\": \"Câu này nói về hai ứng viên (Mr. Ellis và Ms. Barnes) đều có năng lực cao, nhưng xét theo nghĩa đối lập sau liên từ 'but', không ai trong số hai người nhận được công việc. Đại từ 'neither' (không ai trong số hai) dùng để chỉ hai đối tượng đã được nhắc đến trước đó và đóng vai trò làm chủ ngữ cho động từ 'got'.\",\n  \"distractor_analysis\": {\n    \"A\": \"myself là đại từ phản thân (chính tôi), không phù hợp về mặt ngữ nghĩa và không khớp với chủ ngữ số nhiều ở mệnh đề trước.\",\n    \"B\": \"neither là đại từ chính xác, dùng để chỉ hai người (Mr. Ellis và Ms. Barnes) và tạo ra ý nghĩa logic đối lập sau 'but' (cả hai đều có năng lực nhưng không ai nhận được việc).\",\n    \"C\": \"anybody (bất kỳ ai) dùng trong câu khẳng định mang nghĩa chung chung, không phù hợp với ngữ cảnh cụ thể giới hạn trong hai người.\",\n    \"D\": \"whoever (bất kỳ ai) tạo ra mệnh đề danh từ hoặc trạng ngữ phức tạp không phù hợp với cấu trúc làm chủ ngữ chính của mệnh đề thứ hai đứng trước động từ 'got'.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Pronouns",
+        "sentence_structure": "S (Mr. Ellis and Ms. Barnes) V (were) Comp (qualified), but S (_____), V (got) O (the job).",
+        "pattern": "neither + got (singular verb for a negative pronoun referring to two entities)",
+        "vocabulary": [
+          {
+            "word": "qualified",
+            "meaning": "có đủ năng lực, đủ điều kiện",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "neither",
+            "meaning": "cả hai ... đều không",
+            "part_of_speech": "pronoun"
+          }
+        ],
+        "explanation": "Câu này nói về hai ứng viên (Mr. Ellis và Ms. Barnes) đều có năng lực cao, nhưng xét theo nghĩa đối lập sau liên từ 'but', không ai trong số hai người nhận được công việc. Đại từ 'neither' (không ai trong số hai) dùng để chỉ hai đối tượng đã được nhắc đến trước đó và đóng vai trò làm chủ ngữ cho động từ 'got'.",
+        "distractor_analysis": {
+          "A": "myself là đại từ phản thân (chính tôi), không phù hợp về mặt ngữ nghĩa và không khớp với chủ ngữ số nhiều ở mệnh đề trước.",
+          "B": "neither là đại từ chính xác, dùng để chỉ hai người (Mr. Ellis và Ms. Barnes) và tạo ra ý nghĩa logic đối lập sau 'but' (cả hai đều có năng lực nhưng không ai nhận được việc).",
+          "C": "anybody (bất kỳ ai) dùng trong câu khẳng định mang nghĩa chung chung, không phù hợp với ngữ cảnh cụ thể giới hạn trong hai người.",
+          "D": "whoever (bất kỳ ai) tạo ra mệnh đề danh từ hoặc trạng ngữ phức tạp không phù hợp với cấu trúc làm chủ ngữ chính của mệnh đề thứ hai đứng trước động từ 'got'."
+        },
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

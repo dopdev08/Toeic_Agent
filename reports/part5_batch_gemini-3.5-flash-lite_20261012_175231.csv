@@ -1,0 +1,61 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,prompt_tokens,candidates_tokens,total_tokens,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+2,ETS2026,5,102,PASS_QUALITY_VALIDATED,True,True,VALID,,,,2.16,1537,470,2007,The _____ antique shop in Pepper Valley will close down next month.,last,lasts,lasted,lasting,A,"{""grammar_topic"": ""word form"", ""sentence_structure"": ""S (The + [blank] + antique shop) + V (will close) + Adv (down) + Adv (next month)."", ""pattern"": ""The + [adjective] + noun"", ""vocabulary"": [{""word"": ""antique"", ""meaning"": ""đồ cổ"", ""part_of_speech"": ""noun""}, {""word"": ""shop"", ""meaning"": ""cửa hàng"", ""part_of_speech"": ""noun""}, {""word"": ""close down"", ""meaning"": ""đóng cửa"", ""part_of_speech"": ""verb phrase""}], ""explanation"": ""Câu yêu cầu một tính từ đứng trước cụm danh từ 'antique shop' để bổ nghĩa cho nó. Trong các lựa chọn, 'last' có thể đóng vai trò là tính từ mang nghĩa là 'câu lạc bộ/cửa hàng cuối cùng' hoặc 'duy nhất còn lại', phù hợp với cấu trúc mạo từ 'The' và danh từ 'antique shop'."", ""distractor_analysis"": {""A"": ""Đáp án chính xác. 'last' hoạt động như một tính từ đứng trước danh từ 'antique shop' để chỉ cửa hàng đồ cổ cuối cùng."", ""B"": ""Sai ngữ pháp. 'lasts' là động từ chia ở ngôi thứ ba số ít thì hiện tại đơn, không thể đứng ở vị trí này trước danh từ."", ""C"": ""Sai ngữ pháp. 'lasted' là động từ chia ở thì quá khứ đơn hoặc quá khứ phân từ, không phù hợp về mặt ngữ pháp khi làm tính từ bổ nghĩa trực tiếp cho danh từ trong cấu trúc này."", ""D"": ""Sai ngữ pháp và ngữ nghĩa. 'lasting' là phân từ hiện tại mang nghĩa kéo dài, không tạo thành một cụm danh từ hợp lý với nghĩa của câu nói về cửa hàng đồ cổ cuối cùng.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""word form"",
+  ""sentence_structure"": ""S (The + [blank] + antique shop) + V (will close) + Adv (down) + Adv (next month)."",
+  ""pattern"": ""The + [adjective] + noun"",
+  ""vocabulary"": [
+    {
+      ""word"": ""antique"",
+      ""meaning"": ""đồ cổ"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""shop"",
+      ""meaning"": ""cửa hàng"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""close down"",
+      ""meaning"": ""đóng cửa"",
+      ""part_of_speech"": ""verb phrase""
+    }
+  ],
+  ""explanation"": ""Câu yêu cầu một tính từ đứng trước cụm danh từ 'antique shop' để bổ nghĩa cho nó. Trong các lựa chọn, 'last' có thể đóng vai trò là tính từ mang nghĩa là 'câu lạc bộ/cửa hàng cuối cùng' hoặc 'duy nhất còn lại', phù hợp với cấu trúc mạo từ 'The' và danh từ 'antique shop'."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án chính xác. 'last' hoạt động như một tính từ đứng trước danh từ 'antique shop' để chỉ cửa hàng đồ cổ cuối cùng."",
+    ""B"": ""Sai ngữ pháp. 'lasts' là động từ chia ở ngôi thứ ba số ít thì hiện tại đơn, không thể đứng ở vị trí này trước danh từ."",
+    ""C"": ""Sai ngữ pháp. 'lasted' là động từ chia ở thì quá khứ đơn hoặc quá khứ phân từ, không phù hợp về mặt ngữ pháp khi làm tính từ bổ nghĩa trực tiếp cho danh từ trong cấu trúc này."",
+    ""D"": ""Sai ngữ pháp và ngữ nghĩa. 'lasting' là phân từ hiện tại mang nghĩa kéo dài, không tạo thành một cụm danh từ hợp lý với nghĩa của câu nói về cửa hàng đồ cổ cuối cùng.""
+  },
+  ""difficulty"": ""medium""
+}"
+20,ETS2026,5,120,PASS_QUALITY_VALIDATED,True,True,VALID,,,,3.98,1542,424,1966,"Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",myself,neither,anybody,whoever,B,"{""grammar_topic"": ""pronoun"", ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) V (were) S (neither) V (got) O (the job)."", ""pattern"": ""neither + singular verb"", ""vocabulary"": [{""word"": ""qualified"", ""meaning"": ""có đủ năng lực, đủ điều kiện"", ""part_of_speech"": ""adjective""}, {""word"": ""job"", ""meaning"": ""công việc"", ""part_of_speech"": ""noun""}, {""word"": ""neither"", ""meaning"": ""cả hai ... đều không"", ""part_of_speech"": ""pronoun""}], ""explanation"": ""Câu này nói về hai người (Mr. Ellis và Ms. Barnes) đều có năng lực cao nhưng 'neither' (không ai trong số hai người họ) nhận được công việc. Dựa vào ngữ cảnh phủ định cho hai đối tượng, 'neither' là đại từ phù hợp nhất."", ""distractor_analysis"": {""A"": ""myself là đại từ phản thân, không phù hợp về mặt ngữ nghĩa và chủ ngữ trong câu."", ""B"": ""neither là đại từ chỉ định nghĩa lượng cho hai đối tượng với nghĩa phủ định (không ai trong hai), hoàn toàn phù hợp với ngữ cảnh hai người được nhắc tới trước đó."", ""C"": ""anybody dùng cho phủ định hoặc nghi vấn với nghĩa bất cứ ai (trong một tập hợp từ ba người trở lên), không chính xác khi xét ngữ cảnh chỉ có hai người."", ""D"": ""whoever tạo ra cấu trúc mệnh đề danh từ phức tạp, không phù hợp để làm chủ ngữ đơn cho động từ got trong cấu trúc câu này.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""pronoun"",
+  ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) V (were) S (neither) V (got) O (the job)."",
+  ""pattern"": ""neither + singular verb"",
+  ""vocabulary"": [
+    {
+      ""word"": ""qualified"",
+      ""meaning"": ""có đủ năng lực, đủ điều kiện"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""job"",
+      ""meaning"": ""công việc"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""neither"",
+      ""meaning"": ""cả hai ... đều không"",
+      ""part_of_speech"": ""pronoun""
+    }
+  ],
+  ""explanation"": ""Câu này nói về hai người (Mr. Ellis và Ms. Barnes) đều có năng lực cao nhưng 'neither' (không ai trong số hai người họ) nhận được công việc. Dựa vào ngữ cảnh phủ định cho hai đối tượng, 'neither' là đại từ phù hợp nhất."",
+  ""distractor_analysis"": {
+    ""A"": ""myself là đại từ phản thân, không phù hợp về mặt ngữ nghĩa và chủ ngữ trong câu."",
+    ""B"": ""neither là đại từ chỉ định nghĩa lượng cho hai đối tượng với nghĩa phủ định (không ai trong hai), hoàn toàn phù hợp với ngữ cảnh hai người được nhắc tới trước đó."",
+    ""C"": ""anybody dùng cho phủ định hoặc nghi vấn với nghĩa bất cứ ai (trong một tập hợp từ ba người trở lên), không chính xác khi xét ngữ cảnh chỉ có hai người."",
+    ""D"": ""whoever tạo ra cấu trúc mệnh đề danh từ phức tạp, không phù hợp để làm chủ ngữ đơn cho động từ got trong cấu trúc câu này.""
+  },
+  ""difficulty"": ""medium""
+}"

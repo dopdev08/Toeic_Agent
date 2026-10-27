@@ -1,0 +1,819 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+1,ETS2026,5,101,PASS_QUALITY_VALIDATED,True,True,VALID,,,,25.2,"The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",across,after,inside,among,B,"{""grammar_topic"": ""Preposition + Relative Clause"", ""sentence_structure"": ""S + V + at [Time] + which + S + V"", ""pattern"": ""at [Time] + which + S + V"", ""vocabulary"": [{""word"": ""at"", ""meaning"": ""trên"", ""part_of_speech"": ""preposition""}, {""word"": ""which"", ""meaning"": ""nhớ"", ""part_of_speech"": ""relative pronoun""}, {""word"": ""attendees"", ""meaning"": ""tất cả các người tham dự"", ""part_of_speech"": ""noun""}, {""word"": ""questions"", ""meaning"": ""đề nghị"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án B (after) là đáp án đúng vì nó ở đúng vị trí của preposition 'at' trong cấu trúc 'at [Time] + which + S + V'. Trong câu, 'after' giúp tạo ra một câu từ tương quan (relative clause) với '6:00 P.M.', cho biết thời điểm cụ thể mà những người tham dự sẽ có câu hỏi. Các đáp án còn lại không thích hợp vì chúng không phù hợp với ngữ cảnh hoặc không có chức năng ngữ pháp cần thiết."", ""distractor_analysis"": {""A"": ""Đáp án A (across) không thích hợp vì nó không phù hợp với ngữ cảnh và không có chức năng ngữ pháp cần thiết trong câu. Nó không thể làm điều gì đó ở '6:00 P.M.'."", ""B"": ""Đáp án B (after) đúng và đã được chỉ ra là đáp án đúng."", ""C"": ""Đáp án C (inside) không thích hợp vì nó không phù hợp với ngữ cảnh và không có chức năng ngữ pháp cần thiết trong câu. Nó không thể được sử dụng với '6:00 P.M.'."", ""D"": ""Đáp án D (among) không thích hợp vì nó không phù hợp với ngữ cảnh và không có chức năng ngữ pháp cần thiết trong câu. Nó không thể làm điều gì đó ở '6:00 P.M.'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Clause"",
+  ""sentence_structure"": ""S + V + at [Time] + which + S + V"",
+  ""pattern"": ""at [Time] + which + S + V"",
+  ""vocabulary"": [
+    {
+      ""word"": ""at"",
+      ""meaning"": ""trên"",
+      ""part_of_speech"": ""preposition""
+    },
+    {
+      ""word"": ""which"",
+      ""meaning"": ""nhớ"",
+      ""part_of_speech"": ""relative pronoun""
+    },
+    {
+      ""word"": ""attendees"",
+      ""meaning"": ""tất cả các người tham dự"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""questions"",
+      ""meaning"": ""đề nghị"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án B (after) là đáp án đúng vì nó ở đúng vị trí của preposition 'at' trong cấu trúc 'at [Time] + which + S + V'. Trong câu, 'after' giúp tạo ra một câu từ tương quan (relative clause) với '6:00 P.M.', cho biết thời điểm cụ thể mà những người tham dự sẽ có câu hỏi. Các đáp án còn lại không thích hợp vì chúng không phù hợp với ngữ cảnh hoặc không có chức năng ngữ pháp cần thiết."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A (across) không thích hợp vì nó không phù hợp với ngữ cảnh và không có chức năng ngữ pháp cần thiết trong câu. Nó không thể làm điều gì đó ở '6:00 P.M.'."",
+    ""B"": ""Đáp án B (after) đúng và đã được chỉ ra là đáp án đúng."",
+    ""C"": ""Đáp án C (inside) không thích hợp vì nó không phù hợp với ngữ cảnh và không có chức năng ngữ pháp cần thiết trong câu. Nó không thể được sử dụng với '6:00 P.M.'."",
+    ""D"": ""Đáp án D (among) không thích hợp vì nó không phù hợp với ngữ cảnh và không có chức năng ngữ pháp cần thiết trong câu. Nó không thể làm điều gì đó ở '6:00 P.M.'.""
+  },
+  ""difficulty"": ""medium""
+}"
+2,ETS2026,5,102,PASS_QUALITY_VALIDATED,True,True,VALID,,,,10.31,The _____ antique shop in Pepper Valley will close down next month.,last,lasts,lasted,lasting,A,"{""grammar_topic"": ""Preposition + Relative Pronoun"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""at [Prep] + which + S + V"", ""vocabulary"": [{""word"": ""antique"", ""meaning"": ""của đồ cổ"", ""part_of_speech"": ""adjective""}, {""word"": ""shop"", ""meaning"": ""tiệm"", ""part_of_speech"": ""noun""}, {""word"": ""close"", ""meaning"": ""đóng cửa"", ""part_of_speech"": ""verb""}, {""word"": ""month"", ""meaning"": ""tháng"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án A (last) chính xác vì nó đóng vai trò làm prep trong cấu trúc [at which] và xác định một tiệm đồ cổ nằm ở Pepper Valley sẽ đóng cửa vào tháng tới. Các đáp án B, C, và D đều không phù hợp với ngữ cảnh và cấu trúc của câu."", ""distractor_analysis"": {""A"": ""Đáp án đúng, nó đóng vai trò prep và xác định tiệm đồ cổ."", ""B"": ""Đáp án sai, nó không đúng ngữ cảnh, phải là last mà không phải lasts."", ""C"": ""Đáp án sai, nó không đúng ngữ cảnh, phải là last mà không phải lasted."", ""D"": ""Đáp án sai, nó không đúng ngữ cảnh, phải là last mà không phải lasting.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Pronoun"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""at [Prep] + which + S + V"",
+  ""vocabulary"": [
+    {
+      ""word"": ""antique"",
+      ""meaning"": ""của đồ cổ"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""shop"",
+      ""meaning"": ""tiệm"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""close"",
+      ""meaning"": ""đóng cửa"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""month"",
+      ""meaning"": ""tháng"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án A (last) chính xác vì nó đóng vai trò làm prep trong cấu trúc [at which] và xác định một tiệm đồ cổ nằm ở Pepper Valley sẽ đóng cửa vào tháng tới. Các đáp án B, C, và D đều không phù hợp với ngữ cảnh và cấu trúc của câu."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án đúng, nó đóng vai trò prep và xác định tiệm đồ cổ."",
+    ""B"": ""Đáp án sai, nó không đúng ngữ cảnh, phải là last mà không phải lasts."",
+    ""C"": ""Đáp án sai, nó không đúng ngữ cảnh, phải là last mà không phải lasted."",
+    ""D"": ""Đáp án sai, nó không đúng ngữ cảnh, phải là last mà không phải lasting.""
+  },
+  ""difficulty"": ""medium""
+}"
+3,ETS2026,5,103,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.11,Merryville residents will receive an online status _____ about the ongoing bridge construction project.,update,change,payment,request,A,"{""grammar_topic"": ""Gerund as a Noun in a Prepositional Phrase"", ""sentence_structure"": ""S + V + (to) Infinitive/ Gerund + (Prep) + Which + S + V"", ""pattern"": ""Gerund as a Noun + Preposition + Which + Clause"", ""vocabulary"": [{""word"": ""status"", ""meaning"": ""tình trạng"", ""part_of_speech"": ""名词""}, {""word"": ""ongoing"", ""meaning"": ""đang diễn ra"", ""part_of_speech"": ""形容词""}, {""word"": ""construction"", ""meaning"": ""thiết kế"", ""part_of_speech"": ""名词""}, {""word"": ""project"", ""meaning"": ""hoạt động"", ""part_of_speech"": ""名词""}], ""explanation"": ""Đáp án A là đáp án chính xác vì update (nghĩa là cập nhật) là một động từ dạng gerund trong một câu có preposition + which + clause. Câu gốc có cấu trúc là S + V + to-infinitive + Preposition + Which + S + V. Trong trường hợp này, update là một động từ dạng gerund dùng làm chủ ngữ trong preposition + which + clause."", ""distractor_analysis"": {""A"": ""Đáp án A đúng là update, một động từ dạng gerund dùng làm chủ ngữ trong preposition + which + clause."", ""B"": ""Đáp án B sai vì change không đúng với ngữ cảnh và cấu trúc của câu."", ""C"": ""Đáp án C sai vì payment không phù hợp với câu gốc, nó không đúng với cấu trúc của câu và ngữ cảnh."", ""D"": ""Đáp án D sai vì request không phù hợp với cấu trúc và ngữ cảnh của câu. Request chỉ thường dùng để đề nghị hoặc yêu cầu, trong khi đây là thông báo cập nhật về dự án.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Gerund as a Noun in a Prepositional Phrase"",
+  ""sentence_structure"": ""S + V + (to) Infinitive/ Gerund + (Prep) + Which + S + V"",
+  ""pattern"": ""Gerund as a Noun + Preposition + Which + Clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""status"",
+      ""meaning"": ""tình trạng"",
+      ""part_of_speech"": ""名词""
+    },
+    {
+      ""word"": ""ongoing"",
+      ""meaning"": ""đang diễn ra"",
+      ""part_of_speech"": ""形容词""
+    },
+    {
+      ""word"": ""construction"",
+      ""meaning"": ""thiết kế"",
+      ""part_of_speech"": ""名词""
+    },
+    {
+      ""word"": ""project"",
+      ""meaning"": ""hoạt động"",
+      ""part_of_speech"": ""名词""
+    }
+  ],
+  ""explanation"": ""Đáp án A là đáp án chính xác vì update (nghĩa là cập nhật) là một động từ dạng gerund trong một câu có preposition + which + clause. Câu gốc có cấu trúc là S + V + to-infinitive + Preposition + Which + S + V. Trong trường hợp này, update là một động từ dạng gerund dùng làm chủ ngữ trong preposition + which + clause."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A đúng là update, một động từ dạng gerund dùng làm chủ ngữ trong preposition + which + clause."",
+    ""B"": ""Đáp án B sai vì change không đúng với ngữ cảnh và cấu trúc của câu."",
+    ""C"": ""Đáp án C sai vì payment không phù hợp với câu gốc, nó không đúng với cấu trúc của câu và ngữ cảnh."",
+    ""D"": ""Đáp án D sai vì request không phù hợp với cấu trúc và ngữ cảnh của câu. Request chỉ thường dùng để đề nghị hoặc yêu cầu, trong khi đây là thông báo cập nhật về dự án.""
+  },
+  ""difficulty"": ""medium""
+}"
+4,ETS2026,5,104,PASS_QUALITY_VALIDATED,True,True,VALID,,,,13.13,"As a result of _____ many years leading media organizations, Ms. Ayo was selected for the Dowel Journalism Prize.",she,her,hers,herself,B,"{""grammar_topic"": ""Relative Clause"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""leading"", ""meaning"": ""hướng dẫn, chỉ đạo"", ""part_of_speech"": ""adjective""}, {""word"": ""years"", ""meaning"": ""năm"", ""part_of_speech"": ""noun""}], ""explanation"": ""Để chọn đáp án chính xác, chúng ta cần hiểu cấu trúc ngữ pháp của câu. Câu chính là một câu mệnh đề có cấu trúc S + V, nghĩa là nó không có động từ nối tiếp. Đáp án B - 'her' là đáp án chính xác vì nó ở vị trí của một từ chỉ 'she' và được nối với câu phụ 'many years leading media organizations' bằng từ chỉ 'which' và được chỉ bởi từ chỉ 'Ms. Ayo' từ câu chính. 'Her' ở đây dùng như một chỉ ngữ chỉ 'Ms. Ayo' và theo sau là một chuỗi từ chỉ 'many years leading media organizations'."", ""distractor_analysis"": {""A"": ""Đây là đáp án sai vì 'she' không tuân theo cấu trúc của câu. 'She' thường dùng để chỉ người, nhưng trong ngữ cảnh này, câu cần một chỉ ngữ chỉ 'Ms. Ayo'."", ""B"": ""Đây là đáp án chính xác, giống như được chỉ định. 'Her' sử dụng đúng cách và được nối với 'many years leading media organizations' bằng từ chỉ 'which'."", ""C"": ""Đây là đáp án sai vì 'hers' không tuân theo cấu trúc của câu. 'Hers' thường được sử dụng như chỉ ngữ chỉ vật, nhưng câu cần một chỉ ngữ chỉ người và 'Ms. Ayo' là một từ chỉ người."", ""D"": ""Đây là đáp án sai vì 'herself' không tuân theo cấu trúc của câu. 'Herself' chỉ người, nhưng câu cần một chỉ ngữ chỉ người và 'Ms. Ayo' là một từ chỉ người.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Relative Clause"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""leading"",
+      ""meaning"": ""hướng dẫn, chỉ đạo"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""years"",
+      ""meaning"": ""năm"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Để chọn đáp án chính xác, chúng ta cần hiểu cấu trúc ngữ pháp của câu. Câu chính là một câu mệnh đề có cấu trúc S + V, nghĩa là nó không có động từ nối tiếp. Đáp án B - 'her' là đáp án chính xác vì nó ở vị trí của một từ chỉ 'she' và được nối với câu phụ 'many years leading media organizations' bằng từ chỉ 'which' và được chỉ bởi từ chỉ 'Ms. Ayo' từ câu chính. 'Her' ở đây dùng như một chỉ ngữ chỉ 'Ms. Ayo' và theo sau là một chuỗi từ chỉ 'many years leading media organizations'."",
+  ""distractor_analysis"": {
+    ""A"": ""Đây là đáp án sai vì 'she' không tuân theo cấu trúc của câu. 'She' thường dùng để chỉ người, nhưng trong ngữ cảnh này, câu cần một chỉ ngữ chỉ 'Ms. Ayo'."",
+    ""B"": ""Đây là đáp án chính xác, giống như được chỉ định. 'Her' sử dụng đúng cách và được nối với 'many years leading media organizations' bằng từ chỉ 'which'."",
+    ""C"": ""Đây là đáp án sai vì 'hers' không tuân theo cấu trúc của câu. 'Hers' thường được sử dụng như chỉ ngữ chỉ vật, nhưng câu cần một chỉ ngữ chỉ người và 'Ms. Ayo' là một từ chỉ người."",
+    ""D"": ""Đây là đáp án sai vì 'herself' không tuân theo cấu trúc của câu. 'Herself' chỉ người, nhưng câu cần một chỉ ngữ chỉ người và 'Ms. Ayo' là một từ chỉ người.""
+  },
+  ""difficulty"": ""medium""
+}"
+5,ETS2026,5,105,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.3,"To stop the _____ of computer viruses, do not open suspicious e-mails.",break,spread,balance,surface,B,"{""grammar_topic"": ""Verb + of + Infinitive"", ""sentence_structure"": ""S + V + of + Infinitive"", ""pattern"": ""Verb + of + Infinitive"", ""vocabulary"": [{""word"": ""spread"", ""meaning"": ""nóng ròng rã"", ""part_of_speech"": ""verb""}], ""explanation"": ""Đáp án B \""spread\"" là đáp án đúng vì nó theo đúng cấu trúc câu với động từ \""stop\"" và cụm từ \""of computer viruses\"". Cấu trúc câu này tuân theo mẫu \""Verb + of + Infinitive\"", trong đó \""stop\"" là động từ và \""of computer viruses\"" là cụm từ thể hiện mục đích hoặc kết quả của hành động \""stop\"". Đáp án A \""break\"", Đáp án C \""balance\"", và Đáp án D \""surface\"" đều không phù hợp với cấu trúc và ngữ cảnh của câu."", ""distractor_analysis"": {""A"": ""Đáp án A \""break\"" không phù hợp vì động từ \""break\"" thường đi kèm với cụm từ \""of which\"" thay vì \""of\"". Hơn nữa, \""break\"" không tuân theo cấu trúc câu với \""stop\"" và \""of computer viruses\""."", ""B"": ""Đáp án B \""spread\"" đúng và là đáp án chính xác, như đã giải thích ở trên."", ""C"": ""Đáp án C \""balance\"" không phù hợp với cấu trúc \""Verb + of + Infinitive\"". \""Balance\"" không thể đi kèm với cụm từ \""of computer viruses\"" để mô tả hành động của động từ \""stop\""."", ""D"": ""Đáp án D \""surface\"" không phù hợp vì động từ \""surface\"" không thể đi kèm với cụm từ \""of computer viruses\"" trong cấu trúc câu này. Hơn nữa, \""surface\"" không tuân theo mẫu cấu trúc câu \""Verb + of + Infinitive\"".""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb + of + Infinitive"",
+  ""sentence_structure"": ""S + V + of + Infinitive"",
+  ""pattern"": ""Verb + of + Infinitive"",
+  ""vocabulary"": [
+    {
+      ""word"": ""spread"",
+      ""meaning"": ""nóng ròng rã"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Đáp án B \""spread\"" là đáp án đúng vì nó theo đúng cấu trúc câu với động từ \""stop\"" và cụm từ \""of computer viruses\"". Cấu trúc câu này tuân theo mẫu \""Verb + of + Infinitive\"", trong đó \""stop\"" là động từ và \""of computer viruses\"" là cụm từ thể hiện mục đích hoặc kết quả của hành động \""stop\"". Đáp án A \""break\"", Đáp án C \""balance\"", và Đáp án D \""surface\"" đều không phù hợp với cấu trúc và ngữ cảnh của câu."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A \""break\"" không phù hợp vì động từ \""break\"" thường đi kèm với cụm từ \""of which\"" thay vì \""of\"". Hơn nữa, \""break\"" không tuân theo cấu trúc câu với \""stop\"" và \""of computer viruses\""."",
+    ""B"": ""Đáp án B \""spread\"" đúng và là đáp án chính xác, như đã giải thích ở trên."",
+    ""C"": ""Đáp án C \""balance\"" không phù hợp với cấu trúc \""Verb + of + Infinitive\"". \""Balance\"" không thể đi kèm với cụm từ \""of computer viruses\"" để mô tả hành động của động từ \""stop\""."",
+    ""D"": ""Đáp án D \""surface\"" không phù hợp vì động từ \""surface\"" không thể đi kèm với cụm từ \""of computer viruses\"" trong cấu trúc câu này. Hơn nữa, \""surface\"" không tuân theo mẫu cấu trúc câu \""Verb + of + Infinitive\"".""
+  },
+  ""difficulty"": ""medium""
+}"
+6,ETS2026,5,106,PASS_QUALITY_VALIDATED,True,True,VALID,,,,9.79,The hiring manager _____ considered each applicant's résumé and qualifications.,caring,careful,carefully,carefulness,C,"{""grammar_topic"": ""Adverb of manner"", ""sentence_structure"": ""Hiring manager + [Adverb of manner] + considered + [S + V] + [S + V]"", ""pattern"": ""Hiring manager + [Adverb of manner] + considered + résumé and qualifications"", ""vocabulary"": [{""word"": ""résumé"", ""meaning"": ""bài giới thiệu"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án C 'carefully' đúng vì nó được sử dụng làm adverb của tính chất để chỉ cách mà hiring manager đã xem xét hồ sơ học vấn và các tiêu chuẩn."", ""distractor_analysis"": {""A"": ""careful là một tính từ có nghĩa là cẩn thận, nhưng nó không phù hợp với cấu trúc câu do nó không có chức năng của adverb của tính chất trong ngữ cảnh này."", ""B"": ""careful cũng không phù hợp vì nó là một tính từ không có khả năng làm adverb của tính chất."", ""C"": ""carefully là đáp án chính xác vì nó là adverb của tính chất, có thể chỉ cách hiring manager xem xét hồ sơ học vấn và các tiêu chuẩn."", ""D"": ""carefulness là một danh từ có nghĩa là sự cẩn thận, nhưng nó không phù hợp với cấu trúc câu vì nó không có khả năng làm adverb của tính chất trong ngữ cảnh này.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adverb of manner"",
+  ""sentence_structure"": ""Hiring manager + [Adverb of manner] + considered + [S + V] + [S + V]"",
+  ""pattern"": ""Hiring manager + [Adverb of manner] + considered + résumé and qualifications"",
+  ""vocabulary"": [
+    {
+      ""word"": ""résumé"",
+      ""meaning"": ""bài giới thiệu"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án C 'carefully' đúng vì nó được sử dụng làm adverb của tính chất để chỉ cách mà hiring manager đã xem xét hồ sơ học vấn và các tiêu chuẩn."",
+  ""distractor_analysis"": {
+    ""A"": ""careful là một tính từ có nghĩa là cẩn thận, nhưng nó không phù hợp với cấu trúc câu do nó không có chức năng của adverb của tính chất trong ngữ cảnh này."",
+    ""B"": ""careful cũng không phù hợp vì nó là một tính từ không có khả năng làm adverb của tính chất."",
+    ""C"": ""carefully là đáp án chính xác vì nó là adverb của tính chất, có thể chỉ cách hiring manager xem xét hồ sơ học vấn và các tiêu chuẩn."",
+    ""D"": ""carefulness là một danh từ có nghĩa là sự cẩn thận, nhưng nó không phù hợp với cấu trúc câu vì nó không có khả năng làm adverb của tính chất trong ngữ cảnh này.""
+  },
+  ""difficulty"": ""medium""
+}"
+7,ETS2026,5,107,PASS_QUALITY_VALIDATED,True,True,VALID,,,,10.47,"In October, Mr. Sakamoto will leave for New Zealand _____ will oversee the opening of the new Auckland branch.",because,in addition,and,prior to,C,"{""grammar_topic"": ""Conjunction"", ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"", ""pattern"": ""Preposition + which + clause"", ""vocabulary"": [{""word"": ""leave"", ""meaning"": ""di chuyển"", ""part_of_speech"": ""verb""}, {""word"": ""Auckland"", ""meaning"": ""Auckland"", ""part_of_speech"": ""noun""}, {""word"": ""branch"", ""meaning"": ""cơ sở"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án C (and) là đáp án đúng vì nó làm nối tiếp câu trước và sau. 'Preposition + which + clause' là mẫu cấu trúc giúp câu tiếp theo được nối thông qua từ 'and' (với) và câu trước được giới thiệu thông qua từ 'which' (như vậy)."", ""distractor_analysis"": {""A"": ""Đáp án A (because) không phù hợp vì 'because' dùng để chỉ nguyên nhân, khác với ngữ cảnh ở đây."", ""B"": ""Đáp án B (in addition) không phù hợp vì 'in addition' chỉ thêm vào, không phù hợp với ngữ cảnh."", ""C"": ""Đáp án C (and) là đáp án đúng, làm nối thông qua câu trước và sau."", ""D"": ""Đáp án D (prior to) không phù hợp vì 'prior to' chỉ trước thời điểm, khác với ngữ cảnh.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Conjunction"",
+  ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"",
+  ""pattern"": ""Preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""leave"",
+      ""meaning"": ""di chuyển"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""Auckland"",
+      ""meaning"": ""Auckland"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""branch"",
+      ""meaning"": ""cơ sở"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án C (and) là đáp án đúng vì nó làm nối tiếp câu trước và sau. 'Preposition + which + clause' là mẫu cấu trúc giúp câu tiếp theo được nối thông qua từ 'and' (với) và câu trước được giới thiệu thông qua từ 'which' (như vậy)."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A (because) không phù hợp vì 'because' dùng để chỉ nguyên nhân, khác với ngữ cảnh ở đây."",
+    ""B"": ""Đáp án B (in addition) không phù hợp vì 'in addition' chỉ thêm vào, không phù hợp với ngữ cảnh."",
+    ""C"": ""Đáp án C (and) là đáp án đúng, làm nối thông qua câu trước và sau."",
+    ""D"": ""Đáp án D (prior to) không phù hợp vì 'prior to' chỉ trước thời điểm, khác với ngữ cảnh.""
+  },
+  ""difficulty"": ""medium""
+}"
+8,ETS2026,5,108,PASS_QUALITY_VALIDATED,True,True,VALID,,,,13.68,Tarateer Pharmaceuticals is varying its product _____ to include over-the-counter medications.,to line,lining,lined,line,D,"{""grammar_topic"": ""Preposition + which + clause"", ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""varying"", ""meaning"": ""chuyển đổi, thay đổi"", ""part_of_speech"": ""verb""}, {""word"": ""include"", ""meaning"": ""gồm, bao gồm"", ""part_of_speech"": ""verb""}, {""word"": ""over-the-counter"", ""meaning"": ""mua ngoài hàng, không cần kê đơn"", ""part_of_speech"": ""adjective""}], ""explanation"": ""Đáp án D (line) là câu trả lời đúng vì nó tạo thành cấu trúc [S + V + prep + which + S + V], trong đó prep là over-the-counter. Câu này đề cập đến việc Tarateer Pharmaceuticals thay đổi sản phẩm để bao gồm loại thuốc không cần kê đơn."", ""distractor_analysis"": {""A"": ""Đáp án A (to line) không phù hợp vì 'to line' không phải là một cấu trúc hợp lệ trong ngữ cảnh này. 'Line' trong ngữ cảnh này có nghĩa là 'số thứ nhất' và không thể được dùng trong cấu trúc prep + which."", ""B"": ""Đáp án B (lining) không phù hợp vì 'lining' là động từ, nó không được sử dụng với prep 'over-the-counter'. Thêm vào đó, 'lining' không phù hợp với ngữ cảnh đề cập đến việc bao gồm sản phẩm."", ""C"": ""Đáp án C (lined) không phù hợp vì 'lined' đã được sử dụng trước đó trong câu. Nếu chúng ta thêm 'lined' vào sau 'over-the-counter', câu sẽ không còn duy trì tính logic và ngữ cảnh đề cập đến việc 'thay đổi' sản phẩm."", ""D"": ""Đáp án D (line) là đáp án đúng vì nó tạo thành cấu trúc hợp lệ và logic với ngữ cảnh đề cập đến việc 'thay đổi' sản phẩm 'thời gian' để bao gồm 'loại thuốc không cần kê đơn'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + which + clause"",
+  ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""varying"",
+      ""meaning"": ""chuyển đổi, thay đổi"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""include"",
+      ""meaning"": ""gồm, bao gồm"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""over-the-counter"",
+      ""meaning"": ""mua ngoài hàng, không cần kê đơn"",
+      ""part_of_speech"": ""adjective""
+    }
+  ],
+  ""explanation"": ""Đáp án D (line) là câu trả lời đúng vì nó tạo thành cấu trúc [S + V + prep + which + S + V], trong đó prep là over-the-counter. Câu này đề cập đến việc Tarateer Pharmaceuticals thay đổi sản phẩm để bao gồm loại thuốc không cần kê đơn."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A (to line) không phù hợp vì 'to line' không phải là một cấu trúc hợp lệ trong ngữ cảnh này. 'Line' trong ngữ cảnh này có nghĩa là 'số thứ nhất' và không thể được dùng trong cấu trúc prep + which."",
+    ""B"": ""Đáp án B (lining) không phù hợp vì 'lining' là động từ, nó không được sử dụng với prep 'over-the-counter'. Thêm vào đó, 'lining' không phù hợp với ngữ cảnh đề cập đến việc bao gồm sản phẩm."",
+    ""C"": ""Đáp án C (lined) không phù hợp vì 'lined' đã được sử dụng trước đó trong câu. Nếu chúng ta thêm 'lined' vào sau 'over-the-counter', câu sẽ không còn duy trì tính logic và ngữ cảnh đề cập đến việc 'thay đổi' sản phẩm."",
+    ""D"": ""Đáp án D (line) là đáp án đúng vì nó tạo thành cấu trúc hợp lệ và logic với ngữ cảnh đề cập đến việc 'thay đổi' sản phẩm 'thời gian' để bao gồm 'loại thuốc không cần kê đơn'.""
+  },
+  ""difficulty"": ""medium""
+}"
+9,ETS2026,5,109,REJECTED_QUALITY,True,False,REJECTED,UNGROUNDED_VOCABULARY,UNGROUNDED_VOCABULARY,Vocabulary item 'which' is not grounded in question text or options.,8.93,"Dynart, Inc. continuously _____ new ways to reduce its use of plastics.",seeks,seeker,to seek,seeking,A,"{""grammar_topic"": ""Verb Form (Gerund)"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""Preposition + which + clause"", ""vocabulary"": [{""word"": ""which"", ""meaning"": ""nó"", ""part_of_speech"": ""relative pronoun""}], ""explanation"": ""Đáp án A 'thúy' phù hợp với cấu trúc ngữ pháp của câu. ‘Dynart, Inc. continuously seeks new ways to reduce its use of plastics.' đây là một câu dạng động từ hình thành (gerund) với động từ 'seek' được dùng làm động từ hình thành. Động từ 'seek' được sử dụng trong trạng ngữ (gerund) để diễn đạt hành động liên tục."", ""distractor_analysis"": {""A"": ""Đáp án này đúng và phù hợp với cấu trúc ngữ pháp của câu."", ""B"": ""Đáp án này sai vì 'seeker' không thể dùng trong câu trạng ngữ."", ""C"": ""Đáp án này sai vì 'to seek' không đúng với cấu trúc của câu."", ""D"": ""Đáp án này sai vì 'seeking' không phù hợp với động từ liên tục.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb Form (Gerund)"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""Preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""which"",
+      ""meaning"": ""nó"",
+      ""part_of_speech"": ""relative pronoun""
+    }
+  ],
+  ""explanation"": ""Đáp án A 'thúy' phù hợp với cấu trúc ngữ pháp của câu. ‘Dynart, Inc. continuously seeks new ways to reduce its use of plastics.' đây là một câu dạng động từ hình thành (gerund) với động từ 'seek' được dùng làm động từ hình thành. Động từ 'seek' được sử dụng trong trạng ngữ (gerund) để diễn đạt hành động liên tục."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án này đúng và phù hợp với cấu trúc ngữ pháp của câu."",
+    ""B"": ""Đáp án này sai vì 'seeker' không thể dùng trong câu trạng ngữ."",
+    ""C"": ""Đáp án này sai vì 'to seek' không đúng với cấu trúc của câu."",
+    ""D"": ""Đáp án này sai vì 'seeking' không phù hợp với động từ liên tục.""
+  },
+  ""difficulty"": ""medium""
+}"
+10,ETS2026,5,110,PASS_QUALITY_VALIDATED,True,True,VALID,,,,9.98,The cash registers at Pirkle Books automatically _____ the remaining inventory of books available.,calculate,calculator,calculating,calculation,A,"{""grammar_topic"": ""Preposition + Verb"", ""sentence_structure"": ""S + V + prep + obj"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""inventory"", ""meaning"": ""số lượng hàng hóa"", ""part_of_speech"": ""名词""}], ""explanation"": ""Đáp án A (calculate) đúng vì nó hoàn toàn phù hợp với cấu trúc ngữ pháp của câu. Câu được cấu trúc như một câu mệnh đề với động từ V (calculate) được đặt sau động từ chính. Trong câu này, động từ calculate được dùng làm động từ nguyên mẫu để mô tả một hành vi của thiết bị (cash registers), cụ thể là việc tính toán số lượng hàng hóa còn lại. Các đáp án khác không phù hợp vì chúng không thể hoàn toàn mô tả hành vi của các thiết bị như cash registers."", ""distractor_analysis"": {""A"": ""Đáp án này đúng vì nó hoàn toàn phù hợp với cấu trúc và ngữ cảnh của câu."", ""B"": ""Đáp án này sai vì nó đề cập đến một đồ lý (calculator), không phải đến hành vi của thiết bị."", ""C"": ""Đáp án này sai vì nó là động từ động quy (calculating), không phù hợp với cấu trúc câu chính."", ""D"": ""Đáp án này sai vì nó đề cập đến kết quả của hành vi (calculation), không phù hợp với ngữ cảnh của câu.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Verb"",
+  ""sentence_structure"": ""S + V + prep + obj"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""inventory"",
+      ""meaning"": ""số lượng hàng hóa"",
+      ""part_of_speech"": ""名词""
+    }
+  ],
+  ""explanation"": ""Đáp án A (calculate) đúng vì nó hoàn toàn phù hợp với cấu trúc ngữ pháp của câu. Câu được cấu trúc như một câu mệnh đề với động từ V (calculate) được đặt sau động từ chính. Trong câu này, động từ calculate được dùng làm động từ nguyên mẫu để mô tả một hành vi của thiết bị (cash registers), cụ thể là việc tính toán số lượng hàng hóa còn lại. Các đáp án khác không phù hợp vì chúng không thể hoàn toàn mô tả hành vi của các thiết bị như cash registers."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án này đúng vì nó hoàn toàn phù hợp với cấu trúc và ngữ cảnh của câu."",
+    ""B"": ""Đáp án này sai vì nó đề cập đến một đồ lý (calculator), không phải đến hành vi của thiết bị."",
+    ""C"": ""Đáp án này sai vì nó là động từ động quy (calculating), không phù hợp với cấu trúc câu chính."",
+    ""D"": ""Đáp án này sai vì nó đề cập đến kết quả của hành vi (calculation), không phù hợp với ngữ cảnh của câu.""
+  },
+  ""difficulty"": ""medium""
+}"
+11,ETS2026,5,111,PASS_QUALITY_VALIDATED,True,True,VALID,,,,9.43,The product team is designing mapping software that can _____ locate underground minerals.,infinitely,sincerely,precisely,greatly,C,"{""grammar_topic"": ""Adverb of manner"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""locate"", ""meaning"": ""tìm kiếm"", ""part_of_speech"": ""verb""}, {""word"": ""minerals"", ""meaning"": ""minerals"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án C 'chính xác' là câu trả lời đúng vì nó đi kèm với trạng từ 'chính xác' để chỉ cách thức mà phần mềm mapping sẽ tìm kiếm các khoáng sản dưới đất. Các đáp án khác không phù hợp với ngữ cảnh và cấu trúc câu."", ""distractor_analysis"": {""A"": ""Đáp án A 'vô hạn' không phù hợp vì nó không mô tả cách thức tìm kiếm minerals."", ""B"": ""Đáp án B 'thực lòng' không phù hợp vì nó không mô tả cách thức tìm kiếm minerals."", ""C"": ""Đáp án C 'chính xác' là đáp án chính xác vì nó phù hợp với cách thức tìm kiếm minerals."", ""D"": ""Đáp án D 'rất' không phù hợp vì nó không mô tả cách thức tìm kiếm minerals.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adverb of manner"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""locate"",
+      ""meaning"": ""tìm kiếm"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""minerals"",
+      ""meaning"": ""minerals"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án C 'chính xác' là câu trả lời đúng vì nó đi kèm với trạng từ 'chính xác' để chỉ cách thức mà phần mềm mapping sẽ tìm kiếm các khoáng sản dưới đất. Các đáp án khác không phù hợp với ngữ cảnh và cấu trúc câu."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A 'vô hạn' không phù hợp vì nó không mô tả cách thức tìm kiếm minerals."",
+    ""B"": ""Đáp án B 'thực lòng' không phù hợp vì nó không mô tả cách thức tìm kiếm minerals."",
+    ""C"": ""Đáp án C 'chính xác' là đáp án chính xác vì nó phù hợp với cách thức tìm kiếm minerals."",
+    ""D"": ""Đáp án D 'rất' không phù hợp vì nó không mô tả cách thức tìm kiếm minerals.""
+  },
+  ""difficulty"": ""medium""
+}"
+12,ETS2026,5,112,REJECTED_QUALITY,True,False,REJECTED,UNGROUNDED_VOCABULARY,UNGROUNDED_VOCABULARY,Vocabulary item 'expanding' is not grounded in question text or options.,9.51,"According to CEO Mayu Yamada, it would not be _____ responsible to expand the warehouse at this time.",finance,financials,financially,financing,C,"{""grammar_topic"": ""Adverb"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""Preposition + which + clause"", ""vocabulary"": [{""word"": ""responsible"", ""meaning"": ""luôn luôn có trách nhiệm"", ""part_of_speech"": ""adjective""}, {""word"": ""expanding"", ""meaning"": ""mở rộng"", ""part_of_speech"": ""verb""}], ""explanation"": ""Đáp án C là đáp án chính xác vì nó cho phép cấu trúc ngữ pháp đúng, với responsável được đặt ở vị trí của một adverb. Đây là cách tốt nhất để làm cho câu trở nên chính xác và hợp lệ."", ""distractor_analysis"": {""A"": ""finance là từ đồng nghĩa với financials, nên không phù hợp với cấu trúc của câu."", ""B"": ""financials không thể được sử dụng ở đây vì nó là một từ danh từ và không thể làm adverb trong cấu trúc câu."", ""C"": ""Đáp án C, financially, chính xác vì nó là cách đúng để đặt responsável trong cấu trúc câu, tạo ra một adverb."", ""D"": ""financing không phù hợp với cấu trúc của câu vì nó không mang tính chất của adverb và không đúng với ngữ cảnh đề bài.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adverb"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""Preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""responsible"",
+      ""meaning"": ""luôn luôn có trách nhiệm"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""expanding"",
+      ""meaning"": ""mở rộng"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Đáp án C là đáp án chính xác vì nó cho phép cấu trúc ngữ pháp đúng, với responsável được đặt ở vị trí của một adverb. Đây là cách tốt nhất để làm cho câu trở nên chính xác và hợp lệ."",
+  ""distractor_analysis"": {
+    ""A"": ""finance là từ đồng nghĩa với financials, nên không phù hợp với cấu trúc của câu."",
+    ""B"": ""financials không thể được sử dụng ở đây vì nó là một từ danh từ và không thể làm adverb trong cấu trúc câu."",
+    ""C"": ""Đáp án C, financially, chính xác vì nó là cách đúng để đặt responsável trong cấu trúc câu, tạo ra một adverb."",
+    ""D"": ""financing không phù hợp với cấu trúc của câu vì nó không mang tính chất của adverb và không đúng với ngữ cảnh đề bài.""
+  },
+  ""difficulty"": ""medium""
+}"
+13,ETS2026,5,113,REJECTED_QUALITY,True,False,SUSPICIOUS,CORRECT_ANSWER_CONTRADICTION,CORRECT_ANSWER_CONTRADICTION,Distractor analysis for authoritative answer 'A' describes the option as incorrect or unsuitable.,15.26,Analysts cannot say with any _____ what the regional demand for electric trucks will be.,certainty,justice,excellence,denial,A,"{""grammar_topic"": ""Adverb of Manner"", ""sentence_structure"": ""S + V + with + Adj/Adverb + S"", ""pattern"": ""with + Adj/Adverb + S"", ""vocabulary"": [{""word"": ""analysts"", ""meaning"": ""người phân tích, chuyên gia kinh doanh"", ""part_of_speech"": ""noun""}, {""word"": ""say"", ""meaning"": ""báo cáo, chỉ ra"", ""part_of_speech"": ""verb""}, {""word"": ""any"", ""meaning"": ""chỉ, chỉ có"", ""part_of_speech"": ""adverb""}, {""word"": ""with"", ""meaning"": ""trong thời gian, cùng với"", ""part_of_speech"": ""preposition""}, {""word"": ""certainty"", ""meaning"": ""chính xác, chắc chắn"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án 'certainty' là đáp án đúng vì nó đúng với ngữ cảnh và cấu trúc ngữ pháp của câu. Câu được cấu thành từ cấu trúc S + V + with + Adj/Adverb + S, trong đó 'with' diễn tả hành vi của động từ 'say', và 'certainty' là một từ chỉ hành vi chính xác và chắc chắn."", ""distractor_analysis"": {""A"": ""Đáp án này sai vì nó đúng với ngữ cảnh và cấu trúc ngữ pháp của câu. Câu được cấu thành từ cấu trúc S + V + with + Adj/Adverb + S, trong đó 'with' diễn tả hành vi của động từ 'say', và 'certainty' là một từ chỉ hành vi chính xác và chắc chắn."", ""B"": ""Đáp án này sai vì nó không hợp với ngữ cảnh và cấu trúc ngữ pháp của câu. 'Justice' không thể làm thay đổi hành vi của động từ 'say'. Hơn nữa, nó không phù hợp với nghĩa của câu."", ""C"": ""Đáp án này sai vì nó không hợp với ngữ cảnh và cấu trúc ngữ pháp của câu. 'Excellence' không diễn tả hành vi của động từ 'say'. Hơn nữa, nó không phù hợp với nghĩa của câu."", ""D"": ""Đáp án này sai vì nó không hợp với ngữ cảnh và cấu trúc ngữ pháp của câu. 'Denial' không thể làm thay đổi hành vi của động từ 'say'. Hơn nữa, nó không phù hợp với nghĩa của câu.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adverb of Manner"",
+  ""sentence_structure"": ""S + V + with + Adj/Adverb + S"",
+  ""pattern"": ""with + Adj/Adverb + S"",
+  ""vocabulary"": [
+    {
+      ""word"": ""analysts"",
+      ""meaning"": ""người phân tích, chuyên gia kinh doanh"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""say"",
+      ""meaning"": ""báo cáo, chỉ ra"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""any"",
+      ""meaning"": ""chỉ, chỉ có"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""with"",
+      ""meaning"": ""trong thời gian, cùng với"",
+      ""part_of_speech"": ""preposition""
+    },
+    {
+      ""word"": ""certainty"",
+      ""meaning"": ""chính xác, chắc chắn"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án 'certainty' là đáp án đúng vì nó đúng với ngữ cảnh và cấu trúc ngữ pháp của câu. Câu được cấu thành từ cấu trúc S + V + with + Adj/Adverb + S, trong đó 'with' diễn tả hành vi của động từ 'say', và 'certainty' là một từ chỉ hành vi chính xác và chắc chắn."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án này sai vì nó đúng với ngữ cảnh và cấu trúc ngữ pháp của câu. Câu được cấu thành từ cấu trúc S + V + with + Adj/Adverb + S, trong đó 'with' diễn tả hành vi của động từ 'say', và 'certainty' là một từ chỉ hành vi chính xác và chắc chắn."",
+    ""B"": ""Đáp án này sai vì nó không hợp với ngữ cảnh và cấu trúc ngữ pháp của câu. 'Justice' không thể làm thay đổi hành vi của động từ 'say'. Hơn nữa, nó không phù hợp với nghĩa của câu."",
+    ""C"": ""Đáp án này sai vì nó không hợp với ngữ cảnh và cấu trúc ngữ pháp của câu. 'Excellence' không diễn tả hành vi của động từ 'say'. Hơn nữa, nó không phù hợp với nghĩa của câu."",
+    ""D"": ""Đáp án này sai vì nó không hợp với ngữ cảnh và cấu trúc ngữ pháp của câu. 'Denial' không thể làm thay đổi hành vi của động từ 'say'. Hơn nữa, nó không phù hợp với nghĩa của câu.""
+  },
+  ""difficulty"": ""medium""
+}"
+14,ETS2026,5,114,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.27,"As part of its marketing campaign, Elegancia Dishware is _____ soliciting feedback from customers.",lightly,loyally,actively,cleanly,C,"{""grammar_topic"": ""Verb Adverb"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""marketing"", ""meaning"": ""marketing"", ""part_of_speech"": ""noun""}, {""word"": ""campaign"", ""meaning"": ""campaign"", ""part_of_speech"": ""noun""}, {""word"": ""soliciting"", ""meaning"": ""soliciting"", ""part_of_speech"": ""verb""}, {""word"": ""customers"", ""meaning"": ""customers"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án C (actively) đúng vì nó mô tả cách Elegancia Dishware thực hiện chiến dịch quảng cáo của mình. Thêm vào đó, Elegancia Dishware đang sử dụng hành vi 'soliciting' từ 'marketing campaign' bằng cách mô tả hành vi cụ thể của nó là 'actively' (tích cực)."", ""distractor_analysis"": {""A"": ""đáp án A (lightly) không phù hợp vì nó không mô tả cách Elegancia Dishware thực hiện chiến dịch quảng cáo. Nó có thể mô tả một hành động nhẹ nhàng hoặc nhẹ nhàng hơn."", ""B"": ""đáp án B (loyally) không phù hợp vì nó không liên quan đến cách Elegancia Dishware thực hiện chiến dịch quảng cáo. Nó mô tả sự trung thành, một thuộc tính khác."", ""C"": ""đáp án C (actively) đúng, như đã giải thích trước đó."", ""D"": ""đáp án D (cleanly) không phù hợp vì nó mô tả sự sạch sẽ, một hành động có thể liên quan đến việc vệ sinh, chứ không phải cách thực hiện chiến dịch quảng cáo.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb Adverb"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""marketing"",
+      ""meaning"": ""marketing"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""campaign"",
+      ""meaning"": ""campaign"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""soliciting"",
+      ""meaning"": ""soliciting"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""customers"",
+      ""meaning"": ""customers"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án C (actively) đúng vì nó mô tả cách Elegancia Dishware thực hiện chiến dịch quảng cáo của mình. Thêm vào đó, Elegancia Dishware đang sử dụng hành vi 'soliciting' từ 'marketing campaign' bằng cách mô tả hành vi cụ thể của nó là 'actively' (tích cực)."",
+  ""distractor_analysis"": {
+    ""A"": ""đáp án A (lightly) không phù hợp vì nó không mô tả cách Elegancia Dishware thực hiện chiến dịch quảng cáo. Nó có thể mô tả một hành động nhẹ nhàng hoặc nhẹ nhàng hơn."",
+    ""B"": ""đáp án B (loyally) không phù hợp vì nó không liên quan đến cách Elegancia Dishware thực hiện chiến dịch quảng cáo. Nó mô tả sự trung thành, một thuộc tính khác."",
+    ""C"": ""đáp án C (actively) đúng, như đã giải thích trước đó."",
+    ""D"": ""đáp án D (cleanly) không phù hợp vì nó mô tả sự sạch sẽ, một hành động có thể liên quan đến việc vệ sinh, chứ không phải cách thực hiện chiến dịch quảng cáo.""
+  },
+  ""difficulty"": ""medium""
+}"
+15,ETS2026,5,115,PASS_QUALITY_VALIDATED,True,True,VALID,,,,11.7,Rain gardens are intended to _____ water to prevent flooding of local roads.,engage,undergo,absorb,overwhelm,C,"{""grammar_topic"": ""Verb + to + Infinitive"", ""sentence_structure"": ""S + V + to + V-ing"", ""pattern"": ""Verb + to + Infinitive"", ""vocabulary"": [{""word"": ""water"", ""meaning"": ""nước"", ""part_of_speech"": ""noun""}, {""word"": ""prevent"", ""meaning"": ""chặn lại, ngăn chặn"", ""part_of_speech"": ""verb""}], ""explanation"": ""Đáp án C 'absorb' là đáp án chính xác vì nó tuân theo cấu trúc câu V + to + Infinitive. Đây là cấu trúc thông thường trong tiếng Anh khi động từ không phải là từ tính. Trong câu, 'absorb' nghĩa là 'ngâm thấm, hấp thụ', nó thích hợp để ngăn chặn sự ngập lụt nước trên các tuyến đường địa phương."", ""distractor_analysis"": {""A"": ""Đáp án A 'engage' không phù hợp vì nó không phải là động từ không tính. 'Engage' nghĩa là 'khám phá, tham gia'"", ""B"": ""Đáp án B 'undergo' không phù hợp vì nó không tuân theo cấu trúc V + to + Infinitive. 'Undergo' nghĩa là 'đoạn quãng, trải qua'"", ""C"": ""Đáp án C 'absorb' chính xác vì nó tuân theo cấu trúc V + to + Infinitive và có nghĩa phù hợp với ngữ cảnh của câu"", ""D"": ""Đáp án D 'overwhelm' không phù hợp vì nó không tuân theo cấu trúc V + to + Infinitive. 'Overwhelm' nghĩa là 'quá sức chịu đựng, vượt quá'""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb + to + Infinitive"",
+  ""sentence_structure"": ""S + V + to + V-ing"",
+  ""pattern"": ""Verb + to + Infinitive"",
+  ""vocabulary"": [
+    {
+      ""word"": ""water"",
+      ""meaning"": ""nước"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""prevent"",
+      ""meaning"": ""chặn lại, ngăn chặn"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Đáp án C 'absorb' là đáp án chính xác vì nó tuân theo cấu trúc câu V + to + Infinitive. Đây là cấu trúc thông thường trong tiếng Anh khi động từ không phải là từ tính. Trong câu, 'absorb' nghĩa là 'ngâm thấm, hấp thụ', nó thích hợp để ngăn chặn sự ngập lụt nước trên các tuyến đường địa phương."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A 'engage' không phù hợp vì nó không phải là động từ không tính. 'Engage' nghĩa là 'khám phá, tham gia'"",
+    ""B"": ""Đáp án B 'undergo' không phù hợp vì nó không tuân theo cấu trúc V + to + Infinitive. 'Undergo' nghĩa là 'đoạn quãng, trải qua'"",
+    ""C"": ""Đáp án C 'absorb' chính xác vì nó tuân theo cấu trúc V + to + Infinitive và có nghĩa phù hợp với ngữ cảnh của câu"",
+    ""D"": ""Đáp án D 'overwhelm' không phù hợp vì nó không tuân theo cấu trúc V + to + Infinitive. 'Overwhelm' nghĩa là 'quá sức chịu đựng, vượt quá'""
+  },
+  ""difficulty"": ""medium""
+}"
+16,ETS2026,5,116,PASS_QUALITY_VALIDATED,True,True,VALID,,,,8.06,Theta Industries' training program aims to increase the _____ of its manufacturing systems.,producer,produced,productive,productivity,D,"{""grammar_topic"": ""Verb Form"", ""sentence_structure"": ""S + V + of + N"", ""pattern"": ""preposition + of + N"", ""vocabulary"": [{""word"": ""productivity"", ""meaning"": ""hiệu quả công việc"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này có cấu trúc S + V + of + N. Trong đó, 'productivity' là động từ dạng名词化（noun form）. Vì vậy, 'productivity' là đáp án đúng vì nó là một từ chỉ hiệu quả công việc, phù hợp với câu đề."", ""distractor_analysis"": {""A"": ""producer là động từ, không phù hợp với cấu trúc của câu"", ""B"": ""produced là động từ quá khứ, không phù hợp với câu đề"", ""C"": ""productive là tính từ, không phù hợp với cấu trúc của câu"", ""D"": ""productivity là tính từ, đúng với cấu trúc của câu và nghĩa của câu đề""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb Form"",
+  ""sentence_structure"": ""S + V + of + N"",
+  ""pattern"": ""preposition + of + N"",
+  ""vocabulary"": [
+    {
+      ""word"": ""productivity"",
+      ""meaning"": ""hiệu quả công việc"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này có cấu trúc S + V + of + N. Trong đó, 'productivity' là động từ dạng名词化（noun form）. Vì vậy, 'productivity' là đáp án đúng vì nó là một từ chỉ hiệu quả công việc, phù hợp với câu đề."",
+  ""distractor_analysis"": {
+    ""A"": ""producer là động từ, không phù hợp với cấu trúc của câu"",
+    ""B"": ""produced là động từ quá khứ, không phù hợp với câu đề"",
+    ""C"": ""productive là tính từ, không phù hợp với cấu trúc của câu"",
+    ""D"": ""productivity là tính từ, đúng với cấu trúc của câu và nghĩa của câu đề""
+  },
+  ""difficulty"": ""medium""
+}"
+17,ETS2026,5,117,PASS_QUALITY_VALIDATED,True,True,VALID,,,,11.17,The board of directors has voted to award Mr. Mitrakos a bonus for his role _____ obtaining the international contract.,in,at,except,apart,A,"{""grammar_topic"": ""Preposition + Relative Clause"", ""sentence_structure"": ""S + V + for + S + V + [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""role"", ""meaning"": ""vai trò"", ""part_of_speech"": ""noun""}, {""word"": ""obtaining"", ""meaning"": ""khám phá"", ""part_of_speech"": ""verb""}, {""word"": ""contract"", ""meaning"": ""hợp đồng"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án A 'in' là đáp án chính xác vì nó đúng với cấu trúc câu và ngữ cảnh của câu. 'Role in obtaining' một hợp đồng quốc tế cho thấy Mr. Mitrakos đã có vai trò quan trọng trong việc tìm kiếm và đạt được hợp đồng quốc tế."", ""distractor_analysis"": {""A"": ""Đáp án A chính xác và đúng với cấu trúc và ngữ cảnh của câu."", ""B"": ""Đáp án B 'at' không phù hợp trong ngữ cảnh này vì nó không đúng với cấu trúc câu và không thể đi kèm với 'obtaining'."", ""C"": ""Đáp án C 'except' không phù hợp vì nó không đúng với cấu trúc và ngữ cảnh của câu. Nó không thể đi kèm với 'obtaining'."", ""D"": ""Đáp án D 'apart' không phù hợp vì nó không đúng với cấu trúc và ngữ cảnh của câu. Nó không thể đi kèm với 'obtaining'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Clause"",
+  ""sentence_structure"": ""S + V + for + S + V + [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""role"",
+      ""meaning"": ""vai trò"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""obtaining"",
+      ""meaning"": ""khám phá"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""contract"",
+      ""meaning"": ""hợp đồng"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án A 'in' là đáp án chính xác vì nó đúng với cấu trúc câu và ngữ cảnh của câu. 'Role in obtaining' một hợp đồng quốc tế cho thấy Mr. Mitrakos đã có vai trò quan trọng trong việc tìm kiếm và đạt được hợp đồng quốc tế."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A chính xác và đúng với cấu trúc và ngữ cảnh của câu."",
+    ""B"": ""Đáp án B 'at' không phù hợp trong ngữ cảnh này vì nó không đúng với cấu trúc câu và không thể đi kèm với 'obtaining'."",
+    ""C"": ""Đáp án C 'except' không phù hợp vì nó không đúng với cấu trúc và ngữ cảnh của câu. Nó không thể đi kèm với 'obtaining'."",
+    ""D"": ""Đáp án D 'apart' không phù hợp vì nó không đúng với cấu trúc và ngữ cảnh của câu. Nó không thể đi kèm với 'obtaining'.""
+  },
+  ""difficulty"": ""medium""
+}"
+18,ETS2026,5,118,FAIL_SCHEMA_VALIDATION,False,False,,,EnrichmentValidationError,"LLM response failed QuestionEnrichment validation: 1 validation error for QuestionEnrichment
+distractor_analysis.B
+  Field required [type=missing, input_value={'A': 'Đáp án A (along...được triển khai.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing",9.53,The finance director gave his approval _____ the project can move forward.,along,furthermore,cautiously,so that,D,,"{
+  ""grammar_topic"": ""Conditional Clause"",
+  ""sentence_structure"": ""S + V + prep. + which + S + V"",
+  ""pattern"": ""so that + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""can"",
+      ""meaning"": ""có thể"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Đáp án D (so that) phù hợp với cấu trúc câu điều kiện, vì nó tạo điều kiện cho dự án có thể bắt đầu. Câu này theo cấu trúc S + V + prep. + which + S + V, với \""can\"" là động từ của cấu trúc V-ing."",
+  ""distractor_analysis"": {
+    ""A"": ""Các đáp án A (along) và B (furthermore) không phù hợp với ngữ cảnh vì chúng không tạo ra ý định, điều kiện cho dự án được triển khai."",
+    ""C"": ""Các đáp án C (cautiously) không phù hợp vì nó không tạo ra điều kiện cho dự án, mà là thái độ hoặc cách thức triển khai dự án."",
+    ""D"": ""Đáp án chính xác là D (so that), vì nó tạo ra một điều kiện để dự án có thể được triển khai."",
+    ""A"": ""Đáp án A (along) không phù hợp, vì nó không tạo ra điều kiện hoặc ý định cho dự án.""
+  },
+  ""difficulty"": ""medium""
+}"
+19,ETS2026,5,119,PASS_QUALITY_VALIDATED,True,True,VALID,,,,13.23,The newspaper article describes ways job seekers can _____ for having little workplace experience.,reply,capture,compensate,accumulate,C,"{""grammar_topic"": ""Preposition + Infinitive"", ""sentence_structure"": ""S + V + for + Infinitive"", ""pattern"": ""for + V-ing"", ""vocabulary"": [{""word"": ""compensate"", ""meaning"": ""giải quyết, bù đắp"", ""part_of_speech"": ""verb""}, {""word"": ""workplace"", ""meaning"": ""không gian làm việc, môi trường làm việc"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án C (giải quyết, bù đắp) là đáp án chính xác vì nó mô tả cách mà người tìm việc có thể giải quyết tình huống thiếu kinh nghiệm làm việc trong môi trường làm việc. Đáp án còn được sử dụng trong cấu trúc 'for + V-ing', nơi 'compensate' được sử dụng để giải thích hành động tương lai 'having little workplace experience'."", ""distractor_analysis"": {""A"": ""Đáp án A (gửi, trả lời) không phù hợp vì nó không liên quan đến việc giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc trong môi trường làm việc."", ""B"": ""Đáp án B (khớp, hấp thụ) không phù hợp vì nó không mô tả một cách để giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc trong môi trường làm việc. Thay vào đó, 'compensate' liên quan đến việc bù đắp hoặc giải quyết."", ""C"": ""Đáp án C (giải quyết, bù đắp) là đáp án chính xác theo ngữ cảnh và cấu trúc câu."", ""D"": ""Đáp án D (tích lũy) không phù hợp vì nó không liên quan đến việc giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc trong môi trường làm việc. Thay vào đó, 'compensate' mô tả cách để giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Infinitive"",
+  ""sentence_structure"": ""S + V + for + Infinitive"",
+  ""pattern"": ""for + V-ing"",
+  ""vocabulary"": [
+    {
+      ""word"": ""compensate"",
+      ""meaning"": ""giải quyết, bù đắp"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""workplace"",
+      ""meaning"": ""không gian làm việc, môi trường làm việc"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án C (giải quyết, bù đắp) là đáp án chính xác vì nó mô tả cách mà người tìm việc có thể giải quyết tình huống thiếu kinh nghiệm làm việc trong môi trường làm việc. Đáp án còn được sử dụng trong cấu trúc 'for + V-ing', nơi 'compensate' được sử dụng để giải thích hành động tương lai 'having little workplace experience'."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A (gửi, trả lời) không phù hợp vì nó không liên quan đến việc giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc trong môi trường làm việc."",
+    ""B"": ""Đáp án B (khớp, hấp thụ) không phù hợp vì nó không mô tả một cách để giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc trong môi trường làm việc. Thay vào đó, 'compensate' liên quan đến việc bù đắp hoặc giải quyết."",
+    ""C"": ""Đáp án C (giải quyết, bù đắp) là đáp án chính xác theo ngữ cảnh và cấu trúc câu."",
+    ""D"": ""Đáp án D (tích lũy) không phù hợp vì nó không liên quan đến việc giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc trong môi trường làm việc. Thay vào đó, 'compensate' mô tả cách để giải quyết hoặc bù đắp thiếu kinh nghiệm làm việc.""
+  },
+  ""difficulty"": ""medium""
+}"
+20,ETS2026,5,120,PASS_QUALITY_VALIDATED,True,True,VALID,,,,11.95,"Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",myself,neither,anybody,whoever,B,"{""grammar_topic"": ""Preposition + Relative Pronoun"", ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""qualified"", ""meaning"": ""có trình độ"", ""part_of_speech"": ""adjective""}, {""word"": ""job"", ""meaning"": ""vị trí làm việc"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án B (người nào) không thể đúng vì câu được đặt trong ngoặc kép chỉ làm rõ thêm thông tin về người mà chúng ta đang nói. Vì cả Mr. Ellis và Ms. Barnes đều được coi là đủ trình độ, nên câu cuối cùng chỉ có thể chỉ đến người không được chọn, và đáp án B đúng với điều này. Các đáp án còn lại (A, C, D) không phù hợp với ngữ cảnh và cấu trúc của câu."", ""distractor_analysis"": {""A"": ""Đáp án này sai vì tôi không được nói đến trong câu và không phù hợp với ngữ cảnh câu hỏi. Đây là một lỗi về ngữ pháp người."", ""B"": ""Đáp án này đúng, nó đúng với ngữ cảnh câu hỏi và cấu trúc của câu. Câu được đặt trong ngoặc kép chỉ làm rõ thêm thông tin về người mà chúng ta đang nói."", ""C"": ""Đáp án này sai vì không phù hợp với ngữ cảnh câu hỏi. Đây là một lỗi về danh từ và không phải là đáp án cho câu hỏi này."", ""D"": ""Đáp án này sai vì không phù hợp với ngữ cảnh câu hỏi. Đây là một lỗi về danh từ và không phải là đáp án cho câu hỏi này.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Pronoun"",
+  ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""qualified"",
+      ""meaning"": ""có trình độ"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""job"",
+      ""meaning"": ""vị trí làm việc"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án B (người nào) không thể đúng vì câu được đặt trong ngoặc kép chỉ làm rõ thêm thông tin về người mà chúng ta đang nói. Vì cả Mr. Ellis và Ms. Barnes đều được coi là đủ trình độ, nên câu cuối cùng chỉ có thể chỉ đến người không được chọn, và đáp án B đúng với điều này. Các đáp án còn lại (A, C, D) không phù hợp với ngữ cảnh và cấu trúc của câu."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án này sai vì tôi không được nói đến trong câu và không phù hợp với ngữ cảnh câu hỏi. Đây là một lỗi về ngữ pháp người."",
+    ""B"": ""Đáp án này đúng, nó đúng với ngữ cảnh câu hỏi và cấu trúc của câu. Câu được đặt trong ngoặc kép chỉ làm rõ thêm thông tin về người mà chúng ta đang nói."",
+    ""C"": ""Đáp án này sai vì không phù hợp với ngữ cảnh câu hỏi. Đây là một lỗi về danh từ và không phải là đáp án cho câu hỏi này."",
+    ""D"": ""Đáp án này sai vì không phù hợp với ngữ cảnh câu hỏi. Đây là một lỗi về danh từ và không phải là đáp án cho câu hỏi này.""
+  },
+  ""difficulty"": ""medium""
+}"
+21,ETS2026,5,121,PASS_QUALITY_VALIDATED,True,True,VALID,,,,10.72,Ennis Photography purchased all new lighting equipment _____ the high cost.,even though,however,until,despite,D,"{""grammar_topic"": ""Conjunctions"", ""sentence_structure"": ""S + V + [Prep] + [Conj] + which + S + V"", ""pattern"": ""Preposition + Despite + Clause"", ""vocabulary"": [{""word"": ""cost"", ""meaning"": ""giá cả"", ""part_of_speech"": ""n谓语""}], ""explanation"": ""Đáp án D (thay vì) là câu chính xác vì nó liên kết cùng từ 'cost' ở cuối câu với mệnh đề bổ sung 'the high cost' ở phía trước, sử dụng cấu trúc 'Preposition + Despite + Clause'. Đáp án khác không phù hợp với cấu trúc của câu."", ""distractor_analysis"": {""A"": ""Đáp án A (even though) không phù hợp vì 'even though' được sử dụng để chỉ sự không đồng ý hoặc ngược lại với một ý tưởng, điều này không phù hợp với ngữ cảnh của câu."", ""B"": ""Đáp án B (however) sai vì nó được sử dụng để chỉ sự so sánh hoặc sự thay đổi ý tưởng giữa hai mệnh đề, điều này không phù hợp với ngữ cảnh của câu."", ""C"": ""Đáp án C (until) sai vì 'until' được sử dụng để chỉ thời gian bắt đầu, điều này không phù hợp với ngữ cảnh của câu."", ""D"": ""Đáp án D (despite) chính xác vì nó được sử dụng để chỉ sự chấp nhận hay chấp nhận một sự thật khó chấp nhận, điều này phù hợp với ngữ cảnh của câu.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Conjunctions"",
+  ""sentence_structure"": ""S + V + [Prep] + [Conj] + which + S + V"",
+  ""pattern"": ""Preposition + Despite + Clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""cost"",
+      ""meaning"": ""giá cả"",
+      ""part_of_speech"": ""n谓语""
+    }
+  ],
+  ""explanation"": ""Đáp án D (thay vì) là câu chính xác vì nó liên kết cùng từ 'cost' ở cuối câu với mệnh đề bổ sung 'the high cost' ở phía trước, sử dụng cấu trúc 'Preposition + Despite + Clause'. Đáp án khác không phù hợp với cấu trúc của câu."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A (even though) không phù hợp vì 'even though' được sử dụng để chỉ sự không đồng ý hoặc ngược lại với một ý tưởng, điều này không phù hợp với ngữ cảnh của câu."",
+    ""B"": ""Đáp án B (however) sai vì nó được sử dụng để chỉ sự so sánh hoặc sự thay đổi ý tưởng giữa hai mệnh đề, điều này không phù hợp với ngữ cảnh của câu."",
+    ""C"": ""Đáp án C (until) sai vì 'until' được sử dụng để chỉ thời gian bắt đầu, điều này không phù hợp với ngữ cảnh của câu."",
+    ""D"": ""Đáp án D (despite) chính xác vì nó được sử dụng để chỉ sự chấp nhận hay chấp nhận một sự thật khó chấp nhận, điều này phù hợp với ngữ cảnh của câu.""
+  },
+  ""difficulty"": ""medium""
+}"
+22,ETS2026,5,122,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.88,Marburton residents who wish to _____ a home should contact the award-winning team at Kwan Real Estate.,seller,sold,sell,selling,C,"{""grammar_topic"": ""Verb Form"", ""sentence_structure"": ""S + V + [Prep] + [Which] + S + V"", ""pattern"": ""Prep + Which + Clause"", ""vocabulary"": [{""word"": ""resident"", ""meaning"": ""người dân"", ""part_of_speech"": ""noun""}, {""word"": ""wish"", ""meaning"": ""muốn"", ""part_of_speech"": ""verb""}, {""word"": ""contact"", ""meaning"": ""liên hệ"", ""part_of_speech"": ""verb""}, {""word"": ""award-winning"", ""meaning"": ""được trao giải"", ""part_of_speech"": ""adjective""}], ""explanation"": ""Đáp án C (sell) là đáp án đúng vì nó đảm bảo rằng cấu trúc câu S + V + [Prep] + [Which] + S + V được tuân theo. Sell là động từ lóng biểu thị hành động mua bán nhà, và người dân muốn contact một đội ngũ bán nhà."", ""distractor_analysis"": {""A"": ""Đáp án A (seller) sai vì seller không phù hợp trong ngữ cảnh và cấu trúc câu. Seller là người bán chứ không phải hành động liên quan đến việc bán nhà."", ""B"": ""Đáp án B (sold) sai vì sold là trạng thái của động từ sell (bán), nó không đúng trong ngữ cảnh câu hỏi. Người dân muốn contact đội ngũ bán nhà, không phải trạng thái của đội ngũ bán nhà."", ""C"": ""Đáp án C (sell) đúng vì nó phù hợp với ngữ cảnh và cấu trúc câu. Sell là hành động liên quan đến việc bán nhà."", ""D"": ""Đáp án D (selling) sai vì selling là trạng thái của động từ sell (bán), nó không đúng trong ngữ cảnh câu hỏi. Người dân muốn contact đội ngũ bán nhà, không phải trạng thái của đội ngũ bán nhà.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb Form"",
+  ""sentence_structure"": ""S + V + [Prep] + [Which] + S + V"",
+  ""pattern"": ""Prep + Which + Clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""resident"",
+      ""meaning"": ""người dân"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""wish"",
+      ""meaning"": ""muốn"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""contact"",
+      ""meaning"": ""liên hệ"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""award-winning"",
+      ""meaning"": ""được trao giải"",
+      ""part_of_speech"": ""adjective""
+    }
+  ],
+  ""explanation"": ""Đáp án C (sell) là đáp án đúng vì nó đảm bảo rằng cấu trúc câu S + V + [Prep] + [Which] + S + V được tuân theo. Sell là động từ lóng biểu thị hành động mua bán nhà, và người dân muốn contact một đội ngũ bán nhà."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A (seller) sai vì seller không phù hợp trong ngữ cảnh và cấu trúc câu. Seller là người bán chứ không phải hành động liên quan đến việc bán nhà."",
+    ""B"": ""Đáp án B (sold) sai vì sold là trạng thái của động từ sell (bán), nó không đúng trong ngữ cảnh câu hỏi. Người dân muốn contact đội ngũ bán nhà, không phải trạng thái của đội ngũ bán nhà."",
+    ""C"": ""Đáp án C (sell) đúng vì nó phù hợp với ngữ cảnh và cấu trúc câu. Sell là hành động liên quan đến việc bán nhà."",
+    ""D"": ""Đáp án D (selling) sai vì selling là trạng thái của động từ sell (bán), nó không đúng trong ngữ cảnh câu hỏi. Người dân muốn contact đội ngũ bán nhà, không phải trạng thái của đội ngũ bán nhà.""
+  },
+  ""difficulty"": ""medium""
+}"
+23,ETS2026,5,123,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.95,Maswa Bistro began a _____ agreement with local farmers to purchase a set amount of produce each week.,disruptive,cooperative,grateful,concerned,B,"{""grammar_topic"": ""Preposition + Relative Pronoun"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""agreement"", ""meaning"": ""quy ước, thỏa ước"", ""part_of_speech"": ""noun""}, {""word"": ""purchase"", ""meaning"": ""sắm mua, giao dịch mua hàng"", ""part_of_speech"": ""verb""}, {""word"": ""produce"", ""meaning"": ""sản phẩm, nông sản"", ""part_of_speech"": ""noun""}, {""word"": ""week"", ""meaning"": ""tuần"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án B là đáp án chính xác vì nó đúng với cấu trúc ngữ pháp của câu và ý nghĩa của câu. Câu đang đề cập đến một mối quan hệ mua hàng hàng tuần giữa một nhà hàng và các nông dân địa phương. Đáp án B - cooperative (tích cực, hợp tác) là lựa chọn phù hợp nhất do nó mô tả một mối quan hệ mua hàng hợp tác giữa hai bên."", ""distractor_analysis"": {""A"": ""Đáp án A - disruptive (giới thiệu, gây rối) không phù hợp với ngữ cảnh vì nó không liên quan đến mối quan hệ mua hàng."", ""B"": ""Đáp án B - cooperative (tích cực, hợp tác) là đáp án chính xác đã được xác nhận là chính xác."", ""C"": ""Đáp án C - grateful (cảm tạ, biết ơn) không phù hợp với ngữ cảnh vì việc mua hàng hàng tuần không liên quan đến cảm tạ."", ""D"": ""Đáp án D - concerned (quan tâm) không phù hợp với ngữ cảnh vì nó không mô tả một mối quan hệ mua hàng hàng tuần.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Pronoun"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""agreement"",
+      ""meaning"": ""quy ước, thỏa ước"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""purchase"",
+      ""meaning"": ""sắm mua, giao dịch mua hàng"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""produce"",
+      ""meaning"": ""sản phẩm, nông sản"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""week"",
+      ""meaning"": ""tuần"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án B là đáp án chính xác vì nó đúng với cấu trúc ngữ pháp của câu và ý nghĩa của câu. Câu đang đề cập đến một mối quan hệ mua hàng hàng tuần giữa một nhà hàng và các nông dân địa phương. Đáp án B - cooperative (tích cực, hợp tác) là lựa chọn phù hợp nhất do nó mô tả một mối quan hệ mua hàng hợp tác giữa hai bên."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A - disruptive (giới thiệu, gây rối) không phù hợp với ngữ cảnh vì nó không liên quan đến mối quan hệ mua hàng."",
+    ""B"": ""Đáp án B - cooperative (tích cực, hợp tác) là đáp án chính xác đã được xác nhận là chính xác."",
+    ""C"": ""Đáp án C - grateful (cảm tạ, biết ơn) không phù hợp với ngữ cảnh vì việc mua hàng hàng tuần không liên quan đến cảm tạ."",
+    ""D"": ""Đáp án D - concerned (quan tâm) không phù hợp với ngữ cảnh vì nó không mô tả một mối quan hệ mua hàng hàng tuần.""
+  },
+  ""difficulty"": ""medium""
+}"
+24,ETS2026,5,124,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.14,The City of Doyle's new downtown parking _____ have been met with opposition by residents and visitors.,restricts,restricted,restrictions,restricting,C,"{""grammar_topic"": ""Verb in Gerund Form"", ""sentence_structure"": ""S + V-ing"", ""pattern"": ""preposition + V-ing"", ""vocabulary"": [{""word"": ""have"", ""meaning"": ""đã"", ""part_of_speech"": ""verb""}, {""word"": ""parking"", ""meaning"": ""đỗ xe"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án C là đáp án chính xác bởi vì nó sử dụng từ động từ đang được (V-ing) trong cấu trúc preposition + V-ing. Đáp án này đại diện cho hành động mà thủ đô Doyle đang áp dụng. 'Restrictions' là từ đồng thời cũng là từ đang được (V-ing), đề cập đến hành động của việc cấm hoặc hạn chế việc đỗ xe trong khu vực trung tâm thành phố."", ""distractor_analysis"": {""A"": ""Đáp án A sai vì nó sử dụng bất động词 restrict (đóng vai một động từ) thay vì sử dụng động từ đang được (V-ing). Nó không phù hợp với cấu trúc 'preposition + V-ing'."", ""B"": ""Đáp án B sai vì nó sử dụng động từ đã được (past participle) thay vì sử dụng động từ đang được (V-ing). Nó không phù hợp với cấu trúc 'preposition + V-ing'."", ""C"": ""Đáp án C chính xác. Đáp án này sử dụng từ động từ đang được (V-ing) 'restrictions' phù hợp với cấu trúc 'preposition + V-ing'."", ""D"": ""Đáp án D sai vì nó sử dụng động từ đang được (V-ing) đã được (past participle) thay vì sử dụng động từ đang được (V-ing). Nó không phù hợp với cấu trúc 'preposition + V-ing'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Verb in Gerund Form"",
+  ""sentence_structure"": ""S + V-ing"",
+  ""pattern"": ""preposition + V-ing"",
+  ""vocabulary"": [
+    {
+      ""word"": ""have"",
+      ""meaning"": ""đã"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""parking"",
+      ""meaning"": ""đỗ xe"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án C là đáp án chính xác bởi vì nó sử dụng từ động từ đang được (V-ing) trong cấu trúc preposition + V-ing. Đáp án này đại diện cho hành động mà thủ đô Doyle đang áp dụng. 'Restrictions' là từ đồng thời cũng là từ đang được (V-ing), đề cập đến hành động của việc cấm hoặc hạn chế việc đỗ xe trong khu vực trung tâm thành phố."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A sai vì nó sử dụng bất động词 restrict (đóng vai một động từ) thay vì sử dụng động từ đang được (V-ing). Nó không phù hợp với cấu trúc 'preposition + V-ing'."",
+    ""B"": ""Đáp án B sai vì nó sử dụng động từ đã được (past participle) thay vì sử dụng động từ đang được (V-ing). Nó không phù hợp với cấu trúc 'preposition + V-ing'."",
+    ""C"": ""Đáp án C chính xác. Đáp án này sử dụng từ động từ đang được (V-ing) 'restrictions' phù hợp với cấu trúc 'preposition + V-ing'."",
+    ""D"": ""Đáp án D sai vì nó sử dụng động từ đang được (V-ing) đã được (past participle) thay vì sử dụng động từ đang được (V-ing). Nó không phù hợp với cấu trúc 'preposition + V-ing'.""
+  },
+  ""difficulty"": ""medium""
+}"
+25,ETS2026,5,125,PASS_QUALITY_VALIDATED,True,True,VALID,,,,9.02,"The plumbing position requires extensive training, even for those who studied _____ in technical school.",diligently,scientifically,objectively,decidedly,A,"{""grammar_topic"": ""Adverb"", ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"", ""pattern"": ""at [Prep] + which + S + V"", ""vocabulary"": [{""word"": ""diligently"", ""meaning"": ""cố gắng, chăm chỉ"", ""part_of_speech"": ""adverb""}], ""explanation"": ""Đáp án A là đáp án đúng vì nó được đặt ở vị trí sau từ 'studied', từ này là động từ của mệnh đề phụ. Đáp án A làm cho câu có cấu trúc chính xác bằng cách sử dụng từ từ của động từ 'studied' (diligently studied) làm động từ phụ của mệnh đề chính."", ""distractor_analysis"": {""A"": ""đúng, như đã giải thích"", ""B"": ""sai, vì 'scientifically' không được sử dụng sau động từ 'studied'"", ""C"": ""sai, vì 'objectively' không phù hợp với ngữ cảnh đề bài và cấu trúc của câu"", ""D"": ""sai, vì 'decidedly' không phù hợp với ngữ cảnh đề bài và cấu trúc của câu""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Adverb"",
+  ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"",
+  ""pattern"": ""at [Prep] + which + S + V"",
+  ""vocabulary"": [
+    {
+      ""word"": ""diligently"",
+      ""meaning"": ""cố gắng, chăm chỉ"",
+      ""part_of_speech"": ""adverb""
+    }
+  ],
+  ""explanation"": ""Đáp án A là đáp án đúng vì nó được đặt ở vị trí sau từ 'studied', từ này là động từ của mệnh đề phụ. Đáp án A làm cho câu có cấu trúc chính xác bằng cách sử dụng từ từ của động từ 'studied' (diligently studied) làm động từ phụ của mệnh đề chính."",
+  ""distractor_analysis"": {
+    ""A"": ""đúng, như đã giải thích"",
+    ""B"": ""sai, vì 'scientifically' không được sử dụng sau động từ 'studied'"",
+    ""C"": ""sai, vì 'objectively' không phù hợp với ngữ cảnh đề bài và cấu trúc của câu"",
+    ""D"": ""sai, vì 'decidedly' không phù hợp với ngữ cảnh đề bài và cấu trúc của câu""
+  },
+  ""difficulty"": ""medium""
+}"
+26,ETS2026,5,126,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.27,"With its fixed price _____, Omega Cellular guarantees no phone bill increases for three years.",assurance,assuredly,assuring,assures,A,"{""grammar_topic"": ""Preposition + Relative Pronoun"", ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""fixed"", ""meaning"": ""chắc chắn"", ""part_of_speech"": ""adjective""}, {""word"": ""price"", ""meaning"": ""giá"", ""part_of_speech"": ""noun""}, {""word"": ""guarantees"", ""meaning"": ""giải quyết, đảm bảo"", ""part_of_speech"": ""verb""}, {""word"": ""bill"", ""meaning"": ""cước, cước phí"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án A 'assurance' phù hợp với câu vì nó sử dụng trước động từ 'guarantees' với sau nó là một từ từ 'which' tạo thành một câu từ phụ. Sự kết hợp này tạo ra cấu trúc ngữ pháp đúng và phù hợp với ngữ cảnh đề bài."", ""distractor_analysis"": {""A"": ""Đáp án này là đáp án chính xác vì nó dùng từ 'assurance' đúng với ngữ cảnh đề bài."", ""B"": ""Đáp án này sai vì nó sử dụng từ 'assuredly' (giữ vững chắc) không phù hợp với cấu trúc câu đề bài."", ""C"": ""Đáp án này sai vì nó dùng từ 'assuring' (dẫn đến việc đảm bảo) không phù hợp với ngữ cảnh đề bài."", ""D"": ""Đáp án này sai vì nó sử dụng động từ 'assures' không đúng với cấu trúc câu đề bài. Do cấu trúc câu đề bài sử dụng động từ 'guarantees', không phải động từ 'assures'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Pronoun"",
+  ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""fixed"",
+      ""meaning"": ""chắc chắn"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""price"",
+      ""meaning"": ""giá"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""guarantees"",
+      ""meaning"": ""giải quyết, đảm bảo"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""bill"",
+      ""meaning"": ""cước, cước phí"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án A 'assurance' phù hợp với câu vì nó sử dụng trước động từ 'guarantees' với sau nó là một từ từ 'which' tạo thành một câu từ phụ. Sự kết hợp này tạo ra cấu trúc ngữ pháp đúng và phù hợp với ngữ cảnh đề bài."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án này là đáp án chính xác vì nó dùng từ 'assurance' đúng với ngữ cảnh đề bài."",
+    ""B"": ""Đáp án này sai vì nó sử dụng từ 'assuredly' (giữ vững chắc) không phù hợp với cấu trúc câu đề bài."",
+    ""C"": ""Đáp án này sai vì nó dùng từ 'assuring' (dẫn đến việc đảm bảo) không phù hợp với ngữ cảnh đề bài."",
+    ""D"": ""Đáp án này sai vì nó sử dụng động từ 'assures' không đúng với cấu trúc câu đề bài. Do cấu trúc câu đề bài sử dụng động từ 'guarantees', không phải động từ 'assures'.""
+  },
+  ""difficulty"": ""medium""
+}"
+27,ETS2026,5,127,FAIL_JSON_DECODE,False,False,,,EnrichmentJSONDecodeError,"Failed to decode JSON from LLM response: Expecting ',' delimiter: line 14 column 22 (char 605)",10.06,"As chief analytics officer, Mr. Ko has worked at Lochstan Ltd. with great _____ for more than twenty years.",deduction,duplication,declaration,dedication,D,,"{
+  ""grammar_topic"": ""Preposition + Noun"",
+  ""sentence_structure"": ""S + V + prep + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""dedication"",
+      ""meaning"": ""yêu cầu, sự cam kết"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án D là đáp án đúng vì nó được sử dụng sau từ với trong cụm với với Lochstan Ltd. với thời gian hơn hai mươi năm. Lochstan Ltd. là chủ thể và 'dedication' là động từ trong câu phụ, tượng trưng cho sự yêu cầu hay cam kết mà Mr. Ko đã đặt với Lochstan Ltd."",
+  ""distractor_analysis"": {
+    ""A"": ""deduction"" : ""Đáp án A sai vì nó là động từ, trong khi câu cần một từ chỉ việc, không phải động từ."",
+    ""B"": ""duplication"" : ""Đáp án B sai vì nó không phù hợp với ngữ cảnh câu hỏi, việc sao chép không liên quan đến việc làm việc với công ty."",
+    ""C"": ""declaration"" : ""Đáp án C sai vì nó không phù hợp với ngữ cảnh câu hỏi, việc công bố không phù hợp với việc làm việc lâu dài với công ty."",
+    ""D"": ""dedication"" : ""Đáp án D đúng và được xác nhận là đáp án đúng.""
+  },
+  ""difficulty"": ""medium""
+}"
+28,ETS2026,5,128,PASS_QUALITY_VALIDATED,True,True,VALID,,,,10.61,Milltown Hospital's cafeteria serves lunch seven days a week _____ only on weekdays.,up to,as though,each time,rather than,D,"{""grammar_topic"": ""Preposition + Conjunction"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""Preposition + Conjunction + that"", ""vocabulary"": [{""word"": ""serves"", ""meaning"": ""chose"", ""part_of_speech"": ""verb""}, {""word"": ""only"", ""meaning"": ""only"", ""part_of_speech"": ""adverb""}, {""word"": ""weekdays"", ""meaning"": ""giờ làm việc"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án D 'thay vì' là đáp án chính xác vì nó liên kết hai cụm hành động 'serves' và 'only on weekdays' một cách chính xác trong câu."", ""distractor_analysis"": {""A"": ""Thẻ A 'tới' là sai vì nó không phù hợp với cấu trúc 'Preposition + Conjunction + that' trong câu."", ""B"": ""Thẻ B 'như vậy' là sai vì nó không phù hợp với cấu trúc 'Preposition + Conjunction + that' trong câu."", ""C"": ""Thẻ C 'hằng' là sai vì nó không phù hợp với cấu trúc 'Preposition + Conjunction + that' trong câu."", ""D"": ""Thẻ D 'thay vì' là đáp án chính xác vì nó liên kết hai cụm hành động 'serves' và 'only on weekdays' một cách chính xác trong câu.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Conjunction"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""Preposition + Conjunction + that"",
+  ""vocabulary"": [
+    {
+      ""word"": ""serves"",
+      ""meaning"": ""chose"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""only"",
+      ""meaning"": ""only"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""weekdays"",
+      ""meaning"": ""giờ làm việc"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án D 'thay vì' là đáp án chính xác vì nó liên kết hai cụm hành động 'serves' và 'only on weekdays' một cách chính xác trong câu."",
+  ""distractor_analysis"": {
+    ""A"": ""Thẻ A 'tới' là sai vì nó không phù hợp với cấu trúc 'Preposition + Conjunction + that' trong câu."",
+    ""B"": ""Thẻ B 'như vậy' là sai vì nó không phù hợp với cấu trúc 'Preposition + Conjunction + that' trong câu."",
+    ""C"": ""Thẻ C 'hằng' là sai vì nó không phù hợp với cấu trúc 'Preposition + Conjunction + that' trong câu."",
+    ""D"": ""Thẻ D 'thay vì' là đáp án chính xác vì nó liên kết hai cụm hành động 'serves' và 'only on weekdays' một cách chính xác trong câu.""
+  },
+  ""difficulty"": ""medium""
+}"
+29,ETS2026,5,129,PASS_QUALITY_VALIDATED,True,True,VALID,,,,11.96,The store's entire inventory of lumber comes from a nearby _____ supplier.,financial,promotional,chemical,commercial,D,"{""grammar_topic"": ""Preposition + Relative Pronoun"", ""sentence_structure"": ""S + V + [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""inventory"", ""meaning"": ""số lượng hàng hóa"", ""part_of_speech"": ""n-Noun""}, {""word"": ""comes"", ""meaning"": ""được cung cấp"", ""part_of_speech"": ""V3""}, {""word"": ""supplier"", ""meaning"": ""cung cấp hàng hóa"", ""part_of_speech"": ""N-Noun""}], ""explanation"": ""Đáp án D (commercial) là đáp án đúng vì nó là loại hình kinh doanh, trong trường hợp này là một nhà cung cấp hàng hóa, là nơi cung cấp nguyên vật liệu gỗ cho cửa hàng. Các đáp án A (financial), B (promotional), và C (chemical) không thích hợp vì chúng không liên quan đến việc cung cấp nguyên vật liệu gỗ."", ""distractor_analysis"": {""A"": ""Đáp án A sai vì financial không liên quan đến việc cung cấp nguyên vật liệu gỗ. Một nhà tài chính không cung cấp nguyên vật liệu xây dựng."", ""B"": ""Đáp án B sai vì promotional chỉ liên quan đến quảng cáo, không liên quan đến việc cung cấp nguyên vật liệu cho một cửa hàng."", ""C"": ""Đáp án C sai vì chemical chỉ liên quan đến nguyên liệu hóa học, không liên quan đến nguyên liệu gỗ."", ""D"": ""Đáp án D là đáp án đúng vì commercial liên quan đến loại hình kinh doanh, trong trường hợp này là một nhà cung cấp nguyên vật liệu gỗ cho cửa hàng.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Pronoun"",
+  ""sentence_structure"": ""S + V + [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""inventory"",
+      ""meaning"": ""số lượng hàng hóa"",
+      ""part_of_speech"": ""n-Noun""
+    },
+    {
+      ""word"": ""comes"",
+      ""meaning"": ""được cung cấp"",
+      ""part_of_speech"": ""V3""
+    },
+    {
+      ""word"": ""supplier"",
+      ""meaning"": ""cung cấp hàng hóa"",
+      ""part_of_speech"": ""N-Noun""
+    }
+  ],
+  ""explanation"": ""Đáp án D (commercial) là đáp án đúng vì nó là loại hình kinh doanh, trong trường hợp này là một nhà cung cấp hàng hóa, là nơi cung cấp nguyên vật liệu gỗ cho cửa hàng. Các đáp án A (financial), B (promotional), và C (chemical) không thích hợp vì chúng không liên quan đến việc cung cấp nguyên vật liệu gỗ."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án A sai vì financial không liên quan đến việc cung cấp nguyên vật liệu gỗ. Một nhà tài chính không cung cấp nguyên vật liệu xây dựng."",
+    ""B"": ""Đáp án B sai vì promotional chỉ liên quan đến quảng cáo, không liên quan đến việc cung cấp nguyên vật liệu cho một cửa hàng."",
+    ""C"": ""Đáp án C sai vì chemical chỉ liên quan đến nguyên liệu hóa học, không liên quan đến nguyên liệu gỗ."",
+    ""D"": ""Đáp án D là đáp án đúng vì commercial liên quan đến loại hình kinh doanh, trong trường hợp này là một nhà cung cấp nguyên vật liệu gỗ cho cửa hàng.""
+  },
+  ""difficulty"": ""medium""
+}"
+30,ETS2026,5,130,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.61,"For a $95 _____ fee, our mechanics will determine what repairs are needed.",diagnosed,diagnostic,diagnosable,diagnose,B,"{""grammar_topic"": ""Preposition + Relative Pronoun"", ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"", ""pattern"": ""preposition + which + clause"", ""vocabulary"": [{""word"": ""diagnosed"", ""meaning"": ""điều tra, xác định"", ""part_of_speech"": ""动词""}, {""word"": ""diagnostic"", ""meaning"": ""phân tích, xác định"", ""part_of_speech"": ""形容词""}], ""explanation"": ""Đáp án B ‘diagnostic’ là đáp án đúng vì nó ở đúng vị trí của prep ‘at’ và nó được sử dụng trong cấu trúc ‘at [Prep] + which + S + V’. Cụ thể, 'at diagnostic' là một cách chính xác và thông thường để sử dụng 'diagnostic' trong ngữ cảnh này."", ""distractor_analysis"": {""A"": ""diagnosed” không đúng trong ngữ cảnh này vì nó không tạo ra một cấu trúc hợp lệ và ngữ nghĩa rõ ràng. 'Diagnosed' là một động từ và không phù hợp với 'at' và 'which' trong cấu trúc."", ""B"": ""diagnostic” là đáp án đúng, giống như đáp án chính xác trong câu gốc. ‘Diagnostic’ là một từ tính và thường được sử dụng trong cấu trúc 'at [Prep] + which + S + V'."", ""C"": ""diagnosable” không phù hợp với ngữ cảnh. ‘Diagnosable’ không thường xuyên được sử dụng trong cấu trúc ‘at [Prep] + which + S + V’ và nó không liên quan đến ngữ cảnh ‘$95 fee’."", ""D"": ""diagnose” không đúng trong ngữ cảnh này vì nó là động từ, và không phù hợp với 'at' và 'which' trong cấu trúc ‘at [Prep] + which + S + V'.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Pronoun"",
+  ""sentence_structure"": ""S + V + at [Time], [Prep] + which + S + V"",
+  ""pattern"": ""preposition + which + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""diagnosed"",
+      ""meaning"": ""điều tra, xác định"",
+      ""part_of_speech"": ""动词""
+    },
+    {
+      ""word"": ""diagnostic"",
+      ""meaning"": ""phân tích, xác định"",
+      ""part_of_speech"": ""形容词""
+    }
+  ],
+  ""explanation"": ""Đáp án B ‘diagnostic’ là đáp án đúng vì nó ở đúng vị trí của prep ‘at’ và nó được sử dụng trong cấu trúc ‘at [Prep] + which + S + V’. Cụ thể, 'at diagnostic' là một cách chính xác và thông thường để sử dụng 'diagnostic' trong ngữ cảnh này."",
+  ""distractor_analysis"": {
+    ""A"": ""diagnosed” không đúng trong ngữ cảnh này vì nó không tạo ra một cấu trúc hợp lệ và ngữ nghĩa rõ ràng. 'Diagnosed' là một động từ và không phù hợp với 'at' và 'which' trong cấu trúc."",
+    ""B"": ""diagnostic” là đáp án đúng, giống như đáp án chính xác trong câu gốc. ‘Diagnostic’ là một từ tính và thường được sử dụng trong cấu trúc 'at [Prep] + which + S + V'."",
+    ""C"": ""diagnosable” không phù hợp với ngữ cảnh. ‘Diagnosable’ không thường xuyên được sử dụng trong cấu trúc ‘at [Prep] + which + S + V’ và nó không liên quan đến ngữ cảnh ‘$95 fee’."",
+    ""D"": ""diagnose” không đúng trong ngữ cảnh này vì nó là động từ, và không phù hợp với 'at' và 'which' trong cấu trúc ‘at [Prep] + which + S + V'.""
+  },
+  ""difficulty"": ""medium""
+}"

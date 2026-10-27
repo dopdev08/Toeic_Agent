@@ -1,0 +1,51 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,prompt_tokens,candidates_tokens,total_tokens,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+2,ETS2026,5,102,PASS_QUALITY_VALIDATED,True,True,VALID,,,,2.34,1537,407,1944,The _____ antique shop in Pepper Valley will close down next month.,last,lasts,lasted,lasting,A,"{""grammar_topic"": ""word form"", ""sentence_structure"": ""S (The + Adj + noun + shop) + V (will close) + Prep (down) + Adv (next month)."", ""pattern"": ""The + [adjective] + [noun]"", ""vocabulary"": [{""word"": ""antique"", ""meaning"": ""đồ cổ"", ""part_of_speech"": ""noun""}, {""word"": ""close down"", ""meaning"": ""đóng cửa, ngừng hoạt động"", ""part_of_speech"": ""verb phrase""}], ""explanation"": ""Câu yêu cầu một tính từ đứng trước cụm danh từ 'antique shop' để bổ nghĩa cho nó. Tính từ 'last' (cuối cùng) phù hợp về mặt ngữ nghĩa và cấu trúc ngữ pháp để chỉ cửa hàng đồ cổ cuối cùng ở Pepper Valley."", ""distractor_analysis"": {""A"": ""Đáp án đúng. 'last' hoạt động như một tính từ bổ nghĩa cho danh từ 'antique shop', tạo thành cụm danh từ có nghĩa 'cửa hàng đồ cổ cuối cùng'."", ""B"": ""Sai vì 'lasts' là động từ chia ở ngôi thứ ba số ít hoặc danh từ số nhiều, không phù hợp với vị trí cần một tính từ đứng trước danh từ chính."", ""C"": ""Sai vì 'lasted' là dạng quá khứ hoặc quá khứ phân từ của động từ 'last', không phù hợp làm tính từ bổ nghĩa cho danh từ trong cấu trúc này."", ""D"": ""Sai vì 'lasting' là phân từ hiện tại (mang nghĩa lâu dài), không phù hợp về ngữ cảnh và ý nghĩa 'cuối cùng' của câu.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""word form"",
+  ""sentence_structure"": ""S (The + Adj + noun + shop) + V (will close) + Prep (down) + Adv (next month)."",
+  ""pattern"": ""The + [adjective] + [noun]"",
+  ""vocabulary"": [
+    {
+      ""word"": ""antique"",
+      ""meaning"": ""đồ cổ"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""close down"",
+      ""meaning"": ""đóng cửa, ngừng hoạt động"",
+      ""part_of_speech"": ""verb phrase""
+    }
+  ],
+  ""explanation"": ""Câu yêu cầu một tính từ đứng trước cụm danh từ 'antique shop' để bổ nghĩa cho nó. Tính từ 'last' (cuối cùng) phù hợp về mặt ngữ nghĩa và cấu trúc ngữ pháp để chỉ cửa hàng đồ cổ cuối cùng ở Pepper Valley."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án đúng. 'last' hoạt động như một tính từ bổ nghĩa cho danh từ 'antique shop', tạo thành cụm danh từ có nghĩa 'cửa hàng đồ cổ cuối cùng'."",
+    ""B"": ""Sai vì 'lasts' là động từ chia ở ngôi thứ ba số ít hoặc danh từ số nhiều, không phù hợp với vị trí cần một tính từ đứng trước danh từ chính."",
+    ""C"": ""Sai vì 'lasted' là dạng quá khứ hoặc quá khứ phân từ của động từ 'last', không phù hợp làm tính từ bổ nghĩa cho danh từ trong cấu trúc này."",
+    ""D"": ""Sai vì 'lasting' là phân từ hiện tại (mang nghĩa lâu dài), không phù hợp về ngữ cảnh và ý nghĩa 'cuối cùng' của câu.""
+  },
+  ""difficulty"": ""medium""
+}"
+20,ETS2026,5,120,PASS_QUALITY_VALIDATED,True,True,VALID,,,,3.82,1542,412,1954,"Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",myself,neither,anybody,whoever,B,"{""grammar_topic"": ""Pronouns"", ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) + V (were) + Adj (qualified), but + S (_____ ) + V (got) + O (the job)."", ""pattern"": ""neither + V (singular verb for two subjects)"", ""vocabulary"": [{""word"": ""qualified"", ""meaning"": ""có đủ năng lực, đủ điều kiện"", ""part_of_speech"": ""adjective""}, {""word"": ""job"", ""meaning"": ""công việc"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này đưa ra tình huống đối lập bằng liên từ 'but' hai người đều có năng lực cao (Mr. Ellis và Ms. Barnes), nhưng không ai trong số họ nhận được công việc. Đại từ phủ định 'neither' dùng để chỉ 'không ai trong hai người', hoàn toàn phù hợp với ngữ cảnh và cấu trúc ngữ pháp."", ""distractor_analysis"": {""A"": ""myself là đại từ phản thân, không phù hợp với chủ ngữ của mệnh đề thứ hai chỉ Mr. Ellis và Ms. Barnes."", ""B"": ""neither là đại từ phủ định chỉ hai đối tượng (Mr. Ellis và Ms. Barnes), phù hợp với nghĩa không ai trong hai người nhận được việc."", ""C"": ""anybody dùng trong câu khẳng định mang nghĩa 'bất kỳ ai', không tạo ra ý nghĩa logic tương phản với việc cả hai đều có năng lực."", ""D"": ""whoever tạo ra cấu trúc mệnh đề danh từ hoặc quan hệ không phù hợp làm chủ ngữ trực tiếp thực hiện hành động 'got the job' trong cấu trúc câu này.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Pronouns"",
+  ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) + V (were) + Adj (qualified), but + S (_____ ) + V (got) + O (the job)."",
+  ""pattern"": ""neither + V (singular verb for two subjects)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""qualified"",
+      ""meaning"": ""có đủ năng lực, đủ điều kiện"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""job"",
+      ""meaning"": ""công việc"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này đưa ra tình huống đối lập bằng liên từ 'but' hai người đều có năng lực cao (Mr. Ellis và Ms. Barnes), nhưng không ai trong số họ nhận được công việc. Đại từ phủ định 'neither' dùng để chỉ 'không ai trong hai người', hoàn toàn phù hợp với ngữ cảnh và cấu trúc ngữ pháp."",
+  ""distractor_analysis"": {
+    ""A"": ""myself là đại từ phản thân, không phù hợp với chủ ngữ của mệnh đề thứ hai chỉ Mr. Ellis và Ms. Barnes."",
+    ""B"": ""neither là đại từ phủ định chỉ hai đối tượng (Mr. Ellis và Ms. Barnes), phù hợp với nghĩa không ai trong hai người nhận được việc."",
+    ""C"": ""anybody dùng trong câu khẳng định mang nghĩa 'bất kỳ ai', không tạo ra ý nghĩa logic tương phản với việc cả hai đều có năng lực."",
+    ""D"": ""whoever tạo ra cấu trúc mệnh đề danh từ hoặc quan hệ không phù hợp làm chủ ngữ trực tiếp thực hiện hành động 'got the job' trong cấu trúc câu này.""
+  },
+  ""difficulty"": ""medium""
+}"

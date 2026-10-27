@@ -1,0 +1,336 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "database_url": "sqlite:///./toeic_agent.db",
+  "part_filter": 5,
+  "read_only": true,
+  "total_questions": 5,
+  "quality_passed": 5,
+  "quality_rejected": 0,
+  "schema_failed": 0,
+  "json_decode_failed": 0,
+  "llm_failed": 0,
+  "unexpected_failed": 0,
+  "passed": 5,
+  "failed": 0,
+  "elapsed_seconds": 10.54,
+  "average_seconds_per_question": 2.11,
+  "total_prompt_tokens": 4716,
+  "total_candidates_tokens": 2404,
+  "total_tokens": 7120,
+  "status_semantics": {
+    "PASS_QUALITY_VALIDATED": "Passed JSON parsing, Pydantic schema validation, and deterministic EnrichmentValidator quality checks.",
+    "REJECTED_QUALITY": "Passed JSON decode and Pydantic schema validation, but rejected or flagged as suspicious by EnrichmentValidator.",
+    "FAIL_SCHEMA_VALIDATION": "Decoded valid JSON, but failed Pydantic QuestionEnrichment validation.",
+    "FAIL_JSON_DECODE": "Failed to decode LLM response as valid JSON.",
+    "FAIL_LLM_SERVICE": "LLM connection, timeout, or provider error.",
+    "FAIL_UNEXPECTED": "Unexpected runtime exception."
+  },
+  "results": [
+    {
+      "question_id": 5,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 105,
+      "question_text": "To stop the _____ of computer viruses, do not open suspicious e-mails.",
+      "option_a": "break",
+      "option_b": "spread",
+      "option_c": "balance",
+      "option_d": "surface",
+      "correct_answer": "B",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 2.24,
+      "token_usage": {
+        "prompt_tokens": 943,
+        "candidates_tokens": 467,
+        "total_tokens": 1410
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Noun Collocation / Vocabulary\",\n  \"sentence_structure\": \"S (To stop the [blank] of computer viruses) + V (do not open) + O (suspicious e-mails).\",\n  \"pattern\": \"stop the spread of + [noun]\",\n  \"vocabulary\": [\n    {\n      \"word\": \"spread\",\n      \"meaning\": \"sự lây lan, sự lan truyền\",\n      \"part_of_speech\": \"noun\"\n    },\n    {\n      \"word\": \"suspicious\",\n      \"meaning\": \"đáng ngờ\",\n      \"part_of_speech\": \"adjective\"\n    },\n    {\n      \"word\": \"virus\",\n      \"meaning\": \"vi-rút\",\n      \"part_of_speech\": \"noun\"\n    }\n  ],\n  \"explanation\": \"Câu hỏi kiểm tra khả năng kết hợp từ (collocation) và nghĩa của danh từ đi sau mạo từ 'the' và trước giới từ 'of'. Cụm từ 'the spread of computer viruses' có nghĩa là 'sự lây lan của vi-rút máy tính', phù hợp hoàn toàn với ngữ cảnh ngăn chặn phần mềm độc hại bằng cách không mở email đáng ngờ.\",\n  \"distractor_analysis\": {\n    \"A\": \"Sai về ngữ nghĩa và kết hợp từ. 'Break' không tạo thành cụm từ tự nhiên với 'of computer viruses' trong ngữ cảnh ngăn chặn dịch bệnh hay phần mềm độc hại.\",\n    \"B\": \"Là đáp án chính xác. 'Spread' (sự lây lan) kết hợp hoàn hảo với 'of computer viruses' và phù hợp với nghĩa của câu hướng dẫn cách ngăn chặn vi-rút.\",\n    \"C\": \"Sai về ngữ nghĩa. 'Balance' có nghĩa là sự cân bằng, không phù hợp với ngữ cảnh ngăn chặn vi-rút máy tính.\",\n    \"D\": \"Sai về ngữ nghĩa. 'Surface' có nghĩa là bề mặt, không tạo thành cụm từ có ý nghĩa logic trong ngữ cảnh này.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Noun Collocation / Vocabulary",
+        "sentence_structure": "S (To stop the [blank] of computer viruses) + V (do not open) + O (suspicious e-mails).",
+        "pattern": "stop the spread of + [noun]",
+        "vocabulary": [
+          {
+            "word": "spread",
+            "meaning": "sự lây lan, sự lan truyền",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "suspicious",
+            "meaning": "đáng ngờ",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "virus",
+            "meaning": "vi-rút",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Câu hỏi kiểm tra khả năng kết hợp từ (collocation) và nghĩa của danh từ đi sau mạo từ 'the' và trước giới từ 'of'. Cụm từ 'the spread of computer viruses' có nghĩa là 'sự lây lan của vi-rút máy tính', phù hợp hoàn toàn với ngữ cảnh ngăn chặn phần mềm độc hại bằng cách không mở email đáng ngờ.",
+        "distractor_analysis": {
+          "A": "Sai về ngữ nghĩa và kết hợp từ. 'Break' không tạo thành cụm từ tự nhiên với 'of computer viruses' trong ngữ cảnh ngăn chặn dịch bệnh hay phần mềm độc hại.",
+          "B": "Là đáp án chính xác. 'Spread' (sự lây lan) kết hợp hoàn hảo với 'of computer viruses' và phù hợp với nghĩa của câu hướng dẫn cách ngăn chặn vi-rút.",
+          "C": "Sai về ngữ nghĩa. 'Balance' có nghĩa là sự cân bằng, không phù hợp với ngữ cảnh ngăn chặn vi-rút máy tính.",
+          "D": "Sai về ngữ nghĩa. 'Surface' có nghĩa là bề mặt, không tạo thành cụm từ có ý nghĩa logic trong ngữ cảnh này."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_id": 8,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 108,
+      "question_text": "Tarateer Pharmaceuticals is varying its product _____ to include over-the-counter medications.",
+      "option_a": "to line",
+      "option_b": "lining",
+      "option_c": "lined",
+      "option_d": "line",
+      "correct_answer": "D",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 2.2,
+      "token_usage": {
+        "prompt_tokens": 946,
+        "candidates_tokens": 532,
+        "total_tokens": 1478
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Noun Collocation / Compound Noun\",\n  \"sentence_structure\": \"S (Tarateer Pharmaceuticals) + V (is varying) + possessive adjective (its) + noun (product) + blank (noun) + infinitive clause (to include ...).\",\n  \"pattern\": \"product line\",\n  \"vocabulary\": [\n    {\n      \"word\": \"vary\",\n      \"meaning\": \"làm cho khác nhau, thay đổi, đa dạng hóa\",\n      \"part_of_speech\": \"verb\"\n    },\n    {\n      \"word\": \"product line\",\n      \"meaning\": \"dòng sản phẩm\",\n      \"part_of_speech\": \"noun\"\n    },\n    {\n      \"word\": \"over-the-counter\",\n      \"meaning\": \"bán không cần đơn thuốc\",\n      \"part_of_speech\": \"adjective\"\n    },\n    {\n      \"word\": \"medication\",\n      \"meaning\": \"dược phẩm, thuốc\",\n      \"part_of_speech\": \"noun\"\n    }\n  ],\n  \"explanation\": \"Câu này kiểm tra từ vựng và cụm danh từ cố định (collocation). Sau tính từ sở hữu 'its' và danh từ 'product', ta cần một danh từ để tạo thành cụm danh từ ghép 'product line' (dòng sản phẩm). Do đó, 'line' (danh từ số ít) là lựa chọn chính xác nhất để hoàn thành nghĩa của câu.\",\n  \"distractor_analysis\": {\n    \"A\": \"Sai cấu trúc ngữ pháp vì 'to line' là động từ nguyên mẫu có 'to', không phù hợp đứng sau danh từ 'product' để làm thành cụm danh từ ghép.\",\n    \"B\": \"Sai dạng từ vì 'lining' là danh động từ hoặc hiện分 từ, không tạo thành cụm danh từ chuẩn 'product lining' trong ngữ cảnh này.\",\n    \"C\": \"Sai dạng từ vì 'lined' là quá khứ phân từ hoặc tính từ, không phù hợp để tạo thành cụm danh từ ghép chỉ sản phẩm của công ty.\",\n    \"D\": \"Đáp án chính xác. 'Line' là danh từ kết hợp với 'product' tạo thành cụm danh từ quen thuộc 'product line' (dòng sản phẩm), phù hợp hoàn toàn với ngữ cảnh câu.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Noun Collocation / Compound Noun",
+        "sentence_structure": "S (Tarateer Pharmaceuticals) + V (is varying) + possessive adjective (its) + noun (product) + blank (noun) + infinitive clause (to include ...).",
+        "pattern": "product line",
+        "vocabulary": [
+          {
+            "word": "vary",
+            "meaning": "làm cho khác nhau, thay đổi, đa dạng hóa",
+            "part_of_speech": "verb"
+          },
+          {
+            "word": "product line",
+            "meaning": "dòng sản phẩm",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "over-the-counter",
+            "meaning": "bán không cần đơn thuốc",
+            "part_of_speech": "adjective"
+          },
+          {
+            "word": "medication",
+            "meaning": "dược phẩm, thuốc",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Câu này kiểm tra từ vựng và cụm danh từ cố định (collocation). Sau tính từ sở hữu 'its' và danh từ 'product', ta cần một danh từ để tạo thành cụm danh từ ghép 'product line' (dòng sản phẩm). Do đó, 'line' (danh từ số ít) là lựa chọn chính xác nhất để hoàn thành nghĩa của câu.",
+        "distractor_analysis": {
+          "A": "Sai cấu trúc ngữ pháp vì 'to line' là động từ nguyên mẫu có 'to', không phù hợp đứng sau danh từ 'product' để làm thành cụm danh từ ghép.",
+          "B": "Sai dạng từ vì 'lining' là danh động từ hoặc hiện分 từ, không tạo thành cụm danh từ chuẩn 'product lining' trong ngữ cảnh này.",
+          "C": "Sai dạng từ vì 'lined' là quá khứ phân từ hoặc tính từ, không phù hợp để tạo thành cụm danh từ ghép chỉ sản phẩm của công ty.",
+          "D": "Đáp án chính xác. 'Line' là danh từ kết hợp với 'product' tạo thành cụm danh từ quen thuộc 'product line' (dòng sản phẩm), phù hợp hoàn toàn với ngữ cảnh câu."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_id": 10,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 110,
+      "question_text": "The cash registers at Pirkle Books automatically _____ the remaining inventory of books available.",
+      "option_a": "calculate",
+      "option_b": "calculator",
+      "option_c": "calculating",
+      "option_d": "calculation",
+      "correct_answer": "A",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 2.05,
+      "token_usage": {
+        "prompt_tokens": 944,
+        "candidates_tokens": 409,
+        "total_tokens": 1353
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Word Form\",\n  \"sentence_structure\": \"S + adverb + [blank] + O\",\n  \"pattern\": \"Subject (plural noun) + adverb + verb (base form) + Object\",\n  \"vocabulary\": [\n    {\n      \"word\": \"cash register\",\n      \"meaning\": \"máy tính tiền\",\n      \"part_of_speech\": \"noun\"\n    },\n    {\n      \"word\": \"automatically\",\n      \"meaning\": \"một cách tự động\",\n      \"part_of_speech\": \"adverb\"\n    },\n    {\n      \"word\": \"inventory\",\n      \"meaning\": \"hàng tồn kho, kiểm kê hàng hóa\",\n      \"part_of_speech\": \"noun\"\n    }\n  ],\n  \"explanation\": \"Câu này yêu cầu điền một động từ để tạo thành vị ngữ cho chủ ngữ số nhiều 'The cash registers'. Phía trước chỗ trống có trạng từ 'automatically', và phía sau có tân ngữ 'the remaining inventory'. Do đó, vị trí trống cần một động từ nguyên mẫu (base form) chia theo chủ ngữ số nhiều ở thì hiện tại đơn.\",\n  \"distractor_analysis\": {\n    \"A\": \"calculate là động từ nguyên mẫu, phù hợp với chủ ngữ số nhiều 'The cash registers' và cấu trúc câu ở thì hiện tại đơn.\",\n    \"B\": \"calculator là danh từ chỉ người hoặc máy tính, không thể đứng sau trạng từ để làm vị ngữ trong câu này.\",\n    \"C\": \"calculating là dạng V-ing hoặc tính từ, không thể đứng làm động từ chính cho chủ ngữ số nhiều trong thì hiện tại đơn khi không có trợ động từ.\",\n    \"D\": \"calculation là danh từ, không phù hợp vì câu đang thiếu vị ngữ chính.\"\n  },\n  \"difficulty\": \"easy\"\n}",
+      "enrichment": {
+        "grammar_topic": "Word Form",
+        "sentence_structure": "S + adverb + [blank] + O",
+        "pattern": "Subject (plural noun) + adverb + verb (base form) + Object",
+        "vocabulary": [
+          {
+            "word": "cash register",
+            "meaning": "máy tính tiền",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "automatically",
+            "meaning": "một cách tự động",
+            "part_of_speech": "adverb"
+          },
+          {
+            "word": "inventory",
+            "meaning": "hàng tồn kho, kiểm kê hàng hóa",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Câu này yêu cầu điền một động từ để tạo thành vị ngữ cho chủ ngữ số nhiều 'The cash registers'. Phía trước chỗ trống có trạng từ 'automatically', và phía sau có tân ngữ 'the remaining inventory'. Do đó, vị trí trống cần một động từ nguyên mẫu (base form) chia theo chủ ngữ số nhiều ở thì hiện tại đơn.",
+        "distractor_analysis": {
+          "A": "calculate là động từ nguyên mẫu, phù hợp với chủ ngữ số nhiều 'The cash registers' và cấu trúc câu ở thì hiện tại đơn.",
+          "B": "calculator là danh từ chỉ người hoặc máy tính, không thể đứng sau trạng từ để làm vị ngữ trong câu này.",
+          "C": "calculating là dạng V-ing hoặc tính từ, không thể đứng làm động từ chính cho chủ ngữ số nhiều trong thì hiện tại đơn khi không có trợ động từ.",
+          "D": "calculation là danh từ, không phù hợp vì câu đang thiếu vị ngữ chính."
+        },
+        "difficulty": "easy"
+      }
+    },
+    {
+      "question_id": 15,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 115,
+      "question_text": "Rain gardens are intended to _____ water to prevent flooding of local roads.",
+      "option_a": "engage",
+      "option_b": "undergo",
+      "option_c": "absorb",
+      "option_d": "overwhelm",
+      "correct_answer": "C",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 2.23,
+      "token_usage": {
+        "prompt_tokens": 941,
+        "candidates_tokens": 542,
+        "total_tokens": 1483
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Verb Collocation & Vocabulary\",\n  \"sentence_structure\": \"S (Rain gardens) + V (are intended) + Infinitive (to + [blank] + O (water)) + Purpose Clause (to prevent flooding of local roads).\",\n  \"pattern\": \"be intended to + base verb\",\n  \"vocabulary\": [\n    {\n      \"word\": \"rain garden\",\n      \"meaning\": \"vườn mưa (khu vực trồng cây được thiết kế để hấp thụ nước mưa)\",\n      \"part_of_speech\": \"noun\"\n    },\n    {\n      \"word\": \"absorb\",\n      \"meaning\": \"hấp thụ, thấm\",\n      \"part_of_speech\": \"verb\"\n    },\n    {\n      \"word\": \"prevent\",\n      \"meaning\": \"ngăn chặn, phòng ngừa\",\n      \"part_of_speech\": \"verb\"\n    },\n    {\n      \"word\": \"flooding\",\n      \"meaning\": \"sự ngập lụt\",\n      \"part_of_speech\": \"noun\"\n    }\n  ],\n  \"explanation\": \"Câu này kiểm tra từ vựng động từ đi kèm với tân ngữ 'water'. Cấu trúc 'are intended to + V-infinitive' dùng để chỉ mục đích. Dựa vào ngữ nghĩa của câu, vườn mưa được tạo ra để 'hấp thụ' nước nhằm ngăn chặn tình trạng ngập lụt cho các con đường địa phương. Do đó, 'absorb' là lựa chọn chính xác nhất về mặt ngữ nghĩa.\",\n  \"distractor_analysis\": {\n    \"A\": \"Đáp án A (engage) có nghĩa là tham gia hoặc thu hút, không phù hợp khi kết hợp với tân ngữ 'water' trong ngữ cảnh hấp thụ nước mưa.\",\n    \"B\": \"Đáp án B (undergo) có nghĩa là trải qua (sự thay đổi, quá trình), không kết hợp hợp lý với từ 'water' để chỉ mục đích chống ngập.\",\n    \"C\": \"Đáp án C (absorb) là đáp án chính xác vì phù hợp hoàn hảo về mặt ngữ nghĩa ('hấp thụ nước') và ngữ pháp (động từ nguyên thể đi sau 'to').\",\n    \"D\": \"Đáp án D (overwhelm) có nghĩa là áp đảo, làm ngợp, trái ngược với mục đích chống ngập lụt của vườn mưa.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Verb Collocation & Vocabulary",
+        "sentence_structure": "S (Rain gardens) + V (are intended) + Infinitive (to + [blank] + O (water)) + Purpose Clause (to prevent flooding of local roads).",
+        "pattern": "be intended to + base verb",
+        "vocabulary": [
+          {
+            "word": "rain garden",
+            "meaning": "vườn mưa (khu vực trồng cây được thiết kế để hấp thụ nước mưa)",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "absorb",
+            "meaning": "hấp thụ, thấm",
+            "part_of_speech": "verb"
+          },
+          {
+            "word": "prevent",
+            "meaning": "ngăn chặn, phòng ngừa",
+            "part_of_speech": "verb"
+          },
+          {
+            "word": "flooding",
+            "meaning": "sự ngập lụt",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Câu này kiểm tra từ vựng động từ đi kèm với tân ngữ 'water'. Cấu trúc 'are intended to + V-infinitive' dùng để chỉ mục đích. Dựa vào ngữ nghĩa của câu, vườn mưa được tạo ra để 'hấp thụ' nước nhằm ngăn chặn tình trạng ngập lụt cho các con đường địa phương. Do đó, 'absorb' là lựa chọn chính xác nhất về mặt ngữ nghĩa.",
+        "distractor_analysis": {
+          "A": "Đáp án A (engage) có nghĩa là tham gia hoặc thu hút, không phù hợp khi kết hợp với tân ngữ 'water' trong ngữ cảnh hấp thụ nước mưa.",
+          "B": "Đáp án B (undergo) có nghĩa là trải qua (sự thay đổi, quá trình), không kết hợp hợp lý với từ 'water' để chỉ mục đích chống ngập.",
+          "C": "Đáp án C (absorb) là đáp án chính xác vì phù hợp hoàn hảo về mặt ngữ nghĩa ('hấp thụ nước') và ngữ pháp (động từ nguyên thể đi sau 'to').",
+          "D": "Đáp án D (overwhelm) có nghĩa là áp đảo, làm ngợp, trái ngược với mục đích chống ngập lụt của vườn mưa."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_id": 16,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 116,
+      "question_text": "Theta Industries' training program aims to increase the _____ of its manufacturing systems.",
+      "option_a": "producer",
+      "option_b": "produced",
+      "option_c": "productive",
+      "option_d": "productivity",
+      "correct_answer": "D",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 1.81,
+      "token_usage": {
+        "prompt_tokens": 942,
+        "candidates_tokens": 454,
+        "total_tokens": 1396
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Word Form (Noun vs. Adjective vs. Verb)\",\n  \"sentence_structure\": \"S + V + to-infinitive (aims to increase [the] + Noun + Prep + Noun).\",\n  \"pattern\": \"increase the + [Noun]\",\n  \"vocabulary\": [\n    {\n      \"word\": \"training program\",\n      \"meaning\": \"chương trình đào tạo\",\n      \"part_of_speech\": \"noun phrase\"\n    },\n    {\n      \"word\": \"manufacturing system\",\n      \"meaning\": \"hệ thống sản xuất\",\n      \"part_of_speech\": \"noun phrase\"\n    },\n    {\n      \"word\": \"productivity\",\n      \"meaning\": \"năng suất\",\n      \"part_of_speech\": \"noun\"\n    }\n  ],\n  \"explanation\": \"Vị trí cần điền nằm sau mạo từ 'the' và đóng vai trò là tân ngữ trực tiếp của động từ 'increase'. Do đó, ta cần một danh từ để hoàn thành cụm danh từ làm tân ngữ này. 'Productivity' là danh từ chỉ năng suất, phù hợp nhất về mặt ngữ pháp và ngữ cảnh câu.\",\n  \"distractor_analysis\": {\n    \"A\": \"Producer là danh từ chỉ người (nhà sản xuất), không phù hợp với ngữ cảnh cần một danh từ chỉ khái niệm/mức độ hoạt động của hệ thống sản xuất.\",\n    \"B\": \"Produced là quá khứ phân từ hoặc động từ chia ở quá khứ, không thể đứng sau mạo từ 'the' trong cấu trúc này để làm tân ngữ.\",\n    \"C\": \"Productive là tính từ (có năng suất), không đứng ở vị trí này vì sau mạo từ 'the' cần một danh từ.\",\n    \"D\": \"Productivity là danh từ (năng suất), đứng sau mạo từ 'the' và làm tân ngữ cho động từ 'increase', đáp án này hoàn toàn chính xác.\"\n  },\n  \"difficulty\": \"easy\"\n}",
+      "enrichment": {
+        "grammar_topic": "Word Form (Noun vs. Adjective vs. Verb)",
+        "sentence_structure": "S + V + to-infinitive (aims to increase [the] + Noun + Prep + Noun).",
+        "pattern": "increase the + [Noun]",
+        "vocabulary": [
+          {
+            "word": "training program",
+            "meaning": "chương trình đào tạo",
+            "part_of_speech": "noun phrase"
+          },
+          {
+            "word": "manufacturing system",
+            "meaning": "hệ thống sản xuất",
+            "part_of_speech": "noun phrase"
+          },
+          {
+            "word": "productivity",
+            "meaning": "năng suất",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Vị trí cần điền nằm sau mạo từ 'the' và đóng vai trò là tân ngữ trực tiếp của động từ 'increase'. Do đó, ta cần một danh từ để hoàn thành cụm danh từ làm tân ngữ này. 'Productivity' là danh từ chỉ năng suất, phù hợp nhất về mặt ngữ pháp và ngữ cảnh câu.",
+        "distractor_analysis": {
+          "A": "Producer là danh từ chỉ người (nhà sản xuất), không phù hợp với ngữ cảnh cần một danh từ chỉ khái niệm/mức độ hoạt động của hệ thống sản xuất.",
+          "B": "Produced là quá khứ phân từ hoặc động từ chia ở quá khứ, không thể đứng sau mạo từ 'the' trong cấu trúc này để làm tân ngữ.",
+          "C": "Productive là tính từ (có năng suất), không đứng ở vị trí này vì sau mạo từ 'the' cần một danh từ.",
+          "D": "Productivity là danh từ (năng suất), đứng sau mạo từ 'the' và làm tân ngữ cho động từ 'increase', đáp án này hoàn toàn chính xác."
+        },
+        "difficulty": "easy"
+      }
+    }
+  ]
+}

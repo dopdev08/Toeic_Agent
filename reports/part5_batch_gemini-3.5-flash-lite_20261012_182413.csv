@@ -1,0 +1,91 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,prompt_tokens,candidates_tokens,total_tokens,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+16,ETS2026,5,116,PASS_QUALITY_VALIDATED,True,True,VALID,,,,6.99,1753,509,2262,Theta Industries' training program aims to increase the _____ of its manufacturing systems.,producer,produced,productive,productivity,D,"{""grammar_topic"": ""Word Form"", ""sentence_structure"": ""S (Theta Industries' training program) + V (aims) + to-infinitive (to increase) + O (the [blank] of its manufacturing systems)."", ""pattern"": ""Article ('the') + Adjective/Noun modifier + Noun"", ""vocabulary"": [{""word"": ""training program"", ""meaning"": ""chương trình đào tạo"", ""part_of_speech"": ""noun phrase""}, {""word"": ""increase"", ""meaning"": ""tăng lên"", ""part_of_speech"": ""verb""}, {""word"": ""manufacturing"", ""meaning"": ""sản xuất"", ""part_of_speech"": ""noun""}, {""word"": ""productivity"", ""meaning"": ""năng suất"", ""part_of_speech"": ""noun""}], ""explanation"": ""Chỗ trống đứng sau mạo từ 'the' và trước cụm giới từ 'of its manufacturing systems', làm tân ngữ cho động từ 'increase'. Do đó, vị trí này cần một danh từ để tạo thành cấu trúc 'the + danh từ + of...'. Đáp án D ('productivity') là danh từ chỉ năng suất, phù hợp nhất về mặt ngữ pháp và ngữ nghĩa."", ""distractor_analysis"": {""A"": ""Sai vì 'producer' là danh từ chỉ người (nhà sản xuất), không phù hợp với ngữ cảnh cần chỉ mức độ hoạt động hoặc hiệu suất của hệ thống."", ""B"": ""Sai vì 'produced' là phân từ hoặc dạng quá khứ của động từ, không thể đứng độc lập làm tân ngữ sau mạo từ 'the' trong cấu trúc này."", ""C"": ""Sai vì 'productive' là tính từ, trong khi vị trí chỗ trống yêu cầu một danh từ làm tân ngữ sau mạo từ 'the'."", ""D"": ""Đúng vì 'productivity' là danh từ (năng suất), đi sau mạo từ 'the' và phù hợp với nghĩa của câu (tăng năng suất của hệ thống sản xuất).""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Word Form"",
+  ""sentence_structure"": ""S (Theta Industries' training program) + V (aims) + to-infinitive (to increase) + O (the [blank] of its manufacturing systems)."",
+  ""pattern"": ""Article ('the') + Adjective/Noun modifier + Noun"",
+  ""vocabulary"": [
+    {
+      ""word"": ""training program"",
+      ""meaning"": ""chương trình đào tạo"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""increase"",
+      ""meaning"": ""tăng lên"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""manufacturing"",
+      ""meaning"": ""sản xuất"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""productivity"",
+      ""meaning"": ""năng suất"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Chỗ trống đứng sau mạo từ 'the' và trước cụm giới từ 'of its manufacturing systems', làm tân ngữ cho động từ 'increase'. Do đó, vị trí này cần một danh từ để tạo thành cấu trúc 'the + danh từ + of...'. Đáp án D ('productivity') là danh từ chỉ năng suất, phù hợp nhất về mặt ngữ pháp và ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""Sai vì 'producer' là danh từ chỉ người (nhà sản xuất), không phù hợp với ngữ cảnh cần chỉ mức độ hoạt động hoặc hiệu suất của hệ thống."",
+    ""B"": ""Sai vì 'produced' là phân từ hoặc dạng quá khứ của động từ, không thể đứng độc lập làm tân ngữ sau mạo từ 'the' trong cấu trúc này."",
+    ""C"": ""Sai vì 'productive' là tính từ, trong khi vị trí chỗ trống yêu cầu một danh từ làm tân ngữ sau mạo từ 'the'."",
+    ""D"": ""Đúng vì 'productivity' là danh từ (năng suất), đi sau mạo từ 'the' và phù hợp với nghĩa của câu (tăng năng suất của hệ thống sản xuất).""
+  },
+  ""difficulty"": ""easy""
+}"
+18,ETS2026,5,118,PASS_QUALITY_VALIDATED,True,True,VALID,,,,9.92,1753,469,2222,The finance director gave his approval _____ the project can move forward.,along,furthermore,cautiously,so that,D,"{""grammar_topic"": ""Conjunction"", ""sentence_structure"": ""S V O Conj S V"", ""pattern"": ""clause + so that + clause"", ""vocabulary"": [{""word"": ""approval"", ""meaning"": ""sự phê duyệt, sự chấp thuận"", ""part_of_speech"": ""noun""}, {""word"": ""cautiously"", ""meaning"": ""thận trọng"", ""part_of_speech"": ""adverb""}, {""word"": ""furthermore"", ""meaning"": ""hơn nữa, ngoài ra"", ""part_of_speech"": ""adverb""}], ""explanation"": ""Câu này yêu cầu một liên từ (conjunction) hoặc cụm từ nối phù hợp để nối hai mệnh đề có quan hệ chỉ mục đích hoặc kết quả. Mệnh đề thứ hai 'the project can move forward' diễn tả mục đích hoặc kết quả của việc 'The finance director gave his approval'. Cụm từ 'so that' (để mà) là liên từ thích hợp nhất về mặt ngữ nghĩa và cấu trúc để nối hai mệnh đề này."", ""distractor_analysis"": {""A"": ""along là một giới từ hoặc trạng từ (mang nghĩa dọc theo, cùng với), không phù hợp để nối hai mệnh đề hoàn chỉnh chứa chủ ngữ và động từ."", ""B"": ""furthermore là trạng từ liên kết (hơn nữa), thường dùng để bổ sung ý và đứng đầu câu hoặc sau dấu chấm phẩy, không phù hợp để nối trực tiếp hai mệnh đề trong cùng một câu theo cấu trúc này."", ""C"": ""cautiously là trạng từ (thận trọng), đứng ở vị trí này sẽ làm sai ngữ pháp vì câu cần một liên từ nối hai mệnh đề."", ""D"": ""so that là liên từ (để mà) chính xác, dùng để chỉ mục đích, phù hợp với ngữ cảnh giám đốc tài chính phê duyệt để dự án có thể tiến triển.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Conjunction"",
+  ""sentence_structure"": ""S V O Conj S V"",
+  ""pattern"": ""clause + so that + clause"",
+  ""vocabulary"": [
+    {
+      ""word"": ""approval"",
+      ""meaning"": ""sự phê duyệt, sự chấp thuận"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""cautiously"",
+      ""meaning"": ""thận trọng"",
+      ""part_of_speech"": ""adverb""
+    },
+    {
+      ""word"": ""furthermore"",
+      ""meaning"": ""hơn nữa, ngoài ra"",
+      ""part_of_speech"": ""adverb""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu một liên từ (conjunction) hoặc cụm từ nối phù hợp để nối hai mệnh đề có quan hệ chỉ mục đích hoặc kết quả. Mệnh đề thứ hai 'the project can move forward' diễn tả mục đích hoặc kết quả của việc 'The finance director gave his approval'. Cụm từ 'so that' (để mà) là liên từ thích hợp nhất về mặt ngữ nghĩa và cấu trúc để nối hai mệnh đề này."",
+  ""distractor_analysis"": {
+    ""A"": ""along là một giới từ hoặc trạng từ (mang nghĩa dọc theo, cùng với), không phù hợp để nối hai mệnh đề hoàn chỉnh chứa chủ ngữ và động từ."",
+    ""B"": ""furthermore là trạng từ liên kết (hơn nữa), thường dùng để bổ sung ý và đứng đầu câu hoặc sau dấu chấm phẩy, không phù hợp để nối trực tiếp hai mệnh đề trong cùng một câu theo cấu trúc này."",
+    ""C"": ""cautiously là trạng từ (thận trọng), đứng ở vị trí này sẽ làm sai ngữ pháp vì câu cần một liên từ nối hai mệnh đề."",
+    ""D"": ""so that là liên từ (để mà) chính xác, dùng để chỉ mục đích, phù hợp với ngữ cảnh giám đốc tài chính phê duyệt để dự án có thể tiến triển.""
+  },
+  ""difficulty"": ""medium""
+}"
+20,ETS2026,5,120,PASS_QUALITY_VALIDATED,True,True,VALID,,,,12.34,1756,523,2279,"Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",myself,neither,anybody,whoever,B,"{""grammar_topic"": ""Pronouns"", ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) V (were) Comp (qualified), Conj (but) S (_____ ) V (got) O (the job)."", ""pattern"": ""neither + got the job"", ""vocabulary"": [{""word"": ""qualified"", ""meaning"": ""có đủ năng lực, đủ điều kiện"", ""part_of_speech"": ""adjective""}, {""word"": ""job"", ""meaning"": ""công việc"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này kiểm tra việc lựa chọn đại từ phù hợp về mặt ngữ nghĩa và ngữ pháp để làm chủ ngữ cho vế sau. Cấu trúc câu gồm hai mệnh đề nối với nhau bằng liên từ 'but', cho thấy sự đối lập. Vế trước nhắc đến hai người (Mr. Ellis và Ms. Barnes) đều có năng lực cao, nhưng vế sau diễn tả kết quả là không ai trong số hai người đó nhận được công việc. Đại từ phủ định 'neither' (không ai trong hai người) là lựa chọn chính xác nhất về mặt ngữ nghĩa."", ""distractor_analysis"": {""A"": ""Sai về mặt ngữ nghĩa và ngữ pháp. 'Myself' là đại từ phản thân, không phù hợp để làm chủ ngữ cho động từ 'got' trong ngữ cảnh chỉ hai người được nhắc tới trước đó."", ""B"": ""Đáp án đúng. 'Neither' đóng vai trò là đại từ chỉ định/phủ định mang nghĩa 'không ai trong hai (người)', hoàn toàn phù hợp để liên kết với ngữ cảnh có hai ứng viên (Mr. Ellis và Ms. Barnes) ở vế trước."", ""C"": ""Sai về mặt ngữ nghĩa. 'Anybody' nghĩa là 'bất kỳ ai', không tạo được sự logic với liên từ 'but' khi so sánh giữa hai người cụ thể được đề cập."", ""D"": ""Sai về mặt ngữ pháp và cấu trúc. 'Whoever' là đại từ quan hệ/nghi vấn, nếu dùng ở đây sẽ khiến mệnh đề thiếu cấu trúc liên kết hoặc tạo thành mệnh đề danh từ không phù hợp với vị trí làm chủ ngữ chính của câu đơn.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Pronouns"",
+  ""sentence_structure"": ""S (Mr. Ellis and Ms. Barnes) V (were) Comp (qualified), Conj (but) S (_____ ) V (got) O (the job)."",
+  ""pattern"": ""neither + got the job"",
+  ""vocabulary"": [
+    {
+      ""word"": ""qualified"",
+      ""meaning"": ""có đủ năng lực, đủ điều kiện"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""job"",
+      ""meaning"": ""công việc"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này kiểm tra việc lựa chọn đại từ phù hợp về mặt ngữ nghĩa và ngữ pháp để làm chủ ngữ cho vế sau. Cấu trúc câu gồm hai mệnh đề nối với nhau bằng liên từ 'but', cho thấy sự đối lập. Vế trước nhắc đến hai người (Mr. Ellis và Ms. Barnes) đều có năng lực cao, nhưng vế sau diễn tả kết quả là không ai trong số hai người đó nhận được công việc. Đại từ phủ định 'neither' (không ai trong hai người) là lựa chọn chính xác nhất về mặt ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""Sai về mặt ngữ nghĩa và ngữ pháp. 'Myself' là đại từ phản thân, không phù hợp để làm chủ ngữ cho động từ 'got' trong ngữ cảnh chỉ hai người được nhắc tới trước đó."",
+    ""B"": ""Đáp án đúng. 'Neither' đóng vai trò là đại từ chỉ định/phủ định mang nghĩa 'không ai trong hai (người)', hoàn toàn phù hợp để liên kết với ngữ cảnh có hai ứng viên (Mr. Ellis và Ms. Barnes) ở vế trước."",
+    ""C"": ""Sai về mặt ngữ nghĩa. 'Anybody' nghĩa là 'bất kỳ ai', không tạo được sự logic với liên từ 'but' khi so sánh giữa hai người cụ thể được đề cập."",
+    ""D"": ""Sai về mặt ngữ pháp và cấu trúc. 'Whoever' là đại từ quan hệ/nghi vấn, nếu dùng ở đây sẽ khiến mệnh đề thiếu cấu trúc liên kết hoặc tạo thành mệnh đề danh từ không phù hợp với vị trí làm chủ ngữ chính của câu đơn."",
+  },
+  ""difficulty"": ""medium""
+}"

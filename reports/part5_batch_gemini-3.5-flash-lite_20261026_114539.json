@@ -1,0 +1,86 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "database_url": "sqlite:///./toeic_agent.db",
+  "part_filter": 5,
+  "read_only": true,
+  "request_interval": 4.5,
+  "total_questions": 1,
+  "quality_passed": 1,
+  "quality_rejected": 0,
+  "schema_failed": 0,
+  "json_decode_failed": 0,
+  "llm_failed": 0,
+  "unexpected_failed": 0,
+  "passed": 1,
+  "failed": 0,
+  "elapsed_seconds": 2.31,
+  "average_seconds_per_question": 2.31,
+  "total_prompt_tokens": 1816,
+  "total_candidates_tokens": 382,
+  "total_tokens": 2198,
+  "status_semantics": {
+    "PASS_QUALITY_VALIDATED": "Passed JSON parsing, Pydantic schema validation, and deterministic EnrichmentValidator quality checks.",
+    "REJECTED_QUALITY": "Passed JSON decode and Pydantic schema validation, but rejected or flagged as suspicious by EnrichmentValidator.",
+    "FAIL_SCHEMA_VALIDATION": "Decoded valid JSON, but failed Pydantic QuestionEnrichment validation.",
+    "FAIL_JSON_DECODE": "Failed to decode LLM response as valid JSON.",
+    "FAIL_LLM_SERVICE": "LLM connection, timeout, or provider error.",
+    "FAIL_UNEXPECTED": "Unexpected runtime exception."
+  },
+  "results": [
+    {
+      "question_id": 1,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 101,
+      "question_text": "The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",
+      "option_a": "across",
+      "option_b": "after",
+      "option_c": "inside",
+      "option_d": "among",
+      "correct_answer": "B",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 2.31,
+      "token_usage": {
+        "prompt_tokens": 1816,
+        "candidates_tokens": 382,
+        "total_tokens": 2198
+      },
+      "raw_response": "{\n  \"grammar_topic\": \"Preposition\",\n  \"sentence_structure\": \"S V Prep O , Prep which S V O .\",\n  \"pattern\": \"preposition + which (relative pronoun referring to time/event)\",\n  \"vocabulary\": [\n    {\n      \"word\": \"attendee\",\n      \"meaning\": \"người tham dự\",\n      \"part_of_speech\": \"noun\"\n    },\n    {\n      \"word\": \"take place\",\n      \"meaning\": \"diễn ra\",\n      \"part_of_speech\": \"verb phrase\"\n    }\n  ],\n  \"explanation\": \"Câu này kiểm tra việc lựa chọn giới từ phù hợp để kết hợp với đại từ quan hệ 'which' chỉ thời điểm hoặc sự kiện kết thúc bài giảng. 'at 6:00 P.M., after which attendees may ask questions' có nghĩa là buổi giảng sẽ diễn ra lúc 6:00 chiều, sau thời điểm đó những người tham dự có thể đặt câu hỏi.\",\n  \"distractor_analysis\": {\n    \"A\": \"across (xuyên qua, ở bên kia) không phù hợp về mặt ngữ nghĩa và cấu trúc chỉ thời gian.\",\n    \"B\": \"after (sau) là đáp án chính xác, diễn tả sự việc đặt câu hỏi diễn ra sau mốc thời gian 6:00 P.M.\",\n    \"C\": \"inside (bên trong) chỉ vị trí không gian, không phù hợp với ngữ cảnh thời gian và sự kiện.\",\n    \"D\": \"among (giữa nhiều người/vật) dùng cho tập hợp từ ba đối tượng trở lên, không phù hợp để nối mệnh đề chỉ thời điểm.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Preposition",
+        "sentence_structure": "S V Prep O , Prep which S V O .",
+        "pattern": "preposition + which (relative pronoun referring to time/event)",
+        "vocabulary": [
+          {
+            "word": "attendee",
+            "meaning": "người tham dự",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "take place",
+            "meaning": "diễn ra",
+            "part_of_speech": "verb phrase"
+          }
+        ],
+        "explanation": "Câu này kiểm tra việc lựa chọn giới từ phù hợp để kết hợp với đại từ quan hệ 'which' chỉ thời điểm hoặc sự kiện kết thúc bài giảng. 'at 6:00 P.M., after which attendees may ask questions' có nghĩa là buổi giảng sẽ diễn ra lúc 6:00 chiều, sau thời điểm đó những người tham dự có thể đặt câu hỏi.",
+        "distractor_analysis": {
+          "A": "across (xuyên qua, ở bên kia) không phù hợp về mặt ngữ nghĩa và cấu trúc chỉ thời gian.",
+          "B": "after (sau) là đáp án chính xác, diễn tả sự việc đặt câu hỏi diễn ra sau mốc thời gian 6:00 P.M.",
+          "C": "inside (bên trong) chỉ vị trí không gian, không phù hợp với ngữ cảnh thời gian và sự kiện.",
+          "D": "among (giữa nhiều người/vật) dùng cho tập hợp từ ba đối tượng trở lên, không phù hợp để nối mệnh đề chỉ thời điểm."
+        },
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

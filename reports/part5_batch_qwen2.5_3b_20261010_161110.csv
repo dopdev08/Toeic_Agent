@@ -1,0 +1,22 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+1,ETS2026,5,101,PASS_QUALITY_VALIDATED,True,True,VALID,,,,20.4,Mr. Henderson reviewed the budget proposal ______ presenting it to the board.,before,during,while,between,A,"{""grammar_topic"": ""Preposition + Relative Clause"", ""sentence_structure"": ""S + V + [Prep] + [Relative Clause] + S"", ""pattern"": ""Prep + which + S"", ""vocabulary"": [{""word"": ""budget"", ""meaning"": ""quyết toán tài chính"", ""part_of_speech"": ""noun""}], ""explanation"": ""Đáp án A 'before' là đáp án chính xác vì nó phù hợp với cấu trúc câu S + V + [Prep] + [Relative Clause] + S. 'Before' là một từ prep (phụ từ) thường được sử dụng để chỉ thời gian trước một sự kiện cụ thể. Trong câu gốc, Mr. Henderson đã xem xét lại dự thảo quyết toán tài chính và sau đó sẽ trình bày nó đến ban. Vì vậy, 'before' được sử dụng để chỉ thời điểm trước khi ông ấy trình bày. Các đáp án còn lại không phù hợp với ngữ cảnh và cấu trúc câu."", ""distractor_analysis"": {""A"": ""Đáp án này là đáp án chính xác vì nó phù hợp với cấu trúc câu và ngữ cảnh."", ""B"": ""Đáp án này không phù hợp vì 'during' thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể."", ""C"": ""Đáp án này không phù hợp vì 'while' cũng thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể."", ""D"": ""Đáp án này không phù hợp vì 'between' thường được sử dụng khi có hai sự kiện được liên kết với nhau và không có sự kiện cụ thể xảy ra trước đó hoặc sau đó.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition + Relative Clause"",
+  ""sentence_structure"": ""S + V + [Prep] + [Relative Clause] + S"",
+  ""pattern"": ""Prep + which + S"",
+  ""vocabulary"": [
+    {
+      ""word"": ""budget"",
+      ""meaning"": ""quyết toán tài chính"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Đáp án A 'before' là đáp án chính xác vì nó phù hợp với cấu trúc câu S + V + [Prep] + [Relative Clause] + S. 'Before' là một từ prep (phụ từ) thường được sử dụng để chỉ thời gian trước một sự kiện cụ thể. Trong câu gốc, Mr. Henderson đã xem xét lại dự thảo quyết toán tài chính và sau đó sẽ trình bày nó đến ban. Vì vậy, 'before' được sử dụng để chỉ thời điểm trước khi ông ấy trình bày. Các đáp án còn lại không phù hợp với ngữ cảnh và cấu trúc câu."",
+  ""distractor_analysis"": {
+    ""A"": ""Đáp án này là đáp án chính xác vì nó phù hợp với cấu trúc câu và ngữ cảnh."",
+    ""B"": ""Đáp án này không phù hợp vì 'during' thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể."",
+    ""C"": ""Đáp án này không phù hợp vì 'while' cũng thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể."",
+    ""D"": ""Đáp án này không phù hợp vì 'between' thường được sử dụng khi có hai sự kiện được liên kết với nhau và không có sự kiện cụ thể xảy ra trước đó hoặc sau đó."",
+    ""authoritative"": ""Đáp án A""
+  },
+  ""difficulty"": ""medium""
+}"

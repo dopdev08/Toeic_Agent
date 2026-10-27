@@ -1,0 +1,166 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,prompt_tokens,candidates_tokens,total_tokens,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+6,ETS2026,5,106,PASS_QUALITY_VALIDATED,True,True,VALID,,,,2.28,1808,478,2286,The hiring manager _____ considered each applicant's résumé and qualifications.,caring,careful,carefully,carefulness,C,"{""grammar_topic"": ""Word Form (Adverb vs. Adjective)"", ""sentence_structure"": ""S + Adv + V + O"", ""pattern"": ""S + Adverb + Verb + Object"", ""vocabulary"": [{""word"": ""hiring manager"", ""meaning"": ""người quản lý tuyển dụng"", ""part_of_speech"": ""noun phrase""}, {""word"": ""consider"", ""meaning"": ""xem xét, cân nhắc"", ""part_of_speech"": ""verb""}, {""word"": ""applicant"", ""meaning"": ""ứng viên"", ""part_of_speech"": ""noun""}, {""word"": ""qualification"", ""meaning"": ""năng lực, trình độ chuyên môn"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu điền một từ loại bổ nghĩa cho động từ thường 'considered'. Vị trí chỗ trống nằm giữa chủ ngữ ('The hiring manager') và động từ chính ('considered'), do đó cần một trạng từ (adverb) để mô tả cách thức hành động diễn ra. Lựa chọn 'carefully' là trạng từ phù hợp nhất về mặt ngữ pháp và ngữ nghĩa."", ""distractor_analysis"": {""A"": ""'caring' là tính từ hoặc phân từ mang nghĩa quan tâm, chu đáo, không phù hợp để bổ nghĩa cho động từ 'considered' ở vị trí này."", ""B"": ""'careful' là tính từ, dùng để bổ nghĩa cho danh từ, không thể dùng để bổ nghĩa cho động từ thường 'considered'."", ""C"": ""'carefully' là trạng từ, chính xác dùng để bổ nghĩa cho động từ 'considered', diễn tả hành động xem xét kỹ lưỡng hồ sơ và năng lực của từng ứng viên."", ""D"": ""'carefulness' là danh từ chỉ sự cẩn thận, không phù hợp đứng ở vị trí bổ nghĩa cho động từ trong cấu trúc này.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Word Form (Adverb vs. Adjective)"",
+  ""sentence_structure"": ""S + Adv + V + O"",
+  ""pattern"": ""S + Adverb + Verb + Object"",
+  ""vocabulary"": [
+    {
+      ""word"": ""hiring manager"",
+      ""meaning"": ""người quản lý tuyển dụng"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""consider"",
+      ""meaning"": ""xem xét, cân nhắc"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""applicant"",
+      ""meaning"": ""ứng viên"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""qualification"",
+      ""meaning"": ""năng lực, trình độ chuyên môn"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu điền một từ loại bổ nghĩa cho động từ thường 'considered'. Vị trí chỗ trống nằm giữa chủ ngữ ('The hiring manager') và động từ chính ('considered'), do đó cần một trạng từ (adverb) để mô tả cách thức hành động diễn ra. Lựa chọn 'carefully' là trạng từ phù hợp nhất về mặt ngữ pháp và ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""'caring' là tính từ hoặc phân từ mang nghĩa quan tâm, chu đáo, không phù hợp để bổ nghĩa cho động từ 'considered' ở vị trí này."",
+    ""B"": ""'careful' là tính từ, dùng để bổ nghĩa cho danh từ, không thể dùng để bổ nghĩa cho động từ thường 'considered'."",
+    ""C"": ""'carefully' là trạng từ, chính xác dùng để bổ nghĩa cho động từ 'considered', diễn tả hành động xem xét kỹ lưỡng hồ sơ và năng lực của từng ứng viên."",
+    ""D"": ""'carefulness' là danh từ chỉ sự cẩn thận, không phù hợp đứng ở vị trí bổ nghĩa cho động từ trong cấu trúc này.""
+  },
+  ""difficulty"": ""easy""
+}"
+7,ETS2026,5,107,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.32,1819,437,2256,"In October, Mr. Sakamoto will leave for New Zealand _____ will oversee the opening of the new Auckland branch.",because,in addition,and,prior to,C,"{""grammar_topic"": ""Conjunction"", ""sentence_structure"": ""S + V + Prep + N [and] V + O"", ""pattern"": ""subject + verb + coordinate conjunction + verb"", ""vocabulary"": [{""word"": ""leave"", ""meaning"": ""rời đi, khởi hành"", ""part_of_speech"": ""verb""}, {""word"": ""oversee"", ""meaning"": ""giám sát"", ""part_of_speech"": ""verb""}, {""word"": ""opening"", ""meaning"": ""lễ khai trương, việc mở"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu điền một liên từ hoặc giới từ để nối hai động từ (hoặc hai hành động) do cùng một chủ ngữ 'Mr. Sakamoto' thực hiện: 'will leave' và 'will oversee'. Liên từ 'and' được dùng để nối hai động từ song song trong câu."", ""distractor_analysis"": {""A"": ""because là liên từ chỉ nguyên nhân, không phù hợp về mặt ngữ nghĩa để nối tiếp hai hành động liên tiếp nhau của chủ ngữ trong ngữ cảnh này."", ""B"": ""in addition là trạng từ (thường đi với giới từ 'to' hoặc đứng đầu mệnh đề với dấu phẩy), không phù hợp về mặt cấu trúc ngữ pháp để nối trực tiếp động từ thứ hai."", ""C"": ""and là liên từ kết hợp, chính xác để nối tiếp hai hành động 'leave' và 'oversee' do ông Sakamoto thực hiện."", ""D"": ""prior to là giới từ có nghĩa là 'trước khi', đi sau nó phải là một danh từ hoặc V-ing, không phù hợp để nối trực tiếp với động từ nguyên thể 'will oversee'.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Conjunction"",
+  ""sentence_structure"": ""S + V + Prep + N [and] V + O"",
+  ""pattern"": ""subject + verb + coordinate conjunction + verb"",
+  ""vocabulary"": [
+    {
+      ""word"": ""leave"",
+      ""meaning"": ""rời đi, khởi hành"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""oversee"",
+      ""meaning"": ""giám sát"",
+      ""part_of_speech"": ""verb""
+    },
+    {
+      ""word"": ""opening"",
+      ""meaning"": ""lễ khai trương, việc mở"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu điền một liên từ hoặc giới từ để nối hai động từ (hoặc hai hành động) do cùng một chủ ngữ 'Mr. Sakamoto' thực hiện: 'will leave' và 'will oversee'. Liên từ 'and' được dùng để nối hai động từ song song trong câu."",
+  ""distractor_analysis"": {
+    ""A"": ""because là liên từ chỉ nguyên nhân, không phù hợp về mặt ngữ nghĩa để nối tiếp hai hành động liên tiếp nhau của chủ ngữ trong ngữ cảnh này."",
+    ""B"": ""in addition là trạng từ (thường đi với giới từ 'to' hoặc đứng đầu mệnh đề với dấu phẩy), không phù hợp về mặt cấu trúc ngữ pháp để nối trực tiếp động từ thứ hai."",
+    ""C"": ""and là liên từ kết hợp, chính xác để nối tiếp hai hành động 'leave' và 'oversee' do ông Sakamoto thực hiện."",
+    ""D"": ""prior to là giới từ có nghĩa là 'trước khi', đi sau nó phải là một danh từ hoặc V-ing, không phù hợp để nối trực tiếp với động từ nguyên thể 'will oversee'.""
+  },
+  ""difficulty"": ""easy""
+}"
+16,ETS2026,5,116,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.51,1809,436,2245,Theta Industries' training program aims to increase the _____ of its manufacturing systems.,producer,produced,productive,productivity,D,"{""grammar_topic"": ""Word Form"", ""sentence_structure"": ""S V O (S + aims + to increase + [blank] + Prep)"", ""pattern"": ""increase + noun"", ""vocabulary"": [{""word"": ""training program"", ""meaning"": ""chương trình đào tạo"", ""part_of_speech"": ""noun phrase""}, {""word"": ""manufacturing"", ""meaning"": ""sản xuất"", ""part_of_speech"": ""adjective""}, {""word"": ""productivity"", ""meaning"": ""năng suất"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu này yêu cầu chọn một danh từ làm tân ngữ trực tiếp cho động từ 'increase' (tăng cường, nâng cao). Phía sau chỗ trống là giới từ 'of' và cụm danh từ chỉ hệ thống sản xuất, cho thấy chỗ trống cần một danh từ chỉ sự vật/khái niệm. Đáp án (D) 'productivity' là danh từ chỉ 'năng suất', phù hợp hoàn toàn về mặt ngữ pháp và ngữ nghĩa."", ""distractor_analysis"": {""A"": ""producer là danh từ chỉ người (nhà sản xuất), không phù hợp về mặt ngữ nghĩa vì chương trình không nhằm mục đích làm tăng con người."", ""B"": ""produced là phân từ hai hoặc dạng quá khứ của động từ 'produce', không đứng ở vị trí này vì cấu trúc câu đang thiếu một tân ngữ danh từ."", ""C"": ""productive là tính từ (có năng suất), không đứng ở vị trí sau ngoại động từ 'increase' nếu không có danh từ đi kèm theo sau."", ""D"": ""productivity là danh từ (năng suất), là lựa chọn chính xác để làm tân ngữ cho ngoại động từ 'increase'.""}, ""difficulty"": ""easy""}","{
+  ""grammar_topic"": ""Word Form"",
+  ""sentence_structure"": ""S V O (S + aims + to increase + [blank] + Prep)"",
+  ""pattern"": ""increase + noun"",
+  ""vocabulary"": [
+    {
+      ""word"": ""training program"",
+      ""meaning"": ""chương trình đào tạo"",
+      ""part_of_speech"": ""noun phrase""
+    },
+    {
+      ""word"": ""manufacturing"",
+      ""meaning"": ""sản xuất"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""productivity"",
+      ""meaning"": ""năng suất"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu này yêu cầu chọn một danh từ làm tân ngữ trực tiếp cho động từ 'increase' (tăng cường, nâng cao). Phía sau chỗ trống là giới từ 'of' và cụm danh từ chỉ hệ thống sản xuất, cho thấy chỗ trống cần một danh từ chỉ sự vật/khái niệm. Đáp án (D) 'productivity' là danh từ chỉ 'năng suất', phù hợp hoàn toàn về mặt ngữ pháp và ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""producer là danh từ chỉ người (nhà sản xuất), không phù hợp về mặt ngữ nghĩa vì chương trình không nhằm mục đích làm tăng con người."",
+    ""B"": ""produced là phân từ hai hoặc dạng quá khứ của động từ 'produce', không đứng ở vị trí này vì cấu trúc câu đang thiếu một tân ngữ danh từ."",
+    ""C"": ""productive là tính từ (có năng suất), không đứng ở vị trí sau ngoại động từ 'increase' nếu không có danh từ đi kèm theo sau."",
+    ""D"": ""productivity là danh từ (năng suất), là lựa chọn chính xác để làm tân ngữ cho ngoại động từ 'increase'.""
+  },
+  ""difficulty"": ""easy""
+}"
+23,ETS2026,5,123,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.52,1814,449,2263,Maswa Bistro began a _____ agreement with local farmers to purchase a set amount of produce each week.,disruptive,cooperative,grateful,concerned,B,"{""grammar_topic"": ""vocabulary"", ""sentence_structure"": ""S + V + O + Prep"", ""pattern"": ""begin a cooperative agreement"", ""vocabulary"": [{""word"": ""agreement"", ""meaning"": ""thỏa thuận, hiệp định"", ""part_of_speech"": ""noun""}, {""word"": ""cooperative"", ""meaning"": ""mang tính hợp tác"", ""part_of_speech"": ""adjective""}, {""word"": ""produce"", ""meaning"": ""nông sản"", ""part_of_speech"": ""noun""}, {""word"": ""purchase"", ""meaning"": ""mua"", ""part_of_speech"": ""verb""}], ""explanation"": ""Câu hỏi kiểm tra từ vựng loại tính từ bổ nghĩa cho danh từ 'agreement' (thỏa thuận). Xét về mặt ngữ nghĩa, nhà hàng Maswa Bistro bắt đầu một thỏa thuận 'mang tính hợp tác' (cooperative) với nông dân địa phương để mua một lượng nông sản nhất định hàng tuần. Do đó, 'cooperative' là lựa chọn chính xác nhất về mặt ngữ cảnh kinh doanh."", ""distractor_analysis"": {""A"": ""Disruptive (gây rối, phá vỡ) không phù hợp với ngữ cảnh thiết lập mối quan hệ làm ăn tích cực với nông dân địa phương."", ""B"": ""Cooperative (hợp tác) là đáp án đúng vì diễn tả mối quan hệ hợp tác cùng có lợi giữa nhà hàng và nông dân địa phương."", ""C"": ""Grateful (biết ơn) không phù hợp để mô tả bản chất của một bản thỏa thuận hay hợp đồng thương mại."", ""D"": ""Concerned (lo lắng, quan tâm) không hợp nghĩa trong ngữ cảnh ký kết một thỏa thuận mua bán nông sản.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""vocabulary"",
+  ""sentence_structure"": ""S + V + O + Prep"",
+  ""pattern"": ""begin a cooperative agreement"",
+  ""vocabulary"": [
+    {
+      ""word"": ""agreement"",
+      ""meaning"": ""thỏa thuận, hiệp định"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""cooperative"",
+      ""meaning"": ""mang tính hợp tác"",
+      ""part_of_speech"": ""adjective""
+    },
+    {
+      ""word"": ""produce"",
+      ""meaning"": ""nông sản"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""purchase"",
+      ""meaning"": ""mua"",
+      ""part_of_speech"": ""verb""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra từ vựng loại tính từ bổ nghĩa cho danh từ 'agreement' (thỏa thuận). Xét về mặt ngữ nghĩa, nhà hàng Maswa Bistro bắt đầu một thỏa thuận 'mang tính hợp tác' (cooperative) với nông dân địa phương để mua một lượng nông sản nhất định hàng tuần. Do đó, 'cooperative' là lựa chọn chính xác nhất về mặt ngữ cảnh kinh doanh."",
+  ""distractor_analysis"": {
+    ""A"": ""Disruptive (gây rối, phá vỡ) không phù hợp với ngữ cảnh thiết lập mối quan hệ làm ăn tích cực với nông dân địa phương."",
+    ""B"": ""Cooperative (hợp tác) là đáp án đúng vì diễn tả mối quan hệ hợp tác cùng có lợi giữa nhà hàng và nông dân địa phương."",
+    ""C"": ""Grateful (biết ơn) không phù hợp để mô tả bản chất của một bản thỏa thuận hay hợp đồng thương mại."",
+    ""D"": ""Concerned (lo lắng, quan tâm) không hợp nghĩa trong ngữ cảnh ký kết một thỏa thuận mua bán nông sản.""
+  },
+  ""difficulty"": ""medium""
+}"
+27,ETS2026,5,127,PASS_QUALITY_VALIDATED,True,True,VALID,,,,5.65,1818,508,2326,"As chief analytics officer, Mr. Ko has worked at Lochstan Ltd. with great _____ for more than twenty years.",deduction,duplication,declaration,dedication,D,"{""grammar_topic"": ""Vocabulary / Noun Choice"", ""sentence_structure"": ""S + V + Prep + PrepP + Prep (with great [blank]) + PrepP."", ""pattern"": ""work with great + [noun] (làm việc với sự tận tụy/nỗ lực lớn)"", ""vocabulary"": [{""word"": ""analytics"", ""meaning"": ""phân tích"", ""part_of_speech"": ""noun""}, {""word"": ""dedication"", ""meaning"": ""sự cống hiến, tận tụy"", ""part_of_speech"": ""noun""}, {""word"": ""duplication"", ""meaning"": ""sự sao chép, nhân bản"", ""part_of_speech"": ""noun""}, {""word"": ""declaration"", ""meaning"": ""sự tuyên bố, tờ khai"", ""part_of_speech"": ""noun""}], ""explanation"": ""Câu hỏi kiểm tra từ vựng danh từ phù hợp với ngữ cảnh của câu. Ông Ko đã làm việc tại công ty hơn 20 năm với tư cách là giám đốc phân tích, điều này cho thấy ông ấy cống hiến và tận tụy lâu năm. Cụm từ 'with great dedication' (với sự tận tụy lớn) là một collocation hoàn toàn chính xác về mặt ngữ nghĩa."", ""distractor_analysis"": {""A"": ""Deduction nghĩa là sự khấu trừ hoặc sự suy luận, không phù hợp với ngữ cảnh làm việc lâu năm và cống hiến."", ""B"": ""Duplication nghĩa là sự sao chép, lặp lại, không phù hợp với nghĩa tích cực khi mô tả tinh thần làm việc."", ""C"": ""Declaration nghĩa là sự tuyên bố, tờ khai, không kết hợp hợp lý với cụm từ chỉ mức độ làm việc 'with great...'."", ""D"": ""Dedication nghĩa là sự cống hiến, tận tụy. Đây là đáp án chính xác vì kết hợp hoàn hảo với tính từ 'great' và ngữ cảnh cống hiến lâu năm.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Vocabulary / Noun Choice"",
+  ""sentence_structure"": ""S + V + Prep + PrepP + Prep (with great [blank]) + PrepP."",
+  ""pattern"": ""work with great + [noun] (làm việc với sự tận tụy/nỗ lực lớn)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""analytics"",
+      ""meaning"": ""phân tích"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""dedication"",
+      ""meaning"": ""sự cống hiến, tận tụy"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""duplication"",
+      ""meaning"": ""sự sao chép, nhân bản"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""declaration"",
+      ""meaning"": ""sự tuyên bố, tờ khai"",
+      ""part_of_speech"": ""noun""
+    }
+  ],
+  ""explanation"": ""Câu hỏi kiểm tra từ vựng danh từ phù hợp với ngữ cảnh của câu. Ông Ko đã làm việc tại công ty hơn 20 năm với tư cách là giám đốc phân tích, điều này cho thấy ông ấy cống hiến và tận tụy lâu năm. Cụm từ 'with great dedication' (với sự tận tụy lớn) là một collocation hoàn toàn chính xác về mặt ngữ nghĩa."",
+  ""distractor_analysis"": {
+    ""A"": ""Deduction nghĩa là sự khấu trừ hoặc sự suy luận, không phù hợp với ngữ cảnh làm việc lâu năm và cống hiến."",
+    ""B"": ""Duplication nghĩa là sự sao chép, lặp lại, không phù hợp với nghĩa tích cực khi mô tả tinh thần làm việc."",
+    ""C"": ""Declaration nghĩa là sự tuyên bố, tờ khai, không kết hợp hợp lý với cụm từ chỉ mức độ làm việc 'with great...'."",
+    ""D"": ""Dedication nghĩa là sự cống hiến, tận tụy. Đây là đáp án chính xác vì kết hợp hoàn hảo với tính từ 'great' và ngữ cảnh cống hiến lâu năm.""
+  },
+  ""difficulty"": ""medium""
+}"

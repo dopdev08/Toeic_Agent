@@ -1,0 +1,127 @@
+{
+  "model": "qwen2.5:3b",
+  "database_url": "sqlite:///./toeic_agent.db",
+  "part_filter": 5,
+  "read_only": true,
+  "total_questions": 3,
+  "passed": 3,
+  "failed": 0,
+  "elapsed_seconds": 35.56,
+  "average_seconds_per_question": 11.85,
+  "results": [
+    {
+      "question_id": 1,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 101,
+      "question_text": "The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",
+      "correct_answer": "B",
+      "status": "PASS",
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 17.51,
+      "raw_response": "{\n  \"grammar_topic\": \"Preposition + Relative Clause\",\n  \"sentence_structure\": \"S + V + [at] [Time] + Prep + which + S + V\",\n  \"pattern\": \"at [Time] + Prep + which + S + V\",\n  \"vocabulary\": [\n    {\n      \"word\": \"lecture\",\n      \"meaning\": \"tiến trình học tập\",\n      \"part_of_speech\": \"noun\"\n    },\n    {\n      \"word\": \"take place\",\n      \"meaning\": \"lên lịch, diễn ra\",\n      \"part_of_speech\": \"verb\"\n    },\n    {\n      \"word\": \"attendees\",\n      \"meaning\": \"tất cả những người tham dự\",\n      \"part_of_speech\": \"noun\"\n    },\n    {\n      \"word\": \"questions\",\n      \"meaning\": \"câu hỏi\",\n      \"part_of_speech\": \"noun\"\n    }\n  ],\n  \"explanation\": \"Đáp án B \\\"after\\\" là đáp án chính xác vì it fits the sentence structure và ngữ cảnh của câu. Lecture sẽ diễn ra vào lúc 6:00 P.M., sau đó mọi người tham dự có thể đặt câu hỏi.\",\n  \"distractor_analysis\": {\n    \"A\": \"across là động từ, không phù hợp với ngữ cảnh của câu và cấu trúc ngữ pháp của câu.\",\n    \"B\": \"Đáp án B \\\"after\\\" là đáp án chính xác vì it fits the sentence structure và ngữ cảnh của câu. Lecture sẽ diễn ra vào lúc 6:00 P.M., sau đó mọi người tham dự có thể đặt câu hỏi.\",\n    \"C\": \"inside là động từ, không phù hợp với ngữ cảnh của câu và cấu trúc ngữ pháp của câu.\",\n    \"D\": \"among là động từ, không phù hợp với ngữ cảnh của câu và cấu trúc ngữ pháp của câu.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Preposition + Relative Clause",
+        "sentence_structure": "S + V + [at] [Time] + Prep + which + S + V",
+        "pattern": "at [Time] + Prep + which + S + V",
+        "vocabulary": [
+          {
+            "word": "lecture",
+            "meaning": "tiến trình học tập",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "take place",
+            "meaning": "lên lịch, diễn ra",
+            "part_of_speech": "verb"
+          },
+          {
+            "word": "attendees",
+            "meaning": "tất cả những người tham dự",
+            "part_of_speech": "noun"
+          },
+          {
+            "word": "questions",
+            "meaning": "câu hỏi",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Đáp án B \"after\" là đáp án chính xác vì it fits the sentence structure và ngữ cảnh của câu. Lecture sẽ diễn ra vào lúc 6:00 P.M., sau đó mọi người tham dự có thể đặt câu hỏi.",
+        "distractor_analysis": {
+          "A": "across là động từ, không phù hợp với ngữ cảnh của câu và cấu trúc ngữ pháp của câu.",
+          "B": "Đáp án B \"after\" là đáp án chính xác vì it fits the sentence structure và ngữ cảnh của câu. Lecture sẽ diễn ra vào lúc 6:00 P.M., sau đó mọi người tham dự có thể đặt câu hỏi.",
+          "C": "inside là động từ, không phù hợp với ngữ cảnh của câu và cấu trúc ngữ pháp của câu.",
+          "D": "among là động từ, không phù hợp với ngữ cảnh của câu và cấu trúc ngữ pháp của câu."
+        },
+        "difficulty": "medium"
+      }
+    },
+    {
+      "question_id": 2,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 102,
+      "question_text": "The _____ antique shop in Pepper Valley will close down next month.",
+      "correct_answer": "A",
+      "status": "PASS",
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 9.32,
+      "raw_response": "{\n  \"grammar_topic\": \"Preposition + Relative Pronoun\",\n  \"sentence_structure\": \"S + V + at [Time], [Prep] + which + S + V\",\n  \"pattern\": \"at [Prep] + which + S + V\",\n  \"vocabulary\": [\n    {\n      \"word\": \"antique\",\n      \"meaning\": \"giấy\",\n      \"part_of_speech\": \"adjective\"\n    }\n  ],\n  \"explanation\": \"Đáp án A 'last' là đáp án chính xác vì nó làm trang bị một relative clause cho danh từ 'antique shop'. Đáp án này tuân thủ cấu trúc ngữ pháp 'S + V + at [Time], [Prep] + which + S + V'. 'last' ở đây là động từ chỉ hiện tại trong tương lai, thích hợp làm trang bị cho relative clause.\",\n  \"distractor_analysis\": {\n    \"A\": \"Đáp án này chính xác.\",\n    \"B\": \"Đáp án này sai vì 'lasts' là động từ hiện tại trong tương lai, không phù hợp với ngữ cảnh.\",\n    \"C\": \"Đáp án này sai vì 'lasted' là động từ quá khứ, không phù hợp với ngữ cảnh.\",\n    \"D\": \"Đáp án này sai vì 'lasting' là động từ động từ đang, không phù hợp với ngữ cảnh.\"\n  },\n  \"difficulty\": \"easy\"\n}",
+      "enrichment": {
+        "grammar_topic": "Preposition + Relative Pronoun",
+        "sentence_structure": "S + V + at [Time], [Prep] + which + S + V",
+        "pattern": "at [Prep] + which + S + V",
+        "vocabulary": [
+          {
+            "word": "antique",
+            "meaning": "giấy",
+            "part_of_speech": "adjective"
+          }
+        ],
+        "explanation": "Đáp án A 'last' là đáp án chính xác vì nó làm trang bị một relative clause cho danh từ 'antique shop'. Đáp án này tuân thủ cấu trúc ngữ pháp 'S + V + at [Time], [Prep] + which + S + V'. 'last' ở đây là động từ chỉ hiện tại trong tương lai, thích hợp làm trang bị cho relative clause.",
+        "distractor_analysis": {
+          "A": "Đáp án này chính xác.",
+          "B": "Đáp án này sai vì 'lasts' là động từ hiện tại trong tương lai, không phù hợp với ngữ cảnh.",
+          "C": "Đáp án này sai vì 'lasted' là động từ quá khứ, không phù hợp với ngữ cảnh.",
+          "D": "Đáp án này sai vì 'lasting' là động từ động từ đang, không phù hợp với ngữ cảnh."
+        },
+        "difficulty": "easy"
+      }
+    },
+    {
+      "question_id": 3,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 103,
+      "question_text": "Merryville residents will receive an online status _____ about the ongoing bridge construction project.",
+      "correct_answer": "A",
+      "status": "PASS",
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 8.73,
+      "raw_response": "{\n  \"grammar_topic\": \"Preposition + Relative Pronoun\",\n  \"sentence_structure\": \"S + V + at [Time], [Prep] + which + S + V\",\n  \"pattern\": \"preposition + which + clause\",\n  \"vocabulary\": [\n    {\n      \"word\": \"ongoing\",\n      \"meaning\": \"liên tục\",\n      \"part_of_speech\": \"adjective\"\n    }\n  ],\n  \"explanation\": \"Đáp án A 'update' đúng vì nó liên quan đến thông tin cập nhật về công trình xây dựng cầu. Thông tin cập nhật thường được mô tả bằng từ 'update'. Đáp án khác không phù hợp vì chúng không liên quan đến thông tin cập nhật.\",\n  \"distractor_analysis\": {\n    \"A\": \"Đáp án này đúng vì nó mô tả cập nhật thông tin về việc xây dựng cầu.\",\n    \"B\": \"Đáp án này sai vì nó không liên quan đến cập nhật thông tin.\",\n    \"C\": \"Đáp án này sai vì nó liên quan đến việc thanh toán phí cầu, không phải cập nhật.\",\n    \"D\": \"Đáp án này sai vì nó không liên quan đến việc xây dựng cầu và không liên quan đến thông tin cập nhật.\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Preposition + Relative Pronoun",
+        "sentence_structure": "S + V + at [Time], [Prep] + which + S + V",
+        "pattern": "preposition + which + clause",
+        "vocabulary": [
+          {
+            "word": "ongoing",
+            "meaning": "liên tục",
+            "part_of_speech": "adjective"
+          }
+        ],
+        "explanation": "Đáp án A 'update' đúng vì nó liên quan đến thông tin cập nhật về công trình xây dựng cầu. Thông tin cập nhật thường được mô tả bằng từ 'update'. Đáp án khác không phù hợp vì chúng không liên quan đến thông tin cập nhật.",
+        "distractor_analysis": {
+          "A": "Đáp án này đúng vì nó mô tả cập nhật thông tin về việc xây dựng cầu.",
+          "B": "Đáp án này sai vì nó không liên quan đến cập nhật thông tin.",
+          "C": "Đáp án này sai vì nó liên quan đến việc thanh toán phí cầu, không phải cập nhật.",
+          "D": "Đáp án này sai vì nó không liên quan đến việc xây dựng cầu và không liên quan đến thông tin cập nhật."
+        },
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "model": "qwen2.5:3b",
+  "database_url": "sqlite:///./toeic_agent.db",
+  "part_filter": 5,
+  "read_only": true,
+  "total_questions": 1,
+  "quality_passed": 1,
+  "quality_rejected": 0,
+  "schema_failed": 0,
+  "json_decode_failed": 0,
+  "llm_failed": 0,
+  "unexpected_failed": 0,
+  "passed": 1,
+  "failed": 0,
+  "elapsed_seconds": 20.4,
+  "average_seconds_per_question": 20.4,
+  "status_semantics": {
+    "PASS_QUALITY_VALIDATED": "Passed JSON parsing, Pydantic schema validation, and deterministic EnrichmentValidator quality checks.",
+    "REJECTED_QUALITY": "Passed JSON decode and Pydantic schema validation, but rejected or flagged as suspicious by EnrichmentValidator.",
+    "FAIL_SCHEMA_VALIDATION": "Decoded valid JSON, but failed Pydantic QuestionEnrichment validation.",
+    "FAIL_JSON_DECODE": "Failed to decode LLM response as valid JSON.",
+    "FAIL_LLM_SERVICE": "LLM connection, timeout, or provider error.",
+    "FAIL_UNEXPECTED": "Unexpected runtime exception."
+  },
+  "results": [
+    {
+      "question_id": 1,
+      "test_id": "ETS2026",
+      "part": 5,
+      "question_no": 101,
+      "question_text": "Mr. Henderson reviewed the budget proposal ______ presenting it to the board.",
+      "option_a": "before",
+      "option_b": "during",
+      "option_c": "while",
+      "option_d": "between",
+      "correct_answer": "A",
+      "status": "PASS_QUALITY_VALIDATED",
+      "llm_received": true,
+      "schema_valid": true,
+      "quality_valid": true,
+      "quality_status": "VALID",
+      "quality_error_code": null,
+      "quality_errors": [],
+      "quality_warnings": [],
+      "error_type": null,
+      "error": null,
+      "elapsed_seconds": 20.4,
+      "raw_response": "{\n  \"grammar_topic\": \"Preposition + Relative Clause\",\n  \"sentence_structure\": \"S + V + [Prep] + [Relative Clause] + S\",\n  \"pattern\": \"Prep + which + S\",\n  \"vocabulary\": [\n    {\n      \"word\": \"budget\",\n      \"meaning\": \"quyết toán tài chính\",\n      \"part_of_speech\": \"noun\"\n    }\n  ],\n  \"explanation\": \"Đáp án A 'before' là đáp án chính xác vì nó phù hợp với cấu trúc câu S + V + [Prep] + [Relative Clause] + S. 'Before' là một từ prep (phụ từ) thường được sử dụng để chỉ thời gian trước một sự kiện cụ thể. Trong câu gốc, Mr. Henderson đã xem xét lại dự thảo quyết toán tài chính và sau đó sẽ trình bày nó đến ban. Vì vậy, 'before' được sử dụng để chỉ thời điểm trước khi ông ấy trình bày. Các đáp án còn lại không phù hợp với ngữ cảnh và cấu trúc câu.\",\n  \"distractor_analysis\": {\n    \"A\": \"Đáp án này là đáp án chính xác vì nó phù hợp với cấu trúc câu và ngữ cảnh.\",\n    \"B\": \"Đáp án này không phù hợp vì 'during' thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể.\",\n    \"C\": \"Đáp án này không phù hợp vì 'while' cũng thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể.\",\n    \"D\": \"Đáp án này không phù hợp vì 'between' thường được sử dụng khi có hai sự kiện được liên kết với nhau và không có sự kiện cụ thể xảy ra trước đó hoặc sau đó.\",\n    \"authoritative\": \"Đáp án A\"\n  },\n  \"difficulty\": \"medium\"\n}",
+      "enrichment": {
+        "grammar_topic": "Preposition + Relative Clause",
+        "sentence_structure": "S + V + [Prep] + [Relative Clause] + S",
+        "pattern": "Prep + which + S",
+        "vocabulary": [
+          {
+            "word": "budget",
+            "meaning": "quyết toán tài chính",
+            "part_of_speech": "noun"
+          }
+        ],
+        "explanation": "Đáp án A 'before' là đáp án chính xác vì nó phù hợp với cấu trúc câu S + V + [Prep] + [Relative Clause] + S. 'Before' là một từ prep (phụ từ) thường được sử dụng để chỉ thời gian trước một sự kiện cụ thể. Trong câu gốc, Mr. Henderson đã xem xét lại dự thảo quyết toán tài chính và sau đó sẽ trình bày nó đến ban. Vì vậy, 'before' được sử dụng để chỉ thời điểm trước khi ông ấy trình bày. Các đáp án còn lại không phù hợp với ngữ cảnh và cấu trúc câu.",
+        "distractor_analysis": {
+          "A": "Đáp án này là đáp án chính xác vì nó phù hợp với cấu trúc câu và ngữ cảnh.",
+          "B": "Đáp án này không phù hợp vì 'during' thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể.",
+          "C": "Đáp án này không phù hợp vì 'while' cũng thường được sử dụng khi sự kiện đang diễn ra trong một khoảng thời gian, không khi nó xảy ra trước một sự kiện cụ thể.",
+          "D": "Đáp án này không phù hợp vì 'between' thường được sử dụng khi có hai sự kiện được liên kết với nhau và không có sự kiện cụ thể xảy ra trước đó hoặc sau đó."
+        },
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

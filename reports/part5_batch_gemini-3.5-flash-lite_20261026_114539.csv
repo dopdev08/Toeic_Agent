@@ -1,0 +1,26 @@
+﻿question_id,test_id,part,question_no,status,schema_valid,quality_valid,quality_status,quality_error_code,error_type,error,elapsed_seconds,prompt_tokens,candidates_tokens,total_tokens,question_text,option_a,option_b,option_c,option_d,correct_answer,enrichment,raw_response
+1,ETS2026,5,101,PASS_QUALITY_VALIDATED,True,True,VALID,,,,2.31,1816,382,2198,"The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",across,after,inside,among,B,"{""grammar_topic"": ""Preposition"", ""sentence_structure"": ""S V Prep O , Prep which S V O ."", ""pattern"": ""preposition + which (relative pronoun referring to time/event)"", ""vocabulary"": [{""word"": ""attendee"", ""meaning"": ""người tham dự"", ""part_of_speech"": ""noun""}, {""word"": ""take place"", ""meaning"": ""diễn ra"", ""part_of_speech"": ""verb phrase""}], ""explanation"": ""Câu này kiểm tra việc lựa chọn giới từ phù hợp để kết hợp với đại từ quan hệ 'which' chỉ thời điểm hoặc sự kiện kết thúc bài giảng. 'at 6:00 P.M., after which attendees may ask questions' có nghĩa là buổi giảng sẽ diễn ra lúc 6:00 chiều, sau thời điểm đó những người tham dự có thể đặt câu hỏi."", ""distractor_analysis"": {""A"": ""across (xuyên qua, ở bên kia) không phù hợp về mặt ngữ nghĩa và cấu trúc chỉ thời gian."", ""B"": ""after (sau) là đáp án chính xác, diễn tả sự việc đặt câu hỏi diễn ra sau mốc thời gian 6:00 P.M."", ""C"": ""inside (bên trong) chỉ vị trí không gian, không phù hợp với ngữ cảnh thời gian và sự kiện."", ""D"": ""among (giữa nhiều người/vật) dùng cho tập hợp từ ba đối tượng trở lên, không phù hợp để nối mệnh đề chỉ thời điểm.""}, ""difficulty"": ""medium""}","{
+  ""grammar_topic"": ""Preposition"",
+  ""sentence_structure"": ""S V Prep O , Prep which S V O ."",
+  ""pattern"": ""preposition + which (relative pronoun referring to time/event)"",
+  ""vocabulary"": [
+    {
+      ""word"": ""attendee"",
+      ""meaning"": ""người tham dự"",
+      ""part_of_speech"": ""noun""
+    },
+    {
+      ""word"": ""take place"",
+      ""meaning"": ""diễn ra"",
+      ""part_of_speech"": ""verb phrase""
+    }
+  ],
+  ""explanation"": ""Câu này kiểm tra việc lựa chọn giới từ phù hợp để kết hợp với đại từ quan hệ 'which' chỉ thời điểm hoặc sự kiện kết thúc bài giảng. 'at 6:00 P.M., after which attendees may ask questions' có nghĩa là buổi giảng sẽ diễn ra lúc 6:00 chiều, sau thời điểm đó những người tham dự có thể đặt câu hỏi."",
+  ""distractor_analysis"": {
+    ""A"": ""across (xuyên qua, ở bên kia) không phù hợp về mặt ngữ nghĩa và cấu trúc chỉ thời gian."",
+    ""B"": ""after (sau) là đáp án chính xác, diễn tả sự việc đặt câu hỏi diễn ra sau mốc thời gian 6:00 P.M."",
+    ""C"": ""inside (bên trong) chỉ vị trí không gian, không phù hợp với ngữ cảnh thời gian và sự kiện."",
+    ""D"": ""among (giữa nhiều người/vật) dùng cho tập hợp từ ba đối tượng trở lên, không phù hợp để nối mệnh đề chỉ thời điểm.""
+  },
+  ""difficulty"": ""medium""
+}"
